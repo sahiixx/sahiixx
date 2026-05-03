@@ -1,19 +1,22 @@
 # @sahiixx Portfolio
 
-Generated: 2026-04-26 05:36 UTC
-Total Public Repos: 170
+Generated: 2026-05-03 05:56 UTC
+Total Public Repos: 179
 
 ## Core Projects (Agents & Systems)
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-04-26 |
-| [goose-aios](https://github.com/sahiixx/goose-aios) | Python | - | 0⭐ | 2026-04-26 |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-05-03 |
+| [goose-aios](https://github.com/sahiixx/goose-aios) | Python | - | 0⭐ | 2026-05-03 |
+| [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | - | 0⭐ | 2026-05-01 |
+| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | TypeScript | - | 0⭐ | 2026-05-01 |
+| [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | - | 0⭐ | 2026-05-01 |
 | [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 0⭐ | 2026-04-26 |
 | [sahiix-agent-s-](https://github.com/sahiixx/sahiix-agent-s-) | - | - | 0⭐ | 2026-04-07 |
 | [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | - | 0⭐ | 2025-10-18 |
 | [Coral-BlackboxAI-Agent](https://github.com/sahiixx/Coral-BlackboxAI-Agent) | Python | - | 1⭐ | 2025-10-02 |
-| [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first, memory-persistent, MCP-powered personal AI OS. CLI + LiveKit voice + Tauri desktop + Claude Code plugin. Runs offline on Ollama or cloud via Anthropic. | 0⭐ | 2026-04-26 |
+| [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first, memory-persistent, MCP-powered personal AI OS. CLI + LiveKit voice + Tauri desktop + Claude Code plugin. Runs offline on Ollama or cloud via Anthropic. | 1⭐ | 2026-05-01 |
 | [sahiix-os](https://github.com/sahiixx/sahiix-os) | JavaScript | SAHIIXX OS - AI-powered real estate automation workspace | 1⭐ | 2026-04-25 |
 | [v0-nowire-os-blueprint](https://github.com/sahiixx/v0-nowire-os-blueprint) | TypeScript | - | 0⭐ | 2025-11-28 |
 
@@ -21,14 +24,15 @@ Total Public Repos: 170
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [Fixfizx](https://github.com/sahiixx/Fixfizx) | Python | - | 0⭐ | 2025-12-17 |
+| [Fixfizx](https://github.com/sahiixx/Fixfizx) | Python | - | 0⭐ | 2026-04-27 |
 | [Fixfiz](https://github.com/sahiixx/Fixfiz) | Python | - | 0⭐ | 2025-12-08 |
 
 ## AI/Agent Forks (Active Ecosystem)
 
 | Repo | Language | Origin | Stars | Updated |
 |------|----------|--------|-------|---------|
-| [system-prompts-and-models-of-ai-tools](https://github.com/sahiixx/system-prompts-and-models-of-ai-tools) | JavaScript | forked | 3⭐ | 2026-04-26 |
+| [system-prompts-and-models-of-ai-tools](https://github.com/sahiixx/system-prompts-and-models-of-ai-tools) | JavaScript | forked | 3⭐ | 2026-05-01 |
+| [open-design](https://github.com/sahiixx/open-design) | - | forked | 0⭐ | 2026-05-01 |
 | [hermes-agent](https://github.com/sahiixx/hermes-agent) | - | forked | 1⭐ | 2026-04-24 |
 | [rowboat](https://github.com/sahiixx/rowboat) | - | forked | 0⭐ | 2026-04-12 |
 | [openclaw](https://github.com/sahiixx/openclaw) | TypeScript | forked | 0⭐ | 2026-04-12 |
@@ -60,7 +64,6 @@ Total Public Repos: 170
 | [n8n](https://github.com/sahiixx/n8n) | TypeScript | forked | 0⭐ | 2025-10-19 |
 | [awesome-agents-for-multi-agent-systems](https://github.com/sahiixx/awesome-agents-for-multi-agent-systems) | Python | forked | 1⭐ | 2025-10-13 |
 | [botpress](https://github.com/sahiixx/botpress) | TypeScript | forked | 1⭐ | 2025-10-12 |
-| [ca-context7](https://github.com/sahiixx/ca-context7) | - | forked | 0⭐ | 2025-10-07 |
 | [Multi-Agent-Demo](https://github.com/sahiixx/Multi-Agent-Demo) | - | forked | 0⭐ | 2025-10-07 |
 | [coral-server](https://github.com/sahiixx/coral-server) | - | forked | 0⭐ | 2025-10-07 |
 | [rasa](https://github.com/sahiixx/rasa) | Python | forked | 0⭐ | 2025-10-07 |
@@ -112,12 +115,12 @@ Total Public Repos: 170
 | [x-algorithm](https://github.com/sahiixx/x-algorithm) | Rust | 0⭐ | 2026-02-04 |
 | [nix-openclaw](https://github.com/sahiixx/nix-openclaw) | - | 0⭐ | 2026-01-31 |
 | [clawhub](https://github.com/sahiixx/clawhub) | - | 0⭐ | 2026-01-31 |
-| *...and 43 more forks* | | | |
+| *...and 42 more forks* | | | |
 
 ## Language Distribution
 
-- **Python**: 29 repos
-- **TypeScript**: 24 repos
+- **Python**: 37 repos
+- **TypeScript**: 25 repos
 - **JavaScript**: 9 repos
 - **HTML**: 4 repos
 - **Jupyter Notebook**: 3 repos
@@ -126,7 +129,6 @@ Total Public Repos: 170
 - **Markdown**: 1 repos
 - **Svelte**: 1 repos
 - **AL**: 1 repos
-- **Dockerfile**: 1 repos
 - **Rust**: 1 repos
 - **Shell**: 1 repos
 

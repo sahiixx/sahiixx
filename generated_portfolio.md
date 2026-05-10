@@ -1,22 +1,22 @@
 # @sahiixx Portfolio
 
-Generated: 2026-05-03 05:56 UTC
-Total Public Repos: 179
+Generated: 2026-05-10 06:08 UTC
+Total Public Repos: 183
 
 ## Core Projects (Agents & Systems)
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
+| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-05-08 |
+| [goose-aios](https://github.com/sahiixx/goose-aios) | Python | - | 0⭐ | 2026-05-07 |
 | [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-05-03 |
-| [goose-aios](https://github.com/sahiixx/goose-aios) | Python | - | 0⭐ | 2026-05-03 |
 | [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | - | 0⭐ | 2026-05-01 |
 | [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | TypeScript | - | 0⭐ | 2026-05-01 |
 | [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | - | 0⭐ | 2026-05-01 |
-| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 0⭐ | 2026-04-26 |
 | [sahiix-agent-s-](https://github.com/sahiixx/sahiix-agent-s-) | - | - | 0⭐ | 2026-04-07 |
 | [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | - | 0⭐ | 2025-10-18 |
 | [Coral-BlackboxAI-Agent](https://github.com/sahiixx/Coral-BlackboxAI-Agent) | Python | - | 1⭐ | 2025-10-02 |
-| [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first, memory-persistent, MCP-powered personal AI OS. CLI + LiveKit voice + Tauri desktop + Claude Code plugin. Runs offline on Ollama or cloud via Anthropic. | 1⭐ | 2026-05-01 |
+| [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first, memory-persistent, MCP-powered personal AI OS. CLI + LiveKit voice + Tauri desktop + Claude Code plugin. Runs offline on Ollama or cloud via Anthropic. | 2⭐ | 2026-05-08 |
 | [sahiix-os](https://github.com/sahiixx/sahiix-os) | JavaScript | SAHIIXX OS - AI-powered real estate automation workspace | 1⭐ | 2026-04-25 |
 | [v0-nowire-os-blueprint](https://github.com/sahiixx/v0-nowire-os-blueprint) | TypeScript | - | 0⭐ | 2025-11-28 |
 
@@ -31,7 +31,9 @@ Total Public Repos: 179
 
 | Repo | Language | Origin | Stars | Updated |
 |------|----------|--------|-------|---------|
-| [system-prompts-and-models-of-ai-tools](https://github.com/sahiixx/system-prompts-and-models-of-ai-tools) | JavaScript | forked | 3⭐ | 2026-05-01 |
+| [UI-TARS-desktop](https://github.com/sahiixx/UI-TARS-desktop) | - | forked | 0⭐ | 2026-05-08 |
+| [system-prompts-and-models-of-ai-tools](https://github.com/sahiixx/system-prompts-and-models-of-ai-tools) | JavaScript | forked | 3⭐ | 2026-05-07 |
+| [browser-use](https://github.com/sahiixx/browser-use) | - | forked | 0⭐ | 2026-05-03 |
 | [open-design](https://github.com/sahiixx/open-design) | - | forked | 0⭐ | 2026-05-01 |
 | [hermes-agent](https://github.com/sahiixx/hermes-agent) | - | forked | 1⭐ | 2026-04-24 |
 | [rowboat](https://github.com/sahiixx/rowboat) | - | forked | 0⭐ | 2026-04-12 |
@@ -119,7 +121,7 @@ Total Public Repos: 179
 
 ## Language Distribution
 
-- **Python**: 37 repos
+- **Python**: 39 repos
 - **TypeScript**: 25 repos
 - **JavaScript**: 9 repos
 - **HTML**: 4 repos

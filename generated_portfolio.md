@@ -1,15 +1,15 @@
 # @sahiixx Portfolio
 
-Generated: 2026-05-10 06:08 UTC
-Total Public Repos: 183
+Generated: 2026-05-17 06:20 UTC
+Total Public Repos: 186
 
 ## Core Projects (Agents & Systems)
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-05-08 |
+| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-05-16 |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-05-16 |
 | [goose-aios](https://github.com/sahiixx/goose-aios) | Python | - | 0⭐ | 2026-05-07 |
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-05-03 |
 | [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | - | 0⭐ | 2026-05-01 |
 | [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | TypeScript | - | 0⭐ | 2026-05-01 |
 | [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | - | 0⭐ | 2026-05-01 |
@@ -24,13 +24,15 @@ Total Public Repos: 183
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [Fixfizx](https://github.com/sahiixx/Fixfizx) | Python | - | 0⭐ | 2026-04-27 |
+| [Fixfizx](https://github.com/sahiixx/Fixfizx) | Python | - | 0⭐ | 2026-05-16 |
 | [Fixfiz](https://github.com/sahiixx/Fixfiz) | Python | - | 0⭐ | 2025-12-08 |
 
 ## AI/Agent Forks (Active Ecosystem)
 
 | Repo | Language | Origin | Stars | Updated |
 |------|----------|--------|-------|---------|
+| [deer-flow](https://github.com/sahiixx/deer-flow) | - | forked | 0⭐ | 2026-05-10 |
+| [langflow](https://github.com/sahiixx/langflow) | - | forked | 0⭐ | 2026-05-10 |
 | [UI-TARS-desktop](https://github.com/sahiixx/UI-TARS-desktop) | - | forked | 0⭐ | 2026-05-08 |
 | [system-prompts-and-models-of-ai-tools](https://github.com/sahiixx/system-prompts-and-models-of-ai-tools) | JavaScript | forked | 3⭐ | 2026-05-07 |
 | [browser-use](https://github.com/sahiixx/browser-use) | - | forked | 0⭐ | 2026-05-03 |
@@ -121,7 +123,7 @@ Total Public Repos: 183
 
 ## Language Distribution
 
-- **Python**: 39 repos
+- **Python**: 40 repos
 - **TypeScript**: 25 repos
 - **JavaScript**: 9 repos
 - **HTML**: 4 repos

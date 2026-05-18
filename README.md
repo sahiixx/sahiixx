@@ -48,14 +48,48 @@ The UAE opportunity is not another generic AI agency. The value is in vertical, 
 
 ## 🧠 Ecosystem
 
-| Project | Language | Description |
+### Core Infrastructure
+| Project | Language | Role |
 |---|---|---|
-| agency-agents | Python | Multi-agent swarm orchestration |
-| hermes-agent | Python | Protocol bridge (MCP · A2A · OpenClaw) |
-| goose-aios | Python | Extensible autonomous AIOS experiments |
-| Fixfiz | Python | CVE toolkit |
-| openclaw | TypeScript | Personal AI assistant gateway |
-| rowboat | TypeScript | AI coworker with memory |
+| [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Python | **Central message bus** — pub/sub backbone for all agents |
+| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Python | **OPA orchestrator** — auto-discovers & routes across 170+ repos |
+| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | **Multi-agent OS** — Dubai RE runtime, n8n, Telegram bot |
+| [sahiix-agi](https://github.com/sahiixx/sahiix-agi) | Python | **AGI coordination layer** — FastAPI + Redis + Qdrant |
+
+### Intelligence Modules
+| Project | Language | Role |
+|---|---|---|
+| [sahiixx-titans-memory](https://github.com/sahiixx/sahiixx-titans-memory) | Python | Surprise-weighted persistent memory (NeurIPS 2025 Titans) |
+| [sahiixx-graph-sight](https://github.com/sahiixx/sahiixx-graph-sight) | Python | Neo4j trust graph + AST code context for agents |
+| [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | GEO optimization for Dubai real estate listings |
+| [sahiixx-clearwing](https://github.com/sahiixx/sahiixx-clearwing) | Python | Autonomous pentesting swarm (5-agent, active fuzzing) |
+
+### Interfaces & Platforms
+| Project | Language | Role |
+|---|---|---|
+| [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first AI OS (PERCEIVE→ROUTE→PLAN→EXECUTE) |
+| [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | Multi-tenant agent SaaS (Hermes + MCP) |
+| [sahiix-os](https://github.com/sahiixx/sahiix-os) | JavaScript | Real estate automation workspace UI |
+| [moltworker](https://github.com/sahiixx/moltworker) | JavaScript | OpenClaw runtime on Cloudflare Workers |
+
+### Architecture
+```
+sahiixx-agency (OPA) ── auto-discovers all repos, routes tasks
+        │
+        ▼
+  sahiixx-bus ◄─── message backbone (pub/sub + A2A + MCP)
+  ╔═════╪══════════════════════════════════════╗
+  ║     │                                      ║
+  ▼     ▼           ▼              ▼           ║
+friday-os   sovereign-swarm-v2   sahiix-agi   ║
+  │              │                             ║
+  ▼              ▼                             ║
+titans-memory  graph-sight ──► geoflow-agent  ║
+                                               ║
+                    clearwing (security swarm) ║
+                    saas-agent-platform        ║
+  ╚══════════════════════════════════════════════╝
+```
 
 ---
 

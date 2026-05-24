@@ -1,36 +1,37 @@
 # @sahiixx Portfolio
 
-Generated: 2026-05-17 06:20 UTC
+Generated: 2026-05-24 06:35 UTC
 Total Public Repos: 186
 
 ## Core Projects (Agents & Systems)
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-05-16 |
+| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-05-22 |
+| [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | - | 0⭐ | 2026-05-18 |
+| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | TypeScript | - | 0⭐ | 2026-05-18 |
+| [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | - | 0⭐ | 2026-05-18 |
 | [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-05-16 |
 | [goose-aios](https://github.com/sahiixx/goose-aios) | Python | - | 0⭐ | 2026-05-07 |
-| [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | - | 0⭐ | 2026-05-01 |
-| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | TypeScript | - | 0⭐ | 2026-05-01 |
-| [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | - | 0⭐ | 2026-05-01 |
 | [sahiix-agent-s-](https://github.com/sahiixx/sahiix-agent-s-) | - | - | 0⭐ | 2026-04-07 |
 | [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | - | 0⭐ | 2025-10-18 |
 | [Coral-BlackboxAI-Agent](https://github.com/sahiixx/Coral-BlackboxAI-Agent) | Python | - | 1⭐ | 2025-10-02 |
-| [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first, memory-persistent, MCP-powered personal AI OS. CLI + LiveKit voice + Tauri desktop + Claude Code plugin. Runs offline on Ollama or cloud via Anthropic. | 2⭐ | 2026-05-08 |
-| [sahiix-os](https://github.com/sahiixx/sahiix-os) | JavaScript | SAHIIXX OS - AI-powered real estate automation workspace | 1⭐ | 2026-04-25 |
-| [v0-nowire-os-blueprint](https://github.com/sahiixx/v0-nowire-os-blueprint) | TypeScript | - | 0⭐ | 2025-11-28 |
+| [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first, memory-persistent, MCP-powered personal AI OS. CLI + LiveKit voice + Tauri desktop + Claude Code plugin. Runs offline on Ollama or cloud via Anthropic. | 2⭐ | 2026-05-18 |
+| [v0-nowire-os-blueprint](https://github.com/sahiixx/v0-nowire-os-blueprint) | TypeScript | - | 0⭐ | 2026-05-18 |
+| [sahiix-os](https://github.com/sahiixx/sahiix-os) | JavaScript | SAHIIXX OS - AI-powered real estate automation workspace | 1⭐ | 2026-05-18 |
 
 ## Security Tools
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [Fixfizx](https://github.com/sahiixx/Fixfizx) | Python | - | 0⭐ | 2026-05-16 |
+| [Fixfizx](https://github.com/sahiixx/Fixfizx) | Python | - | 0⭐ | 2026-05-22 |
 | [Fixfiz](https://github.com/sahiixx/Fixfiz) | Python | - | 0⭐ | 2025-12-08 |
 
 ## AI/Agent Forks (Active Ecosystem)
 
 | Repo | Language | Origin | Stars | Updated |
 |------|----------|--------|-------|---------|
+| [system_prompts_leaks](https://github.com/sahiixx/system_prompts_leaks) | JavaScript | forked | 2⭐ | 2026-05-21 |
 | [deer-flow](https://github.com/sahiixx/deer-flow) | - | forked | 0⭐ | 2026-05-10 |
 | [langflow](https://github.com/sahiixx/langflow) | - | forked | 0⭐ | 2026-05-10 |
 | [UI-TARS-desktop](https://github.com/sahiixx/UI-TARS-desktop) | - | forked | 0⭐ | 2026-05-08 |
@@ -50,7 +51,6 @@ Total Public Repos: 186
 | [prompts.chat](https://github.com/sahiixx/prompts.chat) | - | forked | 0⭐ | 2026-03-11 |
 | [motia](https://github.com/sahiixx/motia) | - | forked | 0⭐ | 2026-03-06 |
 | [autogen](https://github.com/sahiixx/autogen) | Python | forked | 1⭐ | 2026-02-28 |
-| [system_prompts_leaks](https://github.com/sahiixx/system_prompts_leaks) | JavaScript | forked | 2⭐ | 2026-02-24 |
 | [oz-agent-action](https://github.com/sahiixx/oz-agent-action) | JavaScript | forked | 0⭐ | 2026-02-14 |
 | [shannon](https://github.com/sahiixx/shannon) | - | forked | 0⭐ | 2026-02-07 |
 | [kimi-cli](https://github.com/sahiixx/kimi-cli) | - | forked | 0⭐ | 2026-02-07 |

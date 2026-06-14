@@ -1,17 +1,17 @@
 # @sahiixx Portfolio
 
-Generated: 2026-06-07 07:03 UTC
-Total Public Repos: 187
+Generated: 2026-06-14 07:21 UTC
+Total Public Repos: 190
 
 ## Core Projects (Agents & Systems)
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
+| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | TypeScript | - | 0⭐ | 2026-06-12 |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-06-08 |
 | [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-05-22 |
 | [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | - | 0⭐ | 2026-05-18 |
-| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | TypeScript | - | 0⭐ | 2026-05-18 |
 | [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | - | 0⭐ | 2026-05-18 |
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-05-16 |
 | [goose-aios](https://github.com/sahiixx/goose-aios) | Python | - | 0⭐ | 2026-05-07 |
 | [sahiix-agent-s-](https://github.com/sahiixx/sahiix-agent-s-) | - | - | 0⭐ | 2026-04-07 |
 | [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | - | 0⭐ | 2025-10-18 |
@@ -31,6 +31,9 @@ Total Public Repos: 187
 
 | Repo | Language | Origin | Stars | Updated |
 |------|----------|--------|-------|---------|
+| [swarm](https://github.com/sahiixx/swarm) | - | forked | 0⭐ | 2026-06-12 |
+| [activepieces](https://github.com/sahiixx/activepieces) | - | forked | 0⭐ | 2026-06-12 |
+| [chrome-devtools-mcp](https://github.com/sahiixx/chrome-devtools-mcp) | - | forked | 0⭐ | 2026-06-09 |
 | [system_prompts_leaks](https://github.com/sahiixx/system_prompts_leaks) | JavaScript | forked | 2⭐ | 2026-05-21 |
 | [deer-flow](https://github.com/sahiixx/deer-flow) | - | forked | 0⭐ | 2026-05-10 |
 | [langflow](https://github.com/sahiixx/langflow) | - | forked | 0⭐ | 2026-05-10 |

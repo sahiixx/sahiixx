@@ -4,7 +4,7 @@
 
 ## UAE-first agentic revenue OS for Dubai real estate
 
-**I build AI systems that convert real estate leads into closings — lead intake, qualification, viewing orchestration, broker copilots, and investor reporting.**
+**I build autonomous AI systems that convert real estate leads into closings — intake, qualification, viewing orchestration, broker copilots, and investor reporting.**
 
 🌍 Dubai, UAE · 🤖 Agentic AI · 🏢 Real Estate · 🎙️ Voice AI
 
@@ -33,23 +33,43 @@
 
 ## 🎯 Now
 
-Shipping **SAHIIXX OS** in the next 6–12 months:
-1. Lead intake across WhatsApp/Telegram/web → AI qualification → CRM record
-2. GEO-optimized property matching → automated viewing scheduling
-3. Voice-first broker copilot for follow-ups and investor reporting
-4. 60-day pilots with 1–2 Dubai brokerages
+Shipping **SAHIIXX OS** in the next 6–12 months as Dubai brokerages adopt agentic AI.
+
+Current milestones:
+1. **Unified lead intake** — WhatsApp / Telegram / web → one qualification pipeline
+2. **AI qualification** — intent, budget, timeline scoring before a broker touches it
+3. **GEO-optimized viewing orchestration** — match, schedule, and resend automatically
+4. **Voice-first broker copilot** — follow-ups, objections, and investor reporting
+5. **60-day pilots** — 1–2 Dubai brokerages
 
 ---
 
-## 🏢 The Problem
+## 🏢 The Market Opportunity
 
-Dubai real estate moves fast, but most brokerages still run on manual follow-up:
-- **Lead leakage:** inquiries come from WhatsApp, Instagram, portals, web — many never get logged
-- **Slow qualification:** 30–60 minutes per lead before knowing if it’s serious
-- **Viewing friction:** matching, scheduling, and rescheduling eats broker bandwidth
-- **Weak reporting:** investors lack real-time pipeline visibility
+**Why Dubai, why now:**
+- UAE AI agents market: **$97.2M in 2025 → projected $2.72B by 2033** (Grand View Research)
+- UAE AI agents CAGR: **49.4%** (2025–2030)
+- Global AI in real estate: **$303B in 2025 → $989B by 2029** (34.4% CAGR)
+- Global PropTech funding hit **$16.7B in 2025** (+67.9% YoY)
+- Agentic AI is moving from pilots to **mainstream adoption in 2026–2027**
+- Dubai Land Department’s **Mo’asher index** and open data are becoming the backbone for AI pricing and matching tools
+- Major portals (Property Finder, Bayut) are rolling out **AI agent copilots** for brokers in 2026
+- **AED 919 billion** Dubai real estate market (2025)
 
-**SAHIIXX OS** replaces that with one autonomous revenue layer.
+**The wedge:** brokerages still run on manual follow-up while the market and regulators are accelerating AI adoption.
+
+---
+
+## ⚡ The Problem
+
+Dubai real estate moves fast, but operations lag:
+
+| Pain point | Cost | How SAHIIXX OS fixes it |
+|---|---|---|
+| **Lead leakage** | Inquiries from WhatsApp, Instagram, portals, web never get logged or followed up | Unified intake + AI logging across all channels |
+| **Slow qualification** | 30–60 minutes per lead before knowing if it’s serious | Automated intent, budget, and timeline scoring |
+| **Viewing friction** | Matching, scheduling, and rescheduling eats broker bandwidth | GEO + preference matching with auto-scheduling |
+| **Weak reporting** | Investors lack real-time pipeline visibility | Live dashboards and investor-ready reports |
 
 ---
 
@@ -72,28 +92,41 @@ Lead Intake          Qualification         Viewing Ops           Broker Copilot 
                                sahiixx-agency (OPA orchestrator)
 ```
 
+**Concrete workflow:** WhatsApp lead → `sahiixx-agi` extracts intent/budget → `sahiixx-geoflow-agent` matches properties → `sovereign-swarm-v2` schedules viewing → broker sees pre-briefed lead in `sahiix-os` → `sahiixx-graph-sight` generates investor report.
+
 ---
 
 ## 📈 Traction
 
-- 🧪 200+ repos in active development across the sahiixx ecosystem
-- 🏗️ Flagship systems in alpha: `sovereign-swarm-v2`, `sahiix-os`, `friday-os`
-- 🎯 Vertical focus: Dubai real estate revenue infrastructure
-- 🤝 Pilot conversations active with brokerages and investor offices
+- 🧪 **200+ repos** in active development across the sahiixx ecosystem
+- 🏗️ **Flagship systems in alpha:** `sovereign-swarm-v2`, `sahiix-os`, `friday-os`
+- 🎯 **Vertical focus:** Dubai real estate revenue infrastructure
+- 🤝 **Pilot conversations active** with brokerages and investor offices
+- 📊 **Market timing aligned** with UAE agentic AI growth and DLD open-data initiatives
 
 *Real pilot metrics will be added here as 60-day pilots close.*
 
 ---
 
-## 🤝 Work With Me
+## 🤝 What I’m Looking For
 
-I’m looking for:
 - **1–2 Dubai brokerages** for a 60-day SAHIIXX OS pilot
 - **1 infrastructure engineer** — FastAPI / Redis / multi-agent systems
 - **1 sales / GTM lead** — Dubai real estate network
 - **Technical collaborators** — voice AI, trust graphs, vertical AI OS
+- **Pre-seed / angel funding** to accelerate pilots and team
 
 <!-- Add contact link: [Book a 20-min call](YOUR_CALENDLY_LINK) -->
+
+---
+
+## 🛡️ Built for Production Brokerage Workflows
+
+- **Observability:** every agent run traced through `sahiixx-bus`
+- **Failure modes:** agents degrade gracefully; high-stakes decisions route to humans
+- **Data governance:** tenant and lead data isolated by brokerage
+- **Security:** branch protection and Dependabot enabled across active repos
+- **Compliance:** designed around UAE data-residency and real-estate advertising requirements
 
 ---
 

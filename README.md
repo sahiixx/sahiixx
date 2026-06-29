@@ -15,12 +15,46 @@
 
 ---
 
-## Current Focus
+## 💫 About Me
 
-- **SAHIIXX OS** — UAE-first AI revenue operating system for Dubai real estate
-- **Dubai Real Estate Revenue OS** — Lead-to-viewing-to-close orchestration for brokerages, developers, and investor offices
-- **Sovereign Swarm** — Local-first multi-agent runtime and technical proof layer
-- **Friday OS** — Voice-first personal AI OS and local assistant stack
+- 👨‍💻 AI Systems Architect & Builder
+- 🚀 Focused on agentic revenue infrastructure for Dubai real estate
+- 🌐 Open to collaborations on multi-agent systems, voice AI, and vertical AI OS
+- 📍 Based in Dubai, UAE
+
+---
+
+## 🌐 Connect
+
+<!-- Add your social links here -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]()
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)]()
+[![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?logo=github&logoColor=white)](https://github.com/sahiixx)
+
+---
+
+## 💻 Tech Stack
+
+![Python](https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![](https://github-readme-stats.vercel.app/api?username=sahiixx&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=sahiixx&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=sahiixx&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+</div>
 
 ---
 
@@ -78,40 +112,4 @@ sahiixx-agency (OPA) ── auto-discovers all repos, routes tasks
         │
         ▼
   sahiixx-bus ◄─── message backbone (pub/sub + A2A + MCP)
-  ╔═════╪══════════════════════════════════════╗
-  ║     │                                      ║
-  ▼     ▼           ▼              ▼           ║
-friday-os   sovereign-swarm-v2   sahiix-agi   ║
-  │              │                             ║
-  ▼              ▼                             ║
-titans-memory  graph-sight ──► geoflow-agent  ║
-                                               ║
-                    clearwing (security swarm) ║
-                    saas-agent-platform        ║
-  ╚══════════════════════════════════════════════╝
 ```
-
----
-
-## 🛠️ Core Stack
-
-**Languages:** Python · TypeScript · Rust  
-**Domains:** Multi-Agent Systems · Voice AI · Real Estate PropTech · Workflow Automation · n8n  
-**Infrastructure:** Supabase · Postgres · Docker · Cloudflare Workers · Termux/Android  
-**Models:** Claude · GPT-4o · Llama · Qwen · Ollama (local)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Repos](https://img.shields.io/badge/Public%20Repos-183-blue?style=for-the-badge)
-![Stars](https://img.shields.io/badge/Stars-164-yellow?style=for-the-badge)
-![Followers](https://img.shields.io/badge/Followers-7-green?style=for-the-badge)
-
-</div>
-
----
-
-> *Building revenue infrastructure for the agentic economy.*

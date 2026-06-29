@@ -2,34 +2,160 @@
 
 <div align="center">
 
-**AI Systems Architect building UAE-first agentic revenue infrastructure.**
+## UAE-first agentic revenue OS for Dubai real estate
 
-🌍 Dubai, UAE · 🤖 Building at the intersection of real estate, voice AI, and autonomous workflows
+**I build AI systems that convert real estate leads into closings — lead intake, qualification, viewing orchestration, broker copilots, and investor reporting.**
+
+🌍 Dubai, UAE · 🤖 Agentic AI · 🏢 Real Estate · 🎙️ Voice AI
 
 [<img src="https://img.shields.io/badge/GitHub-sahiixx-181717?logo=github&style=flat-square">](https://github.com/sahiixx)
-[<img src="https://img.shields.io/badge/Focus-Agentic%20AI-6366f1?style=flat-square">](#)
-[<img src="https://img.shields.io/badge/Focus-Real%20Estate%20OS-10b981?style=flat-square">](#)
-[<img src="https://img.shields.io/badge/Focus-Voice%20AI-22d3ee?style=flat-square">](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]()
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)]()
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)]()
 
 </div>
 
 ---
 
-## 💫 About Me
+## 🎯 Now (Next 6–12 Months)
 
-- 👨‍💻 AI Systems Architect & Builder
-- 🚀 Focused on agentic revenue infrastructure for Dubai real estate
-- 🌐 Open to collaborations on multi-agent systems, voice AI, and vertical AI OS
-- 📍 Based in Dubai, UAE
+Shipping **SAHIIXX OS** as the operating system for Dubai real estate revenue teams.
+
+Current milestones:
+1. **Lead-to-qualification pipeline** — WhatsApp/Telegram/website intake → AI qualification → CRM-ready records
+2. **Viewing orchestration** — GEO-optimized property matching → automated scheduling → broker handoff
+3. **Broker copilot** — Voice-first assistant for follow-ups, objections, and investor reporting
+4. **Pilot deployment** — 60-day pilots with 1–2 Dubai brokerages
 
 ---
 
-## 🌐 Connect
+## 🚀 Flagship System: SAHIIXX OS
 
-<!-- Add your social links here -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]()
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)]()
-[![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?logo=github&logoColor=white)](https://github.com/sahiixx)
+**Target user:** Dubai real estate brokerages, developers, and investor offices.
+
+**Workflow:** Lead enters via any channel → AI qualifies intent and budget → system matches properties by location/preference → viewing scheduled automatically → broker gets a pre-briefed lead → investor report generated.
+
+**Outcome:** Less lead leakage, faster viewings, higher broker productivity, and clearer investor reporting.
+
+**Status:** Alpha — core agents running, pilot conversations active.
+
+**Start here:**
+- [`sovereign-swarm-v2`](https://github.com/sahiixx/sovereign-swarm-v2) — multi-agent runtime
+- [`sahiix-os`](https://github.com/sahiixx/sahiix-os) — product surface / CRM UI
+- [`sahiixx-bus`](https://github.com/sahiixx/sahiixx-bus) + [`sahiixx-agency`](https://github.com/sahiixx/sahiixx-agency) — message bus + orchestrator
+
+<!-- Add live demo when ready: [Watch walkthrough](YOUR_LOOM_LINK) · [Request demo](YOUR_FORM_LINK) -->
+
+---
+
+## 🏗️ How Everything Connects
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           SAHIIXX OS Architecture                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+   UI / Voice Layer                    Agent Layer                     Infra Layer
+   ─────────────────                   ───────────                     ───────────
+   ┌──────────────┐                   ┌──────────────┐              ┌──────────────┐
+   │  sahiix-os   │◄─────────────────►│sahiixx-agency│─────────────►│ sahiixx-bus  │
+   │  (React UI)  │                   │(OPA router)  │              │(pub/sub)     │
+   └──────────────┘                   └──────────────┘              └──────┬───────┘
+          ▲                                    ▲                           │
+          │                                    │                           ▼
+   ┌──────────────┐                   ┌──────────────┐              ┌──────────────┐
+   │  friday-os   │                   │sovereign-    │              │sahiix-agi    │
+   │(voice-first  │                   │swarm-v2      │              │(coordination │
+   │ assistant)   │                   │(multi-agent  │              │ layer)       │
+   └──────────────┘                   │ runtime)     │              └──────────────┘
+                                      └──────┬───────┘                     │
+                                             │                              ▼
+                                             ▼                       ┌──────────────┐
+                                      ┌──────────────┐              │sahiixx-titans│
+                                      │sahiixx-      │              │memory        │
+                                      │geoflow-agent │              │sahiixx-graph-│
+                                      │(GEO match)   │              │sight         │
+                                      └──────────────┘              └──────────────┘
+```
+
+**One concrete workflow:**
+
+```
+WhatsApp lead
+    │
+    ▼
+sahiixx-agi — intent + budget extraction
+    │
+    ▼
+sahiixx-geoflow-agent — property matching by location + preferences
+    │
+    ▼
+sovereign-swarm-v2 — viewing scheduling + broker notification
+    │
+    ▼
+sahiix-os — broker sees pre-qualified lead + recommended properties
+    │
+    ▼
+sahiixx-graph-sight — reporting + trust graph for investor follow-up
+```
+
+---
+
+## 🏢 Problem + Market
+
+Dubai real estate moves fast, but most brokerages still run on manual follow-up:
+
+- **Lead leakage:** Inquiries come in across WhatsApp, Instagram, portals, and websites — many never get logged or followed up.
+- **Slow qualification:** Brokers spend 30–60 minutes per lead before knowing if it’s serious.
+- **Viewing friction:** Matching properties, coordinating schedules, and rescheduling eats broker bandwidth.
+- **Weak reporting:** Investors and developers lack real-time visibility into pipeline and performance.
+
+**How SAHIIXX OS attacks each:**
+- Unified intake + AI logging across all channels
+- Automated qualification scoring and routing
+- GEO + preference matching with auto-scheduling
+- Live dashboards and investor-ready reports
+
+**Market context:**
+- AED 919 billion Dubai real estate market (2025)
+- Federal mandate: 50% agentic AI in UAE government within 2 years
+- Dubai private sector 100% agentic AI initiative announced May 2026
+
+---
+
+## 📈 Traction / Proof Points
+
+- 🧪 **200+ repos** in the sahiixx ecosystem under active development
+- 🏗️ **Flagship systems** in alpha: `sovereign-swarm-v2`, `sahiix-os`, `friday-os`
+- 🎯 **Vertical focus:** Dubai real estate revenue infrastructure
+- 🤝 **Pilot conversations** with brokerages and investor offices in Dubai
+
+*Real pilot metrics will be added here as 60-day pilots close.*
+
+---
+
+## 🤝 What I’m Looking For
+
+- **1–2 Dubai brokerages** for a 60-day SAHIIXX OS pilot
+- **1 infrastructure engineer** with multi-agent / FastAPI / Redis experience
+- **1 sales / GTM lead** who knows Dubai real estate
+- **Technical collaborators** on voice AI, trust graphs, and vertical AI OS
+
+**If you’re building in Dubai real estate or agentic AI, [let’s talk](#).**
+
+<!-- Add booking link: [Book a 20-min call](YOUR_CALENDLY_LINK) -->
+
+---
+
+## 🛡️ Operational Guarantees
+
+Building for production brokerage workflows means taking these seriously:
+
+- **Observability:** Every agent run is traced through `sahiixx-bus` with structured logs
+- **Failure modes:** Agents degrade gracefully; high-stakes decisions route to human brokers
+- **Data governance:** Tenant and lead data isolated by brokerage; no cross-tenant leakage
+- **Security:** Branch protection, Dependabot alerts, and dependency updates enabled across active repos
+- **Compliance:** Designed around UAE data-residency and real-estate advertising requirements
 
 ---
 
@@ -58,58 +184,49 @@
 
 ---
 
-## 🚀 Flagship Repositories
+## 🗺️ Full Ecosystem
 
-| Repository | Role |
-|---|---|
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Multi-agent runtime and orchestration experiments |
-| [sahiix-os](https://github.com/sahiixx/sahiix-os) | Real estate automation workspace and product surface |
-| [friday-os](https://github.com/sahiixx/friday-os) | Voice-first, memory-persistent, MCP-powered personal AI OS |
-| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Modular multi-agent OS with OpenClaw gateway and swarm coordination |
-| [hermes-agent](https://github.com/sahiixx/hermes-agent) | Universal protocol messenger and agent bridge |
-
----
-
-## Operating Thesis
-
-The UAE opportunity is not another generic AI agency. The value is in vertical, governed, revenue-linked AI systems that sit between fast-moving models and fragmented real-world workflows.
-
-**First wedge:** Dubai real estate revenue infrastructure — lead qualification, viewing orchestration, broker copilots, and investor reporting.
-
-**Market timing:** Federal mandate for 50% agentic AI in government within 2 years. Dubai private sector 100% agentic AI initiative announced May 2026. AED 919 billion real estate market in 2025.
-
----
-
-## 🧠 Ecosystem
+<details>
+<summary>Expand to see the complete repo map</summary>
 
 ### Core Infrastructure
-| Project | Language | Role |
-|---|---|---|
-| [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Python | **Central message bus** — pub/sub backbone for all agents |
-| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Python | **OPA orchestrator** — auto-discovers & routes across 170+ repos |
-| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | **Multi-agent OS** — Dubai RE runtime, n8n, Telegram bot |
-| [sahiix-agi](https://github.com/sahiixx/sahiix-agi) | Python | **AGI coordination layer** — FastAPI + Redis + Qdrant |
+| Project | Role |
+|---|---|
+| [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Central message bus — pub/sub backbone for all agents |
+| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | OPA orchestrator — auto-discovers & routes across repos |
+| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Multi-agent OS — Dubai RE runtime, n8n, Telegram bot |
+| [sahiix-agi](https://github.com/sahiixx/sahiix-agi) | AGI coordination layer — FastAPI + Redis + Qdrant |
 
 ### Intelligence Modules
-| Project | Language | Role |
-|---|---|---|
-| [sahiixx-titans-memory](https://github.com/sahiixx/sahiixx-titans-memory) | Python | Surprise-weighted persistent memory (NeurIPS 2025 Titans) |
-| [sahiixx-graph-sight](https://github.com/sahiixx/sahiixx-graph-sight) | Python | Neo4j trust graph + AST code context for agents |
-| [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | GEO optimization for Dubai real estate listings |
-| [sahiixx-clearwing](https://github.com/sahiixx/sahiixx-clearwing) | Python | Autonomous pentesting swarm (5-agent, active fuzzing) |
+| Project | Role |
+|---|---|
+| [sahiixx-titans-memory](https://github.com/sahiixx/sahiixx-titans-memory) | Surprise-weighted persistent memory |
+| [sahiixx-graph-sight](https://github.com/sahiixx/sahiixx-graph-sight) | Neo4j trust graph + AST code context |
+| [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | GEO optimization for Dubai listings |
+| [sahiixx-clearwing](https://github.com/sahiixx/sahiixx-clearwing) | Autonomous pentesting swarm |
 
-### Interfaces & Platforms
-| Project | Language | Role |
-|---|---|---|
-| [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first AI OS (PERCEIVE→ROUTE→PLAN→EXECUTE) |
-| [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | Multi-tenant agent SaaS (Hermes + MCP) |
-| [sahiix-os](https://github.com/sahiixx/sahiix-os) | JavaScript | Real estate automation workspace UI |
-| [moltworker](https://github.com/sahiixx/moltworker) | JavaScript | OpenClaw runtime on Cloudflare Workers |
+### Interfaces
+| Project | Role |
+|---|---|
+| [friday-os](https://github.com/sahiixx/friday-os) | Voice-first personal AI OS |
+| [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Multi-tenant agent SaaS |
+| [sahiix-os](https://github.com/sahiixx/sahiix-os) | Real estate automation workspace UI |
+| [moltworker](https://github.com/sahiixx/moltworker) | OpenClaw runtime on Cloudflare Workers |
 
-### Architecture
+</details>
+
+---
+
+## 🚀 Quick Start for Devs
+
+```bash
+# Clone the core stack
+git clone https://github.com/sahiixx/sovereign-swarm-v2.git
+git clone https://github.com/sahiixx/sahiixx-bus.git
+git clone https://github.com/sahiixx/sahiix-os.git
+
+# See the multi-agent runtime
+ cd sovereign-swarm-v2 && cat README.md
 ```
-sahiixx-agency (OPA) ── auto-discovers all repos, routes tasks
-        │
-        ▼
-  sahiixx-bus ◄─── message backbone (pub/sub + A2A + MCP)
-```
+
+*For non-technical visitors: [request a demo](#) or [book a call](#).*

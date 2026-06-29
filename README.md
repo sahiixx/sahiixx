@@ -25,7 +25,7 @@
 | **Product surface** | [`sahiix-os`](https://github.com/sahiixx/sahiix-os) — broker workspace and CRM UI |
 | **Architecture** | [`sahiixx-bus`](https://github.com/sahiixx/sahiixx-bus) + [`sahiixx-agency`](https://github.com/sahiixx/sahiixx-agency) — message bus + orchestrator |
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-sahiix--estate-brightgreen?style=flat-square&logo=cloudflare)](https://mode-massage-foods-usc.trycloudflare.com/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-sahiix--estate-brightgreen?style=flat-square&logo=cloudflare)](https://austin-alternate-inkjet-oregon.trycloudflare.com/)
 
 <!-- Add permanent links when ready:
 **Walkthrough:** [Watch 2-min Loom](YOUR_LOOM) · [Request pilot access](YOUR_FORM)

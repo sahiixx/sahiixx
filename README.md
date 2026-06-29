@@ -8,7 +8,7 @@
 
 **Converting real estate leads into closings with autonomous AI — intake, qualification, viewing orchestration, broker copilots, and investor reporting.**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-sahiix--estate-22c55e?style=for-the-badge&logo=cloudflare)](https://principles-reveals-michelle-brakes.trycloudflare.com/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-sahiix--estate-22c55e?style=for-the-badge&logo=cloudflare)](https://counting-sail-fri-totals.trycloudflare.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-sahiixx-181717?style=for-the-badge&logo=github)](https://github.com/sahiixx)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)]()
@@ -48,7 +48,7 @@ Building **SAHIIXX OS** — a vertical AI operating system for Dubai real estate
 - [`sahiix-os`](https://github.com/sahiixx/sahiix-os) — broker workspace UI
 - [`sahiixx-bus`](https://github.com/sahiixx/sahiixx-bus) + [`sahiixx-agency`](https://github.com/sahiixx/sahiixx-agency) — bus + orchestrator
 
-**Live demo:** [austin-alternate-inkjet-oregon.trycloudflare.com](https://principles-reveals-michelle-brakes.trycloudflare.com/)
+**Live demo:** [austin-alternate-inkjet-oregon.trycloudflare.com](https://counting-sail-fri-totals.trycloudflare.com/)
 
 ---
 

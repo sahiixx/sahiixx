@@ -1,36 +1,38 @@
 # @sahiixx Portfolio
 
-Generated: 2026-06-28 07:00 UTC
-Total Public Repos: 190
+Generated: 2026-07-05 06:37 UTC
+Total Public Repos: 191
 
 ## Core Projects (Agents & Systems)
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | TypeScript | - | 0⭐ | 2026-06-16 |
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-06-08 |
-| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-05-22 |
-| [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | - | 0⭐ | 2026-05-18 |
+| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-06-29 |
+| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | TypeScript | - | 0⭐ | 2026-06-29 |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-06-29 |
+| [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | - | 0⭐ | 2026-06-29 |
+| [Coral-BlackboxAI-Agent](https://github.com/sahiixx/Coral-BlackboxAI-Agent) | Python | - | 1⭐ | 2026-06-29 |
+| [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | - | 0⭐ | 2026-06-29 |
+| [goose-aios](https://github.com/sahiixx/goose-aios) | Python | - | 0⭐ | 2026-06-29 |
 | [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | - | 0⭐ | 2026-05-18 |
-| [goose-aios](https://github.com/sahiixx/goose-aios) | Python | - | 0⭐ | 2026-05-07 |
-| [sahiix-agent-s-](https://github.com/sahiixx/sahiix-agent-s-) | - | - | 0⭐ | 2026-04-07 |
-| [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | - | 0⭐ | 2025-10-18 |
-| [Coral-BlackboxAI-Agent](https://github.com/sahiixx/Coral-BlackboxAI-Agent) | Python | - | 1⭐ | 2025-10-02 |
-| [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first, memory-persistent, MCP-powered personal AI OS. CLI + LiveKit voice + Tauri desktop + Claude Code plugin. Runs offline on Ollama or cloud via Anthropic. | 2⭐ | 2026-05-18 |
-| [v0-nowire-os-blueprint](https://github.com/sahiixx/v0-nowire-os-blueprint) | TypeScript | - | 0⭐ | 2026-05-18 |
-| [sahiix-os](https://github.com/sahiixx/sahiix-os) | JavaScript | SAHIIXX OS - AI-powered real estate automation workspace | 1⭐ | 2026-05-18 |
+| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | TypeScript | SAHIIXX Operating System — Full stack cyberpunk command center with React + tRPC + Drizzle + Neon Postgres + Cloudflare | 0⭐ | 2026-07-04 |
+| [sahiix-os](https://github.com/sahiixx/sahiix-os) | HTML | - | 0⭐ | 2026-06-29 |
+| [sahiix-os-docs](https://github.com/sahiixx/sahiix-os-docs) | JavaScript | SAHIIXX OS - AI-powered real estate automation workspace | 1⭐ | 2026-06-29 |
+| [v0-nowire-os-blueprint](https://github.com/sahiixx/v0-nowire-os-blueprint) | TypeScript | - | 0⭐ | 2026-06-29 |
+| [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first, memory-persistent, MCP-powered personal AI OS. CLI + LiveKit voice + Tauri desktop + Claude Code plugin. Runs offline on Ollama or cloud via Anthropic. | 2⭐ | 2026-06-29 |
 
 ## Security Tools
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [Fixfizx](https://github.com/sahiixx/Fixfizx) | Python | - | 0⭐ | 2026-05-22 |
-| [Fixfiz](https://github.com/sahiixx/Fixfiz) | Python | - | 0⭐ | 2025-12-08 |
+| [Fixfiz](https://github.com/sahiixx/Fixfiz) | Python | - | 0⭐ | 2026-06-29 |
+| [Fixfizx](https://github.com/sahiixx/Fixfizx) | Python | - | 0⭐ | 2026-06-29 |
 
 ## AI/Agent Forks (Active Ecosystem)
 
 | Repo | Language | Origin | Stars | Updated |
 |------|----------|--------|-------|---------|
+| [openai-cookbook](https://github.com/sahiixx/openai-cookbook) | Jupyter Notebook | forked | 2⭐ | 2026-06-29 |
 | [swarm](https://github.com/sahiixx/swarm) | - | forked | 0⭐ | 2026-06-12 |
 | [activepieces](https://github.com/sahiixx/activepieces) | - | forked | 0⭐ | 2026-06-12 |
 | [chrome-devtools-mcp](https://github.com/sahiixx/chrome-devtools-mcp) | - | forked | 0⭐ | 2026-06-09 |
@@ -74,7 +76,6 @@ Total Public Repos: 190
 | [Multi-Agent-Demo](https://github.com/sahiixx/Multi-Agent-Demo) | - | forked | 0⭐ | 2025-10-07 |
 | [coral-server](https://github.com/sahiixx/coral-server) | - | forked | 0⭐ | 2025-10-07 |
 | [rasa](https://github.com/sahiixx/rasa) | Python | forked | 0⭐ | 2025-10-07 |
-| [openai-cookbook](https://github.com/sahiixx/openai-cookbook) | Jupyter Notebook | forked | 2⭐ | 2025-10-07 |
 | [openai-realtime-agents](https://github.com/sahiixx/openai-realtime-agents) | TypeScript | forked | 0⭐ | 2025-10-07 |
 | [bytebot](https://github.com/sahiixx/bytebot) | - | forked | 0⭐ | 2025-10-07 |
 | [codex](https://github.com/sahiixx/codex) | - | forked | 0⭐ | 2025-10-07 |
@@ -102,6 +103,9 @@ Total Public Repos: 190
 
 | Repo | Language | Stars | Updated |
 |------|----------|-------|---------|
+| [lift](https://github.com/sahiixx/lift) | - | 0⭐ | 2026-07-04 |
+| [auth-js](https://github.com/sahiixx/auth-js) | CSS | 0⭐ | 2026-06-29 |
+| [coral-studio](https://github.com/sahiixx/coral-studio) | Svelte | 0⭐ | 2026-06-29 |
 | [OpenWA](https://github.com/sahiixx/OpenWA) | - | 0⭐ | 2026-06-01 |
 | [zsh-kimi-cli](https://github.com/sahiixx/zsh-kimi-cli) | Shell | 0⭐ | 2026-04-26 |
 | [friday-tony-stark-demo](https://github.com/sahiixx/friday-tony-stark-demo) | Python | 0⭐ | 2026-04-17 |
@@ -119,24 +123,22 @@ Total Public Repos: 190
 | [AnnotatedText](https://github.com/sahiixx/AnnotatedText) | - | 0⭐ | 2026-02-06 |
 | [androidsvg](https://github.com/sahiixx/androidsvg) | - | 0⭐ | 2026-02-06 |
 | [AboutLibraries](https://github.com/sahiixx/AboutLibraries) | - | 0⭐ | 2026-02-06 |
-| [fides](https://github.com/sahiixx/fides) | - | 0⭐ | 2026-02-06 |
-| [x-algorithm](https://github.com/sahiixx/x-algorithm) | Rust | 0⭐ | 2026-02-04 |
-| [nix-openclaw](https://github.com/sahiixx/nix-openclaw) | - | 0⭐ | 2026-01-31 |
-| *...and 43 more forks* | | | |
+| *...and 44 more forks* | | | |
 
 ## Language Distribution
 
-- **Python**: 40 repos
-- **TypeScript**: 25 repos
-- **JavaScript**: 9 repos
-- **HTML**: 4 repos
+- **Python**: 41 repos
+- **TypeScript**: 26 repos
+- **JavaScript**: 10 repos
+- **HTML**: 5 repos
+- **Rust**: 3 repos
 - **Jupyter Notebook**: 3 repos
 - **MDX**: 2 repos
 - **CSS**: 1 repos
 - **Markdown**: 1 repos
 - **Svelte**: 1 repos
+- **Go**: 1 repos
 - **AL**: 1 repos
-- **Rust**: 1 repos
 - **Shell**: 1 repos
 
 ---

@@ -2,13 +2,13 @@
 
 <div align="center">
 
-# SAHIIXX
+# AI Systems Architect
 
 ### **UAE-first agentic revenue OS for Dubai real estate**
 
 **Converting real estate leads into closings with autonomous AI — intake, qualification, viewing orchestration, broker copilots, and investor reporting.**
 
-> **🌐 Portfolio**: [sahiix-portfolio.pages.dev](https://sahiix-portfolio.pages.dev/) | **📊 GitHub**: [@sahiixx](https://github.com/sahiixx) | **🚀 200+ Repos** | **33+ Agents**
+> **🌐 Portfolio**: [sahiix-portfolio.pages.dev](https://sahiix-portfolio.pages.dev/) | **📊 GitHub**: [@sahiixx](https://github.com/sahiixx) | **🚀 200+ Repos** | **33+ Agents** | **100% Python**
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-sahiix--estate-22c55e?style=for-the-badge&logo=cloudflare)](https://counting-sail-fri-totals.trycloudflare.com/)
 [![Agency](https://img.shields.io/badge/OPA-Orchestrator-7B61FF?style=for-the-badge&logo=github)](https://github.com/sahiixx/sahiixx-agency)
@@ -105,7 +105,7 @@ A **vertical AI operating system** for Dubai real estate brokerages, developers,
                                              ▼                       └────────┬────────┘
                                       ┌─────────────────┐                      │
                                       │ sovereign-swarm │                      ▼
-                                      │ (multi-agent    │            ┌─────────────────┐
+                                      │ (multi-agent    │            ┌──��──────────────┐
                                       │  runtime)       │            │ sahiixx-titans  │
                                       └────────┬────────┘            │ memory          │
                                                │                     │ sahiixx-graph-  │
@@ -129,6 +129,7 @@ A **vertical AI operating system** for Dubai real estate brokerages, developers,
 - 🚀 **Live demo deployed** via Cloudflare tunnel (end-to-end E2E pipeline)
 - 📊 **Goldmine Protocol:** RFM-scored CRM with 4-tier contact system
 - 🔐 **Licensed RE Agent** at APEX Estates (operational credentials)
+- 🐍 **100% Python codebase** — FastAPI, LangChain, async-first architecture
 
 ---
 
@@ -171,6 +172,7 @@ A **vertical AI operating system** for Dubai real estate brokerages, developers,
 - **Security:** branch protection & Dependabot enabled across active repos
 - **Compliance:** built for UAE data-residency & real-estate advertising requirements
 - **Monitoring:** PM2 health checks, Sentry error tracking, structured logging
+- **Language:** 100% Python core — FastAPI, asyncio, LangChain orchestration
 
 ---
 
@@ -260,6 +262,7 @@ Forks of: LangChain, AutoGen, CrewAI, n8n, OpenManus, Llama, Qwen, LLaVA, browse
 - **Portfolio:** [sahiix-portfolio.pages.dev](https://sahiix-portfolio.pages.dev/)
 - **GitHub:** [@sahiixx](https://github.com/sahiixx)
 - **Live Demo:** [Cloudflare Tunnel](https://counting-sail-fri-totals.trycloudflare.com/)
+- **Repo ID:** 1220420024
 
 ---
 

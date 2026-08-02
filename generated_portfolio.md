@@ -1,15 +1,15 @@
 # @sahiixx Portfolio
 
-Generated: 2026-07-26 05:58 UTC
+Generated: 2026-08-02 05:53 UTC
 Total Public Repos: 201
 
 ## Core Projects (Agents & Systems)
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-07-26 |
 | [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Python | - | 0⭐ | 2026-07-22 |
 | [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-07-21 |
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-07-16 |
 | [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | - | 0⭐ | 2026-07-12 |
 | [Coral-BlackboxAI-Agent](https://github.com/sahiixx/Coral-BlackboxAI-Agent) | Python | - | 1⭐ | 2026-07-12 |
 | [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | - | 0⭐ | 2026-06-29 |

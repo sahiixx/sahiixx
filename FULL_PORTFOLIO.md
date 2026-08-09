@@ -1,13 +1,13 @@
 # @sahiixx Portfolio
 
-Generated: 2026-08-02 05:53 UTC
-Total Public Repos: 201
+Generated: 2026-08-09 04:14 UTC
+Total Public Repos: 206
 
 ## Core Projects (Agents & Systems)
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 1⭐ | 2026-07-26 |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 2⭐ | 2026-08-07 |
 | [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Python | - | 0⭐ | 2026-07-22 |
 | [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-07-21 |
 | [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | - | 0⭐ | 2026-07-12 |
@@ -106,6 +106,11 @@ Total Public Repos: 201
 
 | Repo | Language | Stars | Updated |
 |------|----------|-------|---------|
+| [android-browser-helper](https://github.com/sahiixx/android-browser-helper) | - | 0⭐ | 2026-08-08 |
+| [turtledove](https://github.com/sahiixx/turtledove) | - | 0⭐ | 2026-08-08 |
+| [privacy-sandbox-samples](https://github.com/sahiixx/privacy-sandbox-samples) | - | 0⭐ | 2026-08-08 |
+| [privacy-sandbox-demos](https://github.com/sahiixx/privacy-sandbox-demos) | - | 0⭐ | 2026-08-08 |
+| [community](https://github.com/sahiixx/community) | - | 0⭐ | 2026-08-07 |
 | [ClueArk](https://github.com/sahiixx/ClueArk) | - | 0⭐ | 2026-07-22 |
 | [worldmonitor](https://github.com/sahiixx/worldmonitor) | - | 0⭐ | 2026-07-22 |
 | [Ghost-Downloader-3](https://github.com/sahiixx/Ghost-Downloader-3) | - | 0⭐ | 2026-07-16 |
@@ -121,12 +126,7 @@ Total Public Repos: 201
 | [genkit](https://github.com/sahiixx/genkit) | - | 0⭐ | 2026-03-18 |
 | [RuView](https://github.com/sahiixx/RuView) | - | 1⭐ | 2026-03-12 |
 | [pocketpal-ai](https://github.com/sahiixx/pocketpal-ai) | - | 0⭐ | 2026-03-04 |
-| [voice-quickstart-android](https://github.com/sahiixx/voice-quickstart-android) | - | 0⭐ | 2026-03-03 |
-| [workers-sdk](https://github.com/sahiixx/workers-sdk) | - | 0⭐ | 2026-02-28 |
-| [content](https://github.com/sahiixx/content) | - | 0⭐ | 2026-02-25 |
-| [skills](https://github.com/sahiixx/skills) | Python | 0⭐ | 2026-02-23 |
-| [compass-ai-travel-planning-sample-flutter](https://github.com/sahiixx/compass-ai-travel-planning-sample-flutter) | - | 0⭐ | 2026-02-07 |
-| *...and 47 more forks* | | | |
+| *...and 52 more forks* | | | |
 
 ## Language Distribution
 

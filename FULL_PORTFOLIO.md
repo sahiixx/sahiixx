@@ -1,149 +1,153 @@
 # @sahiixx Portfolio
 
-Generated: 2026-08-09 04:14 UTC
-Total Public Repos: 206
+Generated: 2026-08-16 03:44 UTC
+Total Public Repos: 209
 
 ## Core Projects (Agents & Systems)
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 2⭐ | 2026-08-07 |
-| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Python | - | 0⭐ | 2026-07-22 |
-| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-07-21 |
-| [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | - | 0⭐ | 2026-07-12 |
-| [Coral-BlackboxAI-Agent](https://github.com/sahiixx/Coral-BlackboxAI-Agent) | Python | - | 1⭐ | 2026-07-12 |
-| [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | - | 0⭐ | 2026-06-29 |
-| [goose-aios](https://github.com/sahiixx/goose-aios) | Python | - | 0⭐ | 2026-06-29 |
-| [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | - | 0⭐ | 2026-05-18 |
-| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | TypeScript | SAHIIXX Operating System — Full stack cyberpunk command center with React + tRPC + Drizzle + Neon Postgres + Cloudflare | 0⭐ | 2026-07-22 |
-| [sahiix-os](https://github.com/sahiixx/sahiix-os) | HTML | - | 0⭐ | 2026-07-21 |
-| [systems-panel](https://github.com/sahiixx/systems-panel) | Astro | SAHIIXX live systems panel — static Astro dashboard showing status of all SAHIIXX modules (kernel, verticals, experiments) with Prometheus-style metrics. | 0⭐ | 2026-07-21 |
-| [sahiix-os-docs](https://github.com/sahiixx/sahiix-os-docs) | JavaScript | SAHIIXX OS - AI-powered real estate automation workspace | 1⭐ | 2026-06-29 |
-| [v0-nowire-os-blueprint](https://github.com/sahiixx/v0-nowire-os-blueprint) | TypeScript | - | 0⭐ | 2026-06-29 |
-| [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first, memory-persistent, MCP-powered personal AI OS. CLI + LiveKit voice + Tauri desktop + Claude Code plugin. Runs offline on Ollama or cloud via Anthropic. | 2⭐ | 2026-06-29 |
+| [agentic-harness-integration](https://github.com/sahiixx/agentic-harness-integration) | Python | - | 1⭐ | 2026-08-15 |
+| [agentic-harness](https://github.com/sahiixx/agentic-harness) | Python | Agentic workflow patterns wired to Azure Foundry, shared across all sahiixx repos | 0⭐ | 2026-08-10 |
+| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Python | - | 0⭐ | 2026-08-10 |
+| [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | - | 0⭐ | 2026-08-10 |
+| [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | - | 0⭐ | 2026-08-10 |
+| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-08-10 |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 2⭐ | 2026-08-10 |
+| [Coral-BlackboxAI-Agent](https://github.com/sahiixx/Coral-BlackboxAI-Agent) | Python | - | 1⭐ | 2026-08-10 |
+| [goose-aios](https://github.com/sahiixx/goose-aios) | Python | - | 0⭐ | 2026-08-10 |
+| [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | - | 0⭐ | 2026-08-10 |
+| [sahiix-os-docs](https://github.com/sahiixx/sahiix-os-docs) | JavaScript | SAHIIXX OS - AI-powered real estate automation workspace | 1⭐ | 2026-08-10 |
+| [systems-panel](https://github.com/sahiixx/systems-panel) | Astro | SAHIIXX live systems panel — static Astro dashboard showing status of all SAHIIXX modules (kernel, verticals, experiments) with Prometheus-style metrics. | 0⭐ | 2026-08-10 |
+| [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first, memory-persistent, MCP-powered personal AI OS. CLI + LiveKit voice + Tauri desktop + Claude Code plugin. Runs offline on Ollama or cloud via Anthropic. | 2⭐ | 2026-08-10 |
+| [v0-nowire-os-blueprint](https://github.com/sahiixx/v0-nowire-os-blueprint) | TypeScript | - | 0⭐ | 2026-08-10 |
+| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | TypeScript | SAHIIXX Operating System — Full stack cyberpunk command center with React + tRPC + Drizzle + Neon Postgres + Cloudflare | 0⭐ | 2026-08-10 |
+| [sahiix-os](https://github.com/sahiixx/sahiix-os) | HTML | - | 0⭐ | 2026-08-10 |
 
 ## Security Tools
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [Fixfiz](https://github.com/sahiixx/Fixfiz) | Python | - | 0⭐ | 2026-07-13 |
-| [Fixfizx](https://github.com/sahiixx/Fixfizx) | Python | - | 0⭐ | 2026-06-29 |
+| [Fixfizx](https://github.com/sahiixx/Fixfizx) | Python | - | 0⭐ | 2026-08-10 |
+| [Fixfiz](https://github.com/sahiixx/Fixfiz) | Python | - | 0⭐ | 2026-08-10 |
 
 ## AI/Agent Forks (Active Ecosystem)
 
 | Repo | Language | Origin | Stars | Updated |
 |------|----------|--------|-------|---------|
-| [airllm](https://github.com/sahiixx/airllm) | - | forked | 0⭐ | 2026-07-13 |
-| [T3MP3ST](https://github.com/sahiixx/T3MP3ST) | - | forked | 0⭐ | 2026-07-06 |
-| [openai-cookbook](https://github.com/sahiixx/openai-cookbook) | Jupyter Notebook | forked | 2⭐ | 2026-06-29 |
-| [swarm](https://github.com/sahiixx/swarm) | - | forked | 0⭐ | 2026-06-12 |
-| [activepieces](https://github.com/sahiixx/activepieces) | - | forked | 0⭐ | 2026-06-12 |
-| [chrome-devtools-mcp](https://github.com/sahiixx/chrome-devtools-mcp) | - | forked | 0⭐ | 2026-06-09 |
-| [system_prompts_leaks](https://github.com/sahiixx/system_prompts_leaks) | JavaScript | forked | 2⭐ | 2026-05-21 |
-| [deer-flow](https://github.com/sahiixx/deer-flow) | - | forked | 0⭐ | 2026-05-10 |
-| [langflow](https://github.com/sahiixx/langflow) | - | forked | 0⭐ | 2026-05-10 |
-| [UI-TARS-desktop](https://github.com/sahiixx/UI-TARS-desktop) | - | forked | 0⭐ | 2026-05-08 |
-| [system-prompts-and-models-of-ai-tools](https://github.com/sahiixx/system-prompts-and-models-of-ai-tools) | JavaScript | forked | 3⭐ | 2026-05-07 |
-| [browser-use](https://github.com/sahiixx/browser-use) | - | forked | 0⭐ | 2026-05-03 |
-| [open-design](https://github.com/sahiixx/open-design) | - | forked | 0⭐ | 2026-05-01 |
-| [hermes-agent](https://github.com/sahiixx/hermes-agent) | - | forked | 1⭐ | 2026-04-24 |
-| [rowboat](https://github.com/sahiixx/rowboat) | - | forked | 0⭐ | 2026-04-12 |
-| [openclaw](https://github.com/sahiixx/openclaw) | TypeScript | forked | 0⭐ | 2026-04-12 |
-| [goose](https://github.com/sahiixx/goose) | - | forked | 0⭐ | 2026-04-11 |
-| [500-AI-Agents-Projects](https://github.com/sahiixx/500-AI-Agents-Projects) | Python | forked | 0⭐ | 2026-04-08 |
-| [airecon](https://github.com/sahiixx/airecon) | - | forked | 0⭐ | 2026-04-02 |
-| [Open-AutoGLM](https://github.com/sahiixx/Open-AutoGLM) | - | forked | 0⭐ | 2026-04-01 |
-| [CoPaw](https://github.com/sahiixx/CoPaw) | - | forked | 0⭐ | 2026-03-24 |
-| [ai-chatbot](https://github.com/sahiixx/ai-chatbot) | - | forked | 0⭐ | 2026-03-21 |
-| [awesome-agentic-patterns](https://github.com/sahiixx/awesome-agentic-patterns) | - | forked | 1⭐ | 2026-03-17 |
-| [prompts.chat](https://github.com/sahiixx/prompts.chat) | - | forked | 0⭐ | 2026-03-11 |
-| [motia](https://github.com/sahiixx/motia) | - | forked | 0⭐ | 2026-03-06 |
-| [autogen](https://github.com/sahiixx/autogen) | Python | forked | 1⭐ | 2026-02-28 |
-| [oz-agent-action](https://github.com/sahiixx/oz-agent-action) | JavaScript | forked | 0⭐ | 2026-02-14 |
-| [shannon](https://github.com/sahiixx/shannon) | - | forked | 0⭐ | 2026-02-07 |
-| [kimi-cli](https://github.com/sahiixx/kimi-cli) | - | forked | 0⭐ | 2026-02-07 |
-| [copilot-sdk](https://github.com/sahiixx/copilot-sdk) | - | forked | 0⭐ | 2026-02-07 |
-| [ms-swift](https://github.com/sahiixx/ms-swift) | - | forked | 0⭐ | 2026-01-29 |
-| [kimi-agent-sdk](https://github.com/sahiixx/kimi-agent-sdk) | - | forked | 0⭐ | 2026-01-29 |
-| [Kimi-VL](https://github.com/sahiixx/Kimi-VL) | - | forked | 0⭐ | 2026-01-29 |
-| [n8n-docs](https://github.com/sahiixx/n8n-docs) | - | forked | 0⭐ | 2026-01-22 |
-| [llm-council](https://github.com/sahiixx/llm-council) | Python | forked | 0⭐ | 2025-12-07 |
-| [openai-realtime-console](https://github.com/sahiixx/openai-realtime-console) | JavaScript | forked | 0⭐ | 2025-11-21 |
-| [ollama](https://github.com/sahiixx/ollama) | - | forked | 0⭐ | 2025-11-14 |
-| [claude-agent-sdk-python](https://github.com/sahiixx/claude-agent-sdk-python) | Python | forked | 0⭐ | 2025-11-05 |
-| [adk-java](https://github.com/sahiixx/adk-java) | - | forked | 0⭐ | 2025-10-27 |
-| [adk-python](https://github.com/sahiixx/adk-python) | - | forked | 0⭐ | 2025-10-27 |
-| [n8n](https://github.com/sahiixx/n8n) | TypeScript | forked | 0⭐ | 2025-10-19 |
-| [awesome-agents-for-multi-agent-systems](https://github.com/sahiixx/awesome-agents-for-multi-agent-systems) | Python | forked | 1⭐ | 2025-10-13 |
-| [botpress](https://github.com/sahiixx/botpress) | TypeScript | forked | 1⭐ | 2025-10-12 |
-| [Multi-Agent-Demo](https://github.com/sahiixx/Multi-Agent-Demo) | - | forked | 0⭐ | 2025-10-07 |
-| [coral-server](https://github.com/sahiixx/coral-server) | - | forked | 0⭐ | 2025-10-07 |
-| [rasa](https://github.com/sahiixx/rasa) | Python | forked | 0⭐ | 2025-10-07 |
-| [openai-realtime-agents](https://github.com/sahiixx/openai-realtime-agents) | TypeScript | forked | 0⭐ | 2025-10-07 |
-| [bytebot](https://github.com/sahiixx/bytebot) | - | forked | 0⭐ | 2025-10-07 |
-| [codex](https://github.com/sahiixx/codex) | - | forked | 0⭐ | 2025-10-07 |
-| [SQLBot](https://github.com/sahiixx/SQLBot) | - | forked | 0⭐ | 2025-10-07 |
-| [lobe-chat](https://github.com/sahiixx/lobe-chat) | - | forked | 0⭐ | 2025-10-07 |
-| [MoneyPrinterTurbo](https://github.com/sahiixx/MoneyPrinterTurbo) | - | forked | 0⭐ | 2025-10-07 |
-| [openai-realtime-solar-system](https://github.com/sahiixx/openai-realtime-solar-system) | TypeScript | forked | 0⭐ | 2025-10-07 |
-| [openai-responses-starter-app](https://github.com/sahiixx/openai-responses-starter-app) | TypeScript | forked | 0⭐ | 2025-10-07 |
-| [openai-cua-sample-app](https://github.com/sahiixx/openai-cua-sample-app) | Python | forked | 0⭐ | 2025-10-07 |
-| [openai-realtime-twilio-demo](https://github.com/sahiixx/openai-realtime-twilio-demo) | TypeScript | forked | 0⭐ | 2025-10-07 |
-| [openai-testing-agent-demo](https://github.com/sahiixx/openai-testing-agent-demo) | TypeScript | forked | 0⭐ | 2025-10-07 |
-| [openai-fm](https://github.com/sahiixx/openai-fm) | TypeScript | forked | 0⭐ | 2025-10-07 |
-| [openai-structured-outputs-samples](https://github.com/sahiixx/openai-structured-outputs-samples) | TypeScript | forked | 0⭐ | 2025-10-07 |
-| [openai-cs-agents-demo](https://github.com/sahiixx/openai-cs-agents-demo) | TypeScript | forked | 0⭐ | 2025-10-07 |
-| [openai-agents-js](https://github.com/sahiixx/openai-agents-js) | TypeScript | forked | 0⭐ | 2025-10-07 |
-| [openai-agents-python](https://github.com/sahiixx/openai-agents-python) | Python | forked | 0⭐ | 2025-10-07 |
-| [openai-support-agent-demo](https://github.com/sahiixx/openai-support-agent-demo) | TypeScript | forked | 0⭐ | 2025-10-07 |
-| [n8n-free-templates](https://github.com/sahiixx/n8n-free-templates) | - | forked | 0⭐ | 2025-10-02 |
-| [bifrost](https://github.com/sahiixx/bifrost) | - | forked | 0⭐ | 2025-10-02 |
-| [Kimi-K2](https://github.com/sahiixx/Kimi-K2) | - | forked | 0⭐ | 2025-09-30 |
-| [ultimate-n8n-ai-workflows](https://github.com/sahiixx/ultimate-n8n-ai-workflows) | Python | forked | 0⭐ | 2025-09-29 |
-| [Qwen3-Omni](https://github.com/sahiixx/Qwen3-Omni) | - | forked | 0⭐ | 2025-09-24 |
+| [adk-samples](https://github.com/sahiixx/adk-samples) | - | forked | 0⭐ | 2026-08-16 |
+| [codex](https://github.com/sahiixx/codex) | Rust | forked | 0⭐ | 2026-08-10 |
+| [adk-python](https://github.com/sahiixx/adk-python) | Python | forked | 0⭐ | 2026-08-10 |
+| [browser-use](https://github.com/sahiixx/browser-use) | Python | forked | 0⭐ | 2026-08-10 |
+| [openai-agents-python](https://github.com/sahiixx/openai-agents-python) | Python | forked | 0⭐ | 2026-08-10 |
+| [openai-agents-js](https://github.com/sahiixx/openai-agents-js) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [chrome-devtools-mcp](https://github.com/sahiixx/chrome-devtools-mcp) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [open-design](https://github.com/sahiixx/open-design) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [oz-agent-action](https://github.com/sahiixx/oz-agent-action) | JavaScript | forked | 0⭐ | 2026-08-10 |
+| [kimi-cli](https://github.com/sahiixx/kimi-cli) | Python | forked | 0⭐ | 2026-08-10 |
+| [system-prompts-and-models-of-ai-tools](https://github.com/sahiixx/system-prompts-and-models-of-ai-tools) | JavaScript | forked | 3⭐ | 2026-08-10 |
+| [n8n](https://github.com/sahiixx/n8n) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [langflow](https://github.com/sahiixx/langflow) | Python | forked | 0⭐ | 2026-08-10 |
+| [MoneyPrinterTurbo](https://github.com/sahiixx/MoneyPrinterTurbo) | Python | forked | 0⭐ | 2026-08-10 |
+| [openclaw](https://github.com/sahiixx/openclaw) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [activepieces](https://github.com/sahiixx/activepieces) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [openai-cookbook](https://github.com/sahiixx/openai-cookbook) | Jupyter Notebook | forked | 2⭐ | 2026-08-10 |
+| [hermes-agent](https://github.com/sahiixx/hermes-agent) | Python | forked | 1⭐ | 2026-08-10 |
+| [motia](https://github.com/sahiixx/motia) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [UI-TARS-desktop](https://github.com/sahiixx/UI-TARS-desktop) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [lobe-chat](https://github.com/sahiixx/lobe-chat) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [n8n-docs](https://github.com/sahiixx/n8n-docs) | HTML | forked | 0⭐ | 2026-08-10 |
+| [prompts.chat](https://github.com/sahiixx/prompts.chat) | HTML | forked | 0⭐ | 2026-08-10 |
+| [goose](https://github.com/sahiixx/goose) | Rust | forked | 0⭐ | 2026-08-10 |
+| [bifrost](https://github.com/sahiixx/bifrost) | Go | forked | 0⭐ | 2026-08-10 |
+| [system_prompts_leaks](https://github.com/sahiixx/system_prompts_leaks) | JavaScript | forked | 2⭐ | 2026-08-10 |
+| [botpress](https://github.com/sahiixx/botpress) | TypeScript | forked | 1⭐ | 2026-08-10 |
+| [openai-realtime-agents](https://github.com/sahiixx/openai-realtime-agents) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [swarm](https://github.com/sahiixx/swarm) | Python | forked | 0⭐ | 2026-08-10 |
+| [n8n-free-templates](https://github.com/sahiixx/n8n-free-templates) | - | forked | 0⭐ | 2026-08-10 |
+| [kimi-agent-sdk](https://github.com/sahiixx/kimi-agent-sdk) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [openai-cua-sample-app](https://github.com/sahiixx/openai-cua-sample-app) | Python | forked | 0⭐ | 2026-08-10 |
+| [ultimate-n8n-ai-workflows](https://github.com/sahiixx/ultimate-n8n-ai-workflows) | Python | forked | 0⭐ | 2026-08-10 |
+| [openai-cs-agents-demo](https://github.com/sahiixx/openai-cs-agents-demo) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [openai-structured-outputs-samples](https://github.com/sahiixx/openai-structured-outputs-samples) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [rowboat](https://github.com/sahiixx/rowboat) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [ms-swift](https://github.com/sahiixx/ms-swift) | Python | forked | 0⭐ | 2026-08-10 |
+| [rasa](https://github.com/sahiixx/rasa) | Python | forked | 0⭐ | 2026-08-10 |
+| [autogen](https://github.com/sahiixx/autogen) | Python | forked | 1⭐ | 2026-08-10 |
+| [openai-realtime-twilio-demo](https://github.com/sahiixx/openai-realtime-twilio-demo) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [openai-fm](https://github.com/sahiixx/openai-fm) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [openai-testing-agent-demo](https://github.com/sahiixx/openai-testing-agent-demo) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [openai-responses-starter-app](https://github.com/sahiixx/openai-responses-starter-app) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [ollama](https://github.com/sahiixx/ollama) | Go | forked | 0⭐ | 2026-08-10 |
+| [openai-support-agent-demo](https://github.com/sahiixx/openai-support-agent-demo) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [shannon](https://github.com/sahiixx/shannon) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [openai-realtime-console](https://github.com/sahiixx/openai-realtime-console) | JavaScript | forked | 0⭐ | 2026-08-10 |
+| [airecon](https://github.com/sahiixx/airecon) | Python | forked | 0⭐ | 2026-08-10 |
+| [adk-java](https://github.com/sahiixx/adk-java) | Java | forked | 0⭐ | 2026-08-10 |
+| [openai-realtime-solar-system](https://github.com/sahiixx/openai-realtime-solar-system) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [coral-server](https://github.com/sahiixx/coral-server) | Kotlin | forked | 0⭐ | 2026-08-10 |
+| [airllm](https://github.com/sahiixx/airllm) | Jupyter Notebook | forked | 0⭐ | 2026-08-10 |
+| [Open-AutoGLM](https://github.com/sahiixx/Open-AutoGLM) | Python | forked | 0⭐ | 2026-08-10 |
+| [bytebot](https://github.com/sahiixx/bytebot) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [llm-council](https://github.com/sahiixx/llm-council) | Python | forked | 0⭐ | 2026-08-10 |
+| [Multi-Agent-Demo](https://github.com/sahiixx/Multi-Agent-Demo) | Python | forked | 0⭐ | 2026-08-10 |
+| [Kimi-K2](https://github.com/sahiixx/Kimi-K2) | - | forked | 0⭐ | 2026-08-10 |
+| [deer-flow](https://github.com/sahiixx/deer-flow) | Python | forked | 0⭐ | 2026-08-10 |
+| [copilot-sdk](https://github.com/sahiixx/copilot-sdk) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [claude-agent-sdk-python](https://github.com/sahiixx/claude-agent-sdk-python) | Python | forked | 0⭐ | 2026-08-10 |
+| [Qwen3-Omni](https://github.com/sahiixx/Qwen3-Omni) | Jupyter Notebook | forked | 0⭐ | 2026-08-10 |
+| [awesome-agentic-patterns](https://github.com/sahiixx/awesome-agentic-patterns) | HTML | forked | 1⭐ | 2026-08-10 |
+| [ai-chatbot](https://github.com/sahiixx/ai-chatbot) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [awesome-agents-for-multi-agent-systems](https://github.com/sahiixx/awesome-agents-for-multi-agent-systems) | Python | forked | 1⭐ | 2026-08-10 |
+| [500-AI-Agents-Projects](https://github.com/sahiixx/500-AI-Agents-Projects) | Python | forked | 0⭐ | 2026-08-10 |
+| [CoPaw](https://github.com/sahiixx/CoPaw) | Python | forked | 0⭐ | 2026-08-10 |
+| [T3MP3ST](https://github.com/sahiixx/T3MP3ST) | TypeScript | forked | 0⭐ | 2026-08-10 |
+| [SQLBot](https://github.com/sahiixx/SQLBot) | Python | forked | 0⭐ | 2026-08-10 |
+| [Kimi-VL](https://github.com/sahiixx/Kimi-VL) | - | forked | 0⭐ | 2026-08-10 |
 
 ## Other Forks
 
 | Repo | Language | Stars | Updated |
 |------|----------|-------|---------|
-| [android-browser-helper](https://github.com/sahiixx/android-browser-helper) | - | 0⭐ | 2026-08-08 |
-| [turtledove](https://github.com/sahiixx/turtledove) | - | 0⭐ | 2026-08-08 |
-| [privacy-sandbox-samples](https://github.com/sahiixx/privacy-sandbox-samples) | - | 0⭐ | 2026-08-08 |
-| [privacy-sandbox-demos](https://github.com/sahiixx/privacy-sandbox-demos) | - | 0⭐ | 2026-08-08 |
-| [community](https://github.com/sahiixx/community) | - | 0⭐ | 2026-08-07 |
-| [ClueArk](https://github.com/sahiixx/ClueArk) | - | 0⭐ | 2026-07-22 |
-| [worldmonitor](https://github.com/sahiixx/worldmonitor) | - | 0⭐ | 2026-07-22 |
-| [Ghost-Downloader-3](https://github.com/sahiixx/Ghost-Downloader-3) | - | 0⭐ | 2026-07-16 |
-| [lift](https://github.com/sahiixx/lift) | - | 0⭐ | 2026-07-04 |
-| [auth-js](https://github.com/sahiixx/auth-js) | CSS | 0⭐ | 2026-06-29 |
-| [coral-studio](https://github.com/sahiixx/coral-studio) | Svelte | 0⭐ | 2026-06-29 |
-| [OpenWA](https://github.com/sahiixx/OpenWA) | - | 0⭐ | 2026-06-01 |
-| [zsh-kimi-cli](https://github.com/sahiixx/zsh-kimi-cli) | Shell | 0⭐ | 2026-04-26 |
-| [friday-tony-stark-demo](https://github.com/sahiixx/friday-tony-stark-demo) | Python | 0⭐ | 2026-04-17 |
-| [cookbook](https://github.com/sahiixx/cookbook) | Jupyter Notebook | 1⭐ | 2026-04-09 |
-| [android-sms-gateway](https://github.com/sahiixx/android-sms-gateway) | - | 0⭐ | 2026-04-08 |
-| [react-camera-kit](https://github.com/sahiixx/react-camera-kit) | - | 0⭐ | 2026-04-02 |
-| [genkit](https://github.com/sahiixx/genkit) | - | 0⭐ | 2026-03-18 |
-| [RuView](https://github.com/sahiixx/RuView) | - | 1⭐ | 2026-03-12 |
-| [pocketpal-ai](https://github.com/sahiixx/pocketpal-ai) | - | 0⭐ | 2026-03-04 |
+| [Valdi](https://github.com/sahiixx/Valdi) | C++ | 0⭐ | 2026-08-10 |
+| [workers-sdk](https://github.com/sahiixx/workers-sdk) | TypeScript | 0⭐ | 2026-08-10 |
+| [nix-openclaw](https://github.com/sahiixx/nix-openclaw) | Nix | 0⭐ | 2026-08-10 |
+| [worldmonitor](https://github.com/sahiixx/worldmonitor) | TypeScript | 0⭐ | 2026-08-10 |
+| [clawhub](https://github.com/sahiixx/clawhub) | TypeScript | 0⭐ | 2026-08-10 |
+| [ClueArk](https://github.com/sahiixx/ClueArk) | TypeScript | 0⭐ | 2026-08-10 |
+| [docsb](https://github.com/sahiixx/docsb) | TypeScript | 0⭐ | 2026-08-10 |
+| [awesome](https://github.com/sahiixx/awesome) | - | 0⭐ | 2026-08-10 |
+| [public-apis](https://github.com/sahiixx/public-apis) | Python | 0⭐ | 2026-08-10 |
+| [langchain](https://github.com/sahiixx/langchain) | Python | 0⭐ | 2026-08-10 |
+| [fuck-u-code](https://github.com/sahiixx/fuck-u-code) | Go | 0⭐ | 2026-08-10 |
+| [content](https://github.com/sahiixx/content) | Markdown | 0⭐ | 2026-08-10 |
+| [node](https://github.com/sahiixx/node) | JavaScript | 0⭐ | 2026-08-10 |
+| [privacy-sandbox-demos](https://github.com/sahiixx/privacy-sandbox-demos) | TypeScript | 0⭐ | 2026-08-10 |
+| [cookbook](https://github.com/sahiixx/cookbook) | Jupyter Notebook | 1⭐ | 2026-08-10 |
+| [RuView](https://github.com/sahiixx/RuView) | Rust | 1⭐ | 2026-08-10 |
+| [fides](https://github.com/sahiixx/fides) | Python | 0⭐ | 2026-08-10 |
+| [build-your-own-x](https://github.com/sahiixx/build-your-own-x) | Markdown | 0⭐ | 2026-08-10 |
+| [Real-Time-Voice-Cloning](https://github.com/sahiixx/Real-Time-Voice-Cloning) | Python | 0⭐ | 2026-08-10 |
+| [next.js](https://github.com/sahiixx/next.js) | JavaScript | 0⭐ | 2026-08-10 |
 | *...and 52 more forks* | | | |
 
 ## Language Distribution
 
-- **Python**: 42 repos
-- **TypeScript**: 28 repos
-- **JavaScript**: 11 repos
-- **HTML**: 5 repos
-- **Rust**: 3 repos
-- **Jupyter Notebook**: 3 repos
+- **Python**: 67 repos
+- **TypeScript**: 55 repos
+- **JavaScript**: 13 repos
+- **HTML**: 9 repos
+- **Go**: 8 repos
+- **Rust**: 7 repos
+- **Jupyter Notebook**: 6 repos
+- **Kotlin**: 5 repos
+- **Java**: 4 repos
+- **Markdown**: 2 repos
+- **C++**: 2 repos
 - **MDX**: 2 repos
 - **CSS**: 1 repos
-- **Markdown**: 1 repos
-- **Svelte**: 1 repos
-- **Go**: 1 repos
-- **AL**: 1 repos
-- **Astro**: 1 repos
-- **Shell**: 1 repos
+- **Ruby**: 1 repos
+- **Dart**: 1 repos
 
 ---
 

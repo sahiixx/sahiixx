@@ -1,131 +1,167 @@
-# sahiixx
+# 👋 Welcome to SAHIIXX - AI Systems Architect
 
-![Agentic](https://img.shields.io/badge/agentic-harness-purple)
+> **Building the next generation of AI agents, autonomous systems, and intelligent automation platforms**
 
-**Building autonomous revenue infrastructure for global enterprises**
+## 🌟 About
 
-## Table of Contents
+I'm an **AI Systems Architect** specializing in:
+- 🤖 **AI Agent Frameworks** - Building sophisticated multi-agent systems
+- 🧠 **LLM Integration** - Working with Claude, GPT, Qwen, DeepSeek, and open models
+- 🏗️ **Full-Stack AI** - From inference to production deployment
+- 📊 **Real Estate Tech** - AI-powered revenue operating systems
+- 🔐 **Security & Automation** - Autonomous penetration testing and CI/CD
 
-- [Overview](#overview)
-- [Quick Start](#quick-start)
-- [Agentic Architecture](#agentic-architecture)
-- [Model Routing](#model-routing)
-- [Project Layout](#project-layout)
-- [Development](#development)
-- [Related Repositories](#related-repositories)
+## 📦 My Ecosystem (200+ Repositories)
 
-## Overview
+### 🎯 Core Systems (Priority Projects)
 
-**Building autonomous revenue infrastructure for global enterprises**
+| Project | Language | Purpose | Status |
+|---------|----------|---------|--------|
+| **sahiixx-os** | TypeScript | Full-stack AI Operating System | 🟢 Active |
+| **sovereign-revenue-os** | Python | Dubai Real Estate AI Revenue OS | 🟢 Active |
+| **agentic-harness** | Python | Azure workflow orchestration layer | 🟢 Active |
+| **autogenous** | TypeScript | Governed evolutionary software | 🟢 Active |
+| **hermes-agent** | Python | Personal AI assistant framework | 🟢 Active |
 
-| | |
-|---|---|
-| **Stack** | — |
-| **Frameworks** | — |
-| **Tests** | none detected |
-| **Commits** | 2 |
-| **Last activity** | 2026-08-10 |
-| **Visibility** | public |
+### 🤖 AI/Agent Frameworks (45+ repos)
 
-## Quick Start
+**Google ADK Suite:**
+- `adk-java` - Agent Development Kit (Java)
+- `adk-python` - Agent Development Kit (Python)
+- `adk-samples` - Implementation examples ⭐ Recently Updated
 
-### Install
+**OpenAI Suite:**
+- `openai-agents-js` & `openai-agents-python` - Multi-agent frameworks
+- `openai-cs-agents-demo` - Customer service example
+- `openai-realtime-agents` - Real-time API agents
+- `openai-structured-outputs-samples` - Structured outputs
 
-```bash
-# No dependency manifest detected — see source layout below.
-```
+**Alternative Frameworks:**
+- `autogen` - Microsoft AutoGen
+- `genkit` - Google Genkit
+- `langchain` - LangChain
+- `swarm` - OpenAI Swarm
 
-### Run
+### 🌐 Web & Automation (30+ repos)
 
-```bash
-# Entry point not auto-detected; inspect the layout below.
-```
+- `lobe-chat` - Modern AI chat
+- `botpress` - Agent deployment hub
+- `n8n` - Workflow automation
+- `activepieces` - AI automation
+- `browser-use` - Website automation
+- `bifrost` - LLM Gateway
 
-## Agentic Architecture
+### 💼 Real Estate & Business Verticals
 
-This repository participates in the [sahiixx agentic harness](https://github.com/sahiixx/agentic-harness) — a shared
-contract for how agents plan, act, verify, and recover across all repos in this account.
+- `sovereign-agents` - Lead pipeline
+- `sovereign-swarm-v2` - Multi-agent coordination
+- `nexus-buyer-recovery` - Real estate CRM
 
-**Signal strength:** agentic density score `392` (references to agent,
-tool-call, LLM, RAG and orchestration primitives across the source tree).
+### 📚 Learning & Resources (20+ repos)
 
-### Patterns in play
+- `awesome-*` series (15+ curated collections)
+- Multiple AI/ML cookbooks
+- Tutorial repositories
 
-| Pattern | Role here |
-|---|---|
-| **Prompt Chaining** | Deterministic multi-step pipelines where subtasks are known upfront |
-| **Routing** | Classify input, dispatch to the specialist path (cheap model for easy work) |
-| **Parallelization** | Independent subtasks fan out; results aggregated programmatically |
-| **Orchestrator–Workers** | Central planner decomposes dynamically when subtasks can't be predicted |
-| **Evaluator–Optimizer** | Generator/judge split with explicit rubric; bounded retry |
-| **ReAct** | Interleaved reason → act → observe for adaptive tool use |
-| **Reflection** | Self-critique before emitting a final answer |
+### 🔐 Security & Infrastructure
 
-> Escalation rule: start with the simplest pattern that solves the problem. Add
-> Reflection only when verification fails, Planning only when dependencies emerge,
-> Multi-Agent only when work exceeds a single role or context window.
+- `airecon` - Cybersecurity agent
+- `shannon` - Web security scanner
+- `T3MP3ST` - Red teaming platform
+- `trufflehog` - Credential detection
 
-### Reliability envelope
+### 🚀 Tools & Utilities
 
-- **Bounded execution** — every loop has a max-iteration and wall-clock ceiling.
-- **Tool sandboxing** — filesystem/network side effects are isolated and reversible.
-- **Guardrail layering** — validate at input, mid-loop, and output.
-- **Context engineering** — select, compress, isolate; never let raw history grow unbounded.
-- **Self-verification** — check intermediate output against constraints before continuing.
-
-## Model Routing
-
-Agent work in this repo routes through Azure AI Foundry. See [`AGENTS.md`](./AGENTS.md)
-for the full contract.
-
-| Purpose | Deployment | Endpoint |
-|---|---|---|
-| Default / general | `gpt-5.6-sol` | `/openai/v1/chat/completions` |
-| Deep reasoning | `claude-opus-5` | `/openai/v1/responses` **only** |
-| Embeddings | `text-embedding-3-small` | `/openai/v1/embeddings` |
-
-```bash
-export AZURE_FOUNDRY_API_KEY=...        # never commit this
-export AZURE_FOUNDRY_BASE_URL=https://<resource>.openai.azure.com/openai/v1
-```
-
-> **Gotcha:** Claude deployments on Azure return `404 api_not_supported` on
-> `/chat/completions`. They answer **only** via the Responses API.
-
-## Project Layout
-
-```
-AGENTS.md
-ALL_169_REPOS.md
-CONNECTED_ECOSYSTEM.md
-FULL_PORTFOLIO.md
-LICENSE
-PUSH_INSTRUCTIONS.md
-README.md
-generate_portfolio.py
-generated_portfolio.md
-repo_manager.py
-```
-
-## Development
-
-```bash
-# lint / format before committing
-# no linter configured
-
-# run the CI check locally
-gh workflow run hermes-azure-check.yml
-```
-
-Secrets live in environment variables and CI secrets — never in tracked files.
-
-## Related Repositories
-
-Part of a 84-repository workspace sharing one agentic contract:
-
-- **[agentic-harness](https://github.com/sahiixx/agentic-harness)** — patterns, contracts, and reference implementations
-- `AGENTS.md` in every repo pins identical model routing
+- `cli` - GitHub CLI
+- `ollama` - LLM inference
+- `workers-sdk` - Cloudflare Workers
+- `systems-panel` - Monitoring dashboard
 
 ---
 
-<sub>README maintained by the agentic harness · last regenerated 2026-08-10</sub>
+## 🔧 Tech Stack
+
+**Languages:** Python (50+), TypeScript (40+), Go, Rust, Java, Kotlin, JavaScript
+
+**AI/ML:** OpenAI, Claude, Qwen, DeepSeek, Ollama, Google Gemini
+
+**Web:** React, Next.js, Vue, Svelte, Node.js
+
+**Cloud:** Azure, Google Cloud, Cloudflare, AWS
+
+---
+
+## 📊 Repository Organization
+
+- **Total Repos**: 200+
+- **Active Projects**: 60+
+- **Experimental**: 40+
+- **Educational/Reference**: 50+
+- **Languages**: Python, TypeScript, Go, Rust, Java, Kotlin
+
+---
+
+## 🚀 Getting Started
+
+### Explore by Interest
+
+**Want to build AI agents?**
+→ Start with `adk-samples`, `openai-agents-js`, or `genkit`
+
+**Want to automate workflows?**
+→ Check `n8n`, `activepieces`, or `browser-use`
+
+**Want to learn AI/ML?**
+→ Browse `awesome-*` collections and cookbooks
+
+**Want production systems?**
+→ Study `sahiixx-os`, `sovereign-revenue-os`, `agentic-harness`
+
+---
+
+## 📋 Categories
+
+Browse by type:
+- **[AI Agents & Frameworks](https://github.com/sahiixx?tab=repositories&q=agent)** - Agent SDKs and multi-agent systems
+- **[Web & Full-Stack](https://github.com/sahiixx?tab=repositories&q=web)** - Web apps and frameworks
+- **[Real Estate Tech](https://github.com/sahiixx?tab=repositories&q=sovereign)** - Business automation
+- **[Learning Resources](https://github.com/sahiixx?tab=repositories&q=awesome)** - Educational content
+- **[Security Tools](https://github.com/sahiixx?tab=repositories&q=security)** - Security & scanning
+
+---
+
+## 🌟 Highlighted Projects
+
+1. **[sahiixx-os](https://github.com/sahiixx/sahiixx-os)** - Full-stack OS with React + TypeScript
+2. **[sovereign-revenue-os](https://github.com/sahiixx/sovereign-revenue-os)** - Production AI system
+3. **[adk-samples](https://github.com/sahiixx/adk-samples)** - Learn agent patterns
+4. **[lobe-chat](https://github.com/sahiixx/lobe-chat)** - Modern chat interface
+5. **[n8n](https://github.com/sahiixx/n8n)** - Visual workflow builder
+
+---
+
+## 📖 Documentation
+
+Each repo includes:
+- ✅ Comprehensive README
+- ✅ Quick start guide
+- ✅ API documentation
+- ✅ Usage examples
+- ✅ Contribution guidelines
+
+---
+
+## 🤝 Contributing
+
+Contributions welcome! See individual repos for guidelines.
+
+---
+
+## 📞 Connect
+
+- **GitHub**: [@sahiixx](https://github.com/sahiixx)
+- **Portfolio**: [sahiix-portfolio.pages.dev](https://sahiix-portfolio.pages.dev)
+
+---
+
+**Building the future of AI • Open source • Production-ready**

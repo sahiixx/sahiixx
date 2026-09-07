@@ -18,14 +18,14 @@ I'm an **AI Systems Architect** specializing in:
 Canonical architecture (full doc: [`SAHIIX_STACK_v2.1.md`](https://github.com/sahiixx/sahiix-os-docs/blob/feat/sahiix-stack-v2.1/SAHIIX_STACK_v2.1.md))
 
 ```
-L7  EXPERIENCE          sahiixx-os · portfolio · Jarvis · CLI
+L7  EXPERIENCE          sahiixx-os · portfolio · Jarvis · CLI · agno (App Builder)
 L6  VERTICALS           Sovereign Revenue OS · NEXUS · Lead Machine · friday-os
-L5  AGENT RUNTIME        OPA (sahiixx-agency) · QualificationAgent · MessageBus
+L5  AGENT RUNTIME        OPA (sahiixx-agency) · QualificationAgent · GeoMatch · MessageBus
 L4  AGENTIC HARNESS     shared patterns + Azure Foundry model routing
 L3  EDGE & GOVERNANCE   sahiix-proxy (JWT · rate-limit · WATI · Termux)
 L2  INTEGRATION         n8n · Hermes MCP · freellmpool · Ollama
 L1  DATA & MEMORY       Neon · Redis · Qdrant · Titans · GraphSight
-L0  INFRA               Cloudflare · Azure · Docker/GHCR · Termux edge
+L0  INFRA               Cloudflare · Azure · Docker/GHCR · Vercel · Termux edge
 ```
 
 | Runtime | Repo | Role |
@@ -34,9 +34,10 @@ L0  INFRA               Cloudflare · Azure · Docker/GHCR · Termux edge
 | Edge Proxy | [`sahiix-proxy`](https://github.com/sahiixx/sahiix-proxy) | Auth / rate / governance |
 | E2E | [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e) | Playwright system + Lead Machine |
 | OS Shell | [`sahiixx-os`](https://github.com/sahiixx/sahiixx-os) | Command center |
+| **Agno** | [`agno`](https://github.com/sahiixx/agno) (**private**) | App Builder workspace (TanStack Start · Vite · Vercel) |
 | Harness | [`agentic-harness`](https://github.com/sahiixx/agentic-harness) | Shared agent contracts |
 
-**Lead Machine status:** QualificationAgent is **live** in OPA. Capture / GeoMatch / Scheduling / Reporting are next.
+**Lead Machine status:** QualificationAgent is **live** in OPA. GeoMatchAgent code landed. Capture / Scheduling / Reporting next.
 
 ---
 
@@ -47,6 +48,7 @@ L0  INFRA               Cloudflare · Azure · Docker/GHCR · Termux edge
 | Project | Language | Purpose | Status |
 |---------|----------|---------|--------|
 | **sahiixx-os** | TypeScript | Full-stack AI Operating System | 🟢 Active |
+| **agno** | TypeScript | App Builder workspace (private) | 🟢 Active |
 | **sovereign-revenue-os** | Python | Dubai Real Estate AI Revenue OS | 🟢 Active |
 | **agentic-harness** | Python | Azure workflow orchestration layer | 🟢 Active |
 | **sahiix-proxy** | TypeScript | Edge proxy + governance | 🟢 Active |
@@ -84,8 +86,8 @@ See full lists in older sections / repo search.
 
 **Languages:** Python · TypeScript · Go · Rust · Java · Kotlin · JavaScript  
 **AI/ML:** OpenAI · Claude · Qwen · DeepSeek · Ollama · Google Gemini · Azure Foundry  
-**Web:** React · Next.js · Vue · Svelte · Node.js · tRPC  
-**Cloud:** Azure · Google Cloud · Cloudflare · AWS · Termux edge
+**Web:** React · TanStack Start · Next.js · Vite · Node.js · tRPC  
+**Cloud:** Azure · Google Cloud · Cloudflare · AWS · Vercel · Termux edge
 
 ---
 
@@ -103,6 +105,7 @@ See full lists in older sections / repo search.
 **Want the architecture?** → [SAHIIX Stack v2.1](https://github.com/sahiixx/sahiix-os-docs/blob/feat/sahiix-stack-v2.1/SAHIIX_STACK_v2.1.md)  
 **Want AI agents?** → `adk-samples`, `openai-agents-js`, `agentic-harness`  
 **Want production systems?** → `sahiixx-os`, `sovereign-revenue-os`, `sahiixx-agency`  
+**Want App Builder?** → `agno` (private — React/TanStack Start sandbox)  
 **Want E2E contracts?** → `sahiixx-e2e` (Lead Machine pure scorer + CI smoke)
 
 ---
@@ -120,10 +123,11 @@ See full lists in older sections / repo search.
 ## 🌟 Highlighted Projects
 
 1. **[sahiixx-os](https://github.com/sahiixx/sahiixx-os)** — Full-stack OS
-2. **[sovereign-revenue-os](https://github.com/sahiixx/sovereign-revenue-os)** — Production AI revenue system
-3. **[sahiixx-agency](https://github.com/sahiixx/sahiixx-agency)** — OPA runtime + QualificationAgent
-4. **[sahiix-proxy](https://github.com/sahiixx/sahiix-proxy)** — Edge governance
-5. **[sahiixx-e2e](https://github.com/sahiixx/sahiixx-e2e)** — System E2E + Lead Machine contracts
+2. **[agno](https://github.com/sahiixx/agno)** — App Builder workspace (private)
+3. **[sovereign-revenue-os](https://github.com/sahiixx/sovereign-revenue-os)** — Production AI revenue system
+4. **[sahiixx-agency](https://github.com/sahiixx/sahiixx-agency)** — OPA runtime + QualificationAgent
+5. **[sahiix-proxy](https://github.com/sahiixx/sahiix-proxy)** — Edge governance
+6. **[sahiixx-e2e](https://github.com/sahiixx/sahiixx-e2e)** — System E2E + Lead Machine contracts
 
 ---
 

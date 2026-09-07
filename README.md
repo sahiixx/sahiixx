@@ -11,7 +11,36 @@ I'm an **AI Systems Architect** specializing in:
 - 📊 **Real Estate Tech** - AI-powered revenue operating systems
 - 🔐 **Security & Automation** - Autonomous penetration testing and CI/CD
 
-## 📦 My Ecosystem (200+ Repositories)
+---
+
+## 🏛️ SAHIIX Stack v2.1
+
+Canonical architecture (full doc: [`SAHIIX_STACK_v2.1.md`](https://github.com/sahiixx/sahiix-os-docs/blob/feat/sahiix-stack-v2.1/SAHIIX_STACK_v2.1.md))
+
+```
+L7  EXPERIENCE          sahiixx-os · portfolio · Jarvis · CLI
+L6  VERTICALS           Sovereign Revenue OS · NEXUS · Lead Machine · friday-os
+L5  AGENT RUNTIME        OPA (sahiixx-agency) · QualificationAgent · MessageBus
+L4  AGENTIC HARNESS     shared patterns + Azure Foundry model routing
+L3  EDGE & GOVERNANCE   sahiix-proxy (JWT · rate-limit · WATI · Termux)
+L2  INTEGRATION         n8n · Hermes MCP · freellmpool · Ollama
+L1  DATA & MEMORY       Neon · Redis · Qdrant · Titans · GraphSight
+L0  INFRA               Cloudflare · Azure · Docker/GHCR · Termux edge
+```
+
+| Runtime | Repo | Role |
+|---------|------|------|
+| OPA | [`sahiixx-agency`](https://github.com/sahiixx/sahiixx-agency) | Dispatch + specialist adapters |
+| Edge Proxy | [`sahiix-proxy`](https://github.com/sahiixx/sahiix-proxy) | Auth / rate / governance |
+| E2E | [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e) | Playwright system + Lead Machine |
+| OS Shell | [`sahiixx-os`](https://github.com/sahiixx/sahiixx-os) | Command center |
+| Harness | [`agentic-harness`](https://github.com/sahiixx/agentic-harness) | Shared agent contracts |
+
+**Lead Machine status:** QualificationAgent is **live** in OPA. Capture / GeoMatch / Scheduling / Reporting are next.
+
+---
+
+## 📦 Ecosystem (200+ Repositories)
 
 ### 🎯 Core Systems (Priority Projects)
 
@@ -20,74 +49,43 @@ I'm an **AI Systems Architect** specializing in:
 | **sahiixx-os** | TypeScript | Full-stack AI Operating System | 🟢 Active |
 | **sovereign-revenue-os** | Python | Dubai Real Estate AI Revenue OS | 🟢 Active |
 | **agentic-harness** | Python | Azure workflow orchestration layer | 🟢 Active |
+| **sahiix-proxy** | TypeScript | Edge proxy + governance | 🟢 Active |
+| **sahiixx-agency** | Python | OPA multi-agent runtime | 🟢 Active |
+| **sahiixx-e2e** | TypeScript | System + AI + Lead Machine E2E | 🟢 Active |
 | **autogenous** | TypeScript | Governed evolutionary software | 🟢 Active |
 | **hermes-agent** | Python | Personal AI assistant framework | 🟢 Active |
 
 ### 🤖 AI/Agent Frameworks (45+ repos)
 
 **Google ADK Suite:**
-- `adk-java` - Agent Development Kit (Java)
-- `adk-python` - Agent Development Kit (Python)
-- `adk-samples` - Implementation examples ⭐ Recently Updated
+- `adk-java` · `adk-python` · `adk-samples`
 
 **OpenAI Suite:**
-- `openai-agents-js` & `openai-agents-python` - Multi-agent frameworks
-- `openai-cs-agents-demo` - Customer service example
-- `openai-realtime-agents` - Real-time API agents
-- `openai-structured-outputs-samples` - Structured outputs
+- `openai-agents-js` · `openai-agents-python` · realtime + structured-output samples
 
 **Alternative Frameworks:**
-- `autogen` - Microsoft AutoGen
-- `genkit` - Google Genkit
-- `langchain` - LangChain
-- `swarm` - OpenAI Swarm
+- `autogen` · `genkit` · `langchain` · `swarm`
 
 ### 🌐 Web & Automation (30+ repos)
 
-- `lobe-chat` - Modern AI chat
-- `botpress` - Agent deployment hub
-- `n8n` - Workflow automation
-- `activepieces` - AI automation
-- `browser-use` - Website automation
-- `bifrost` - LLM Gateway
+- `lobe-chat` · `botpress` · `n8n` · `activepieces` · `browser-use` · `bifrost`
 
 ### 💼 Real Estate & Business Verticals
 
-- `sovereign-agents` - Lead pipeline
-- `sovereign-swarm-v2` - Multi-agent coordination
-- `nexus-buyer-recovery` - Real estate CRM
+- `sovereign-agents` · `sovereign-swarm-v2` · `nexus-buyer-recovery`
 
-### 📚 Learning & Resources (20+ repos)
+### 📚 Learning & Resources · 🔐 Security · 🚀 Tools
 
-- `awesome-*` series (15+ curated collections)
-- Multiple AI/ML cookbooks
-- Tutorial repositories
-
-### 🔐 Security & Infrastructure
-
-- `airecon` - Cybersecurity agent
-- `shannon` - Web security scanner
-- `T3MP3ST` - Red teaming platform
-- `trufflehog` - Credential detection
-
-### 🚀 Tools & Utilities
-
-- `cli` - GitHub CLI
-- `ollama` - LLM inference
-- `workers-sdk` - Cloudflare Workers
-- `systems-panel` - Monitoring dashboard
+See full lists in older sections / repo search.
 
 ---
 
 ## 🔧 Tech Stack
 
-**Languages:** Python (50+), TypeScript (40+), Go, Rust, Java, Kotlin, JavaScript
-
-**AI/ML:** OpenAI, Claude, Qwen, DeepSeek, Ollama, Google Gemini
-
-**Web:** React, Next.js, Vue, Svelte, Node.js
-
-**Cloud:** Azure, Google Cloud, Cloudflare, AWS
+**Languages:** Python · TypeScript · Go · Rust · Java · Kotlin · JavaScript  
+**AI/ML:** OpenAI · Claude · Qwen · DeepSeek · Ollama · Google Gemini · Azure Foundry  
+**Web:** React · Next.js · Vue · Svelte · Node.js · tRPC  
+**Cloud:** Azure · Google Cloud · Cloudflare · AWS · Termux edge
 
 ---
 
@@ -97,63 +95,35 @@ I'm an **AI Systems Architect** specializing in:
 - **Active Projects**: 60+
 - **Experimental**: 40+
 - **Educational/Reference**: 50+
-- **Languages**: Python, TypeScript, Go, Rust, Java, Kotlin
 
 ---
 
 ## 🚀 Getting Started
 
-### Explore by Interest
-
-**Want to build AI agents?**
-→ Start with `adk-samples`, `openai-agents-js`, or `genkit`
-
-**Want to automate workflows?**
-→ Check `n8n`, `activepieces`, or `browser-use`
-
-**Want to learn AI/ML?**
-→ Browse `awesome-*` collections and cookbooks
-
-**Want production systems?**
-→ Study `sahiixx-os`, `sovereign-revenue-os`, `agentic-harness`
+**Want the architecture?** → [SAHIIX Stack v2.1](https://github.com/sahiixx/sahiix-os-docs/blob/feat/sahiix-stack-v2.1/SAHIIX_STACK_v2.1.md)  
+**Want AI agents?** → `adk-samples`, `openai-agents-js`, `agentic-harness`  
+**Want production systems?** → `sahiixx-os`, `sovereign-revenue-os`, `sahiixx-agency`  
+**Want E2E contracts?** → `sahiixx-e2e` (Lead Machine pure scorer + CI smoke)
 
 ---
 
 ## 📋 Categories
 
-Browse by type:
-- **[AI Agents & Frameworks](https://github.com/sahiixx?tab=repositories&q=agent)** - Agent SDKs and multi-agent systems
-- **[Web & Full-Stack](https://github.com/sahiixx?tab=repositories&q=web)** - Web apps and frameworks
-- **[Real Estate Tech](https://github.com/sahiixx?tab=repositories&q=sovereign)** - Business automation
-- **[Learning Resources](https://github.com/sahiixx?tab=repositories&q=awesome)** - Educational content
-- **[Security Tools](https://github.com/sahiixx?tab=repositories&q=security)** - Security & scanning
+- **[AI Agents & Frameworks](https://github.com/sahiixx?tab=repositories&q=agent)**
+- **[Web & Full-Stack](https://github.com/sahiixx?tab=repositories&q=web)**
+- **[Real Estate Tech](https://github.com/sahiixx?tab=repositories&q=sovereign)**
+- **[Learning Resources](https://github.com/sahiixx?tab=repositories&q=awesome)**
+- **[Security Tools](https://github.com/sahiixx?tab=repositories&q=security)**
 
 ---
 
 ## 🌟 Highlighted Projects
 
-1. **[sahiixx-os](https://github.com/sahiixx/sahiixx-os)** - Full-stack OS with React + TypeScript
-2. **[sovereign-revenue-os](https://github.com/sahiixx/sovereign-revenue-os)** - Production AI system
-3. **[adk-samples](https://github.com/sahiixx/adk-samples)** - Learn agent patterns
-4. **[lobe-chat](https://github.com/sahiixx/lobe-chat)** - Modern chat interface
-5. **[n8n](https://github.com/sahiixx/n8n)** - Visual workflow builder
-
----
-
-## 📖 Documentation
-
-Each repo includes:
-- ✅ Comprehensive README
-- ✅ Quick start guide
-- ✅ API documentation
-- ✅ Usage examples
-- ✅ Contribution guidelines
-
----
-
-## 🤝 Contributing
-
-Contributions welcome! See individual repos for guidelines.
+1. **[sahiixx-os](https://github.com/sahiixx/sahiixx-os)** — Full-stack OS
+2. **[sovereign-revenue-os](https://github.com/sahiixx/sovereign-revenue-os)** — Production AI revenue system
+3. **[sahiixx-agency](https://github.com/sahiixx/sahiixx-agency)** — OPA runtime + QualificationAgent
+4. **[sahiix-proxy](https://github.com/sahiixx/sahiix-proxy)** — Edge governance
+5. **[sahiixx-e2e](https://github.com/sahiixx/sahiixx-e2e)** — System E2E + Lead Machine contracts
 
 ---
 
@@ -164,4 +134,4 @@ Contributions welcome! See individual repos for guidelines.
 
 ---
 
-**Building the future of AI • Open source • Production-ready**
+**Building the future of AI · Open source · Production-ready · SAHIIX Stack v2.1**

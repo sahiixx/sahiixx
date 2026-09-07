@@ -1,567 +1,278 @@
 # SAHIIXX · Founder Service Offering & Venture Architecture
-**AI Systems Architect · Founder Mode · Service Provider**
+
+**AI Systems Architect · Founder mode · Service provider**  
+**Status:** Planning document · 2026-09-07  
+**Tech foundation:** [SAHIIX Stack v2.1](https://github.com/sahiixx/sahiix-os-docs/blob/master/SAHIIX_STACK_v2.1.md) · [REPO_MAP.md](./REPO_MAP.md)
+
+> Revenue figures below are **targets / scenarios**, not audited results.  
+> Ship claims only when they match live systems (Lead Machine HTTP is live; many verticals still MVP).
 
 ---
 
-## 🎯 The Opportunity
+## 1. The opportunity
 
-You're not just building tools—you're **building a business model** where:
-- Your **OPA orchestrator** becomes a **white-label AI agent platform**
-- Your **agentic harness** becomes a **consulting service** for enterprise AI
-- Your **E2E testing framework** becomes a **quality-as-a-service** offering
-- Your **real estate lead machine** becomes a **revenue-generating vertical**
-- Your **one-person agency** model becomes a **licensing/SaaS play**
+You are not only shipping repos. You can productize the same stack as:
 
----
-
-## 💼 SAHIIXX as Founder: Three Revenue Streams
-
-### **Stream 1: Consulting & Systems Architecture**
-**What:** Enterprise AI agent deployment  
-**Your ICP (Ideal Client Profile):** Companies building autonomous systems (10-500 person teams)  
-**Services:**
-- Agent architecture design (days 1-5: $50-100K)
-- Agentic harness implementation (weeks 2-8: $100-250K)
-- E2E testing framework setup (weeks 3-4: $25-50K)
-- MLOps + Azure Foundry routing (weeks 1-4: $40-75K)
-- Team training on patterns & best practices (2-week intensive: $30-50K)
-
-**Your Moat:**
-- Proven patterns (`agentic-harness` 31/31 verified live)
-- Production contract (AGENTS.md standardization)
-- Real revenue case (Dubai RE lead machine, NEXUS)
-- Security/compliance built-in (airecon, fides integration)
-
-**Pricing Model:**
-```
-Project-based (2026):
-├─ Startup (1-5 agents, 1 model router)        $75-150K
-├─ Scale-up (5-20 agents, multi-model)         $200-400K
-├─ Enterprise (50+ agents, governance layer)   $500K-2M+
-└─ Retainer (ongoing ops + new verticals)      $15-30K/month
-```
-
-**Go-to-Market:**
-- Publish **"Production Agent Architecture: SAHIIX Stack Case Study"** (LinkedIn + Medium)
-- Offer **free 1-week audit** (scope → proposal)
-- Target companies with active AI budget (2026: $1-2T market)
+| Asset (tech) | Commercial form |
+|--------------|-----------------|
+| **OPA** (`sahiixx-agency`) | White-label / multi-tenant agent platform |
+| **Agentic harness** | Enterprise implementation + training |
+| **E2E** (`sahiixx-e2e`) | Agent quality / contract testing as a service |
+| **Lead Machine** | Dubai RE revenue vertical |
+| **One-person agency model** | Licensing + managed OPA |
 
 ---
 
-### **Stream 2: White-Label Platform (SaaS)**
-**What:** Sell the OPA orchestrator as a managed service  
-**Platform:** `saas-agent-platform` (already exists in your portfolio)
+## 2. Three revenue streams
 
-**Product Tiers:**
+### Stream 1 — Consulting & systems architecture
 
-| Tier | Price/mo | Agents | Modules | Support |
-|------|----------|--------|---------|---------|
-| **Starter** | $299 | 2-5 | Access to 50+ public | Community |
-| **Professional** | $999 | 5-20 | Access to 170+ | Email 24h |
-| **Enterprise** | $4,999+ | Unlimited | Custom modules + private registry | Dedicated Slack |
+**Offer:** Design and deploy production agent systems.  
+**ICP:** Teams (roughly 10–500 people) building autonomous or multi-agent products.
 
-**Your Work (Once):**
-- Dockerize OPA (`docker pull sahiixx/opa:latest`)
-- Wire auth/multi-tenancy (Better Auth + Prisma)
-- Build dashboard (React, sahiixx-os patterns)
-- Deploy to Vercel + Railway/Render
-- Implement billing (Stripe/Paddle)
-- Set up CI/CD for module releases
+| Engagement | Scope (indicative) | Price band (target) |
+|------------|--------------------|---------------------|
+| Architecture design | Days 1–5 | $50–100K |
+| Harness implementation | Weeks 2–8 | $100–250K |
+| E2E / contract testing setup | Weeks 3–4 | $25–50K |
+| Model routing (e.g. Azure Foundry) | Weeks 1–4 | $40–75K |
+| Team training (patterns) | ~2 weeks | $30–50K |
 
-**Recurring Revenue (Mostly Automated):**
-- Stripe collects $299-5K/customer
-- Hermes MCP auto-scales (serverless)
-- You monitor alerts + add features
+**Package bands (target):**
 
-**Year 1 Target:**
-```
-50 SMBs paying $999/mo = $600K ARR
-5 enterprise paying $4,999/mo = $300K ARR
-Total Year 1 recurring: ~$900K
-(Your time: 10-15 hrs/week ops + 10 hrs/week product)
-```
+| Segment | Shape | Target fee |
+|---------|--------|------------|
+| Startup | 1–5 agents, one router | $75–150K |
+| Scale-up | 5–20 agents, multi-model | $200–400K |
+| Enterprise | 50+ agents, governance | $500K–2M+ |
+| Retainer | Ops + new verticals | $15–30K / month |
 
-**Differentiation vs. Competitors:**
-- Anthropic Claude Projects (locked to Claude)
-- OpenAI Agents (no multi-agent/edge/security)
-- n8n (workflow-focused, not agentic)
-- **SAHIIXX:** Multi-model + governance + production patterns + Dubai RE proof
+**Moat (honest):**
+- Shared patterns in `agentic-harness` + AGENTS.md-style contracts  
+- Real domain path: Dubai RE Lead Machine + NEXUS / Sovereign  
+- Edge governance (`sahiix-proxy`) and security experiments (clearwing / related)  
+- Do **not** claim “all harness tests green” or “RE already at scale ARR” unless measured
+
+**GTM:** Long-form case study → free scoped audit → paid SOW. Content on LinkedIn / Medium / X.
 
 ---
 
-### **Stream 3: Vertical Solutions (Revenue-Generating)**
-**What:** Pre-built, turnkey agent systems for specific industries
+### Stream 2 — White-label platform (SaaS)
 
-#### **Vertical A: Real Estate Lead Machine** (Current)
-**Status:** Live, HTTP API, NEXUS revenue OS  
-**Customers:** Dubai brokers, property platforms, real estate SaaS  
+**Offer:** Managed OPA / agent orchestration as a service.  
+**Code base:** `saas-agent-platform` + `sahiixx-agency` (+ multi-tenant auth, billing).
 
-**Business Model:**
-```
-Option 1: Per-lead fees
-├─ $0.50 per qualified lead (SAHIIXX gets 20%, customer gets 80%)
-├─ 100 leads/day × $0.50 × 30 days × 20% = $3K/month per customer
-└─ 50 customers = $150K/month recurring
+| Tier | Price / mo (target) | Agents | Modules | Support |
+|------|---------------------|--------|---------|---------|
+| Starter | $299 | 2–5 | Public module set | Community |
+| Professional | $999 | 5–20 | Broad registry | Email |
+| Enterprise | $4,999+ | Custom | Private registry + SLA | Dedicated channel |
 
-Option 2: Commission revenue-share
-├─ Customer completes RE transaction via matched lead
-├─ SAHIIXX takes 1-2% of transaction value
-├─ Average deal: $500K → SAHIIXX gets $5-10K per transaction
-└─ 100 transactions/month = $500K-1M/month
-```
+**Build once:**
+1. Docker image (`sahiixx/opa` or equivalent)  
+2. Multi-tenancy (auth + isolation)  
+3. Dashboard (patterns from `sahiixx-os` / portfolio)  
+4. Hosting (e.g. Vercel + Railway/Render)  
+5. Billing (Stripe / Paddle)  
+6. CI for module releases  
 
-**To Launch Year 1:**
-- [ ] Migrate Phase 25/26 scrapers to serverless (AWS Lambda)
-- [ ] Add WhatsApp/Telegram CRM integration
-- [ ] Build broker dashboard (sahiixx-os component)
-- [ ] Onboard 5 UAE real estate companies (pilot)
-- [ ] Measure: conversion, time-to-match, commission
+**Year-1 ARR sketch (aggressive, not a forecast):**  
+50 × $999/mo + 5 × $4,999/mo ≈ **~$900K ARR** if fully sold and retained — treat as ceiling for planning, not a promise.
 
-**12-Month Target:** $100-500K recurring from RE vertical alone
-
-#### **Vertical B: Security/Penetration Testing (airecon)**
-**Status:** Autonomous cybersecurity agent (Ollama + Kali Linux)  
-**Market:** Penetration testing, bug bounties, security audits  
-
-**Business Model:**
-```
-Option 1: Per-scan SaaS
-├─ $99-500/scan depending on scope
-├─ Customer uploads target (app/domain/network)
-├─ airecon runs autonomous recon + testing
-├─ 30-day trial → credit cards captured
-└─ Estimated: 500 scans/month × $150 = $75K/month
-```
-
-**To Launch Year 1:**
-- [ ] Harden sandbox (no data exfil, rate-limited)
-- [ ] Add report generation (PDF + findings)
-- [ ] Integrate CVE database (NVD, OSINT)
-- [ ] Marketing: security communities (HackerNews, Twitter, Product Hunt)
-- [ ] Compliance: SOC2 audit + data residency options
-
-**12-Month Target:** $50-150K recurring from security vertical
-
-#### **Vertical C: AI Agent Development (Agency Services)**
-**Status:** Design + build custom agents for clients  
-**Market:** Startups, SMBs, enterprises needing agents fast  
-
-**Business Model:**
-```
-Fixed-fee project delivery:
-├─ Agent audit & architecture (3 days): $15-30K
-├─ Build phase (2-4 weeks): $40-80K per agent
-├─ Integration & testing (1-2 weeks): $20-40K
-├─ Training + handoff (1 week): $10-15K
-└─ Per-client project: $85-165K
-```
-
-**To Launch Year 1:**
-- [ ] Build **"Agent Development Playbook"** (sales collateral)
-- [ ] Create 2-3 **case studies** from your existing repos
-- [ ] Hire **1 part-time developer** ($3-5K/month) for execution
-- [ ] You focus on: sales, architecture, quality gates
-- [ ] Pricing: 30-40% margin on developer time
-
-**12-Month Target:** 2-4 projects = $170-660K revenue (project-based)
+**Differentiation:** Multi-model routing + governance + production patterns + a vertical proof (RE), vs single-vendor agent UIs or pure workflow tools.
 
 ---
 
-## 🏢 SAHIIXX as Service Provider: Operating Model
+### Stream 3 — Vertical solutions
 
-### **Organizational Structure (Year 1)**
+#### A. Real Estate Lead Machine (primary)
 
-```
-┌─────────────────────────────────────────────┐
-│  SAHIIXX Ventures (You as Founder/CEO)      │
-├─────────────────────────────────────────────┤
-│                                             │
-│  Consulting Arm                             │
-│  ├─ You (architect + sales)                 │
-│  └─ 1x part-time senior engineer ($4-6K/mo)│
-│                                             │
-│  SaaS Platform Arm                          │
-│  ├─ Platform ops (you, ~10hrs/week)         │
-│  ├─ Freelance DevOps engineer ($2-3K/mo)    │
-│  └─ Community manager (part-time, $1-2K/mo)│
-│                                             │
-│  Verticals Arm                              │
-│  ├─ RE: Sales + lead ops (1x, $3K/mo)       │
-│  ├─ Security: Researcher ($2-3K/mo)         │
-│  └─ Agency: 1x developer ($3-5K/mo)         │
-│                                             │
-│  Shared                                     │
-│  ├─ DevOps & Infrastructure (you manage)    │
-│  ├─ GitHub Actions CI/CD (automated)        │
-│  └─ Billing & Legal (Stripe + accountant)   │
-└─────────────────────────────────────────────┘
+**Status (tech):** Capture → Qualify → GeoMatch live via `api.asgi` `/opa/lead/*`. Scheduling / reporting still open.  
+**Buyers:** Brokers, portals, RE SaaS in UAE / GCC.
 
-Year 1 Ops Budget: ~$30-50K/month
-Year 1 Target Revenue: $300K-1.5M
-Gross Margin: 65-80%
-```
+| Model | Sketch |
+|-------|--------|
+| Per qualified lead | e.g. $0.50/lead with revenue share to platform |
+| Deal participation | Small % of closed transaction (high variance) |
 
-### **Execution Timeline**
+**Near-term build:** serverless scrapers where needed · WhatsApp/CRM · broker UI · 3–5 pilot accounts · KPIs (time-to-qualify, match rate, close rate).
 
-**Month 1-2: Foundation**
-- [ ] Create SAHIIXX Ventures legal entity (LLC/C-Corp)
-- [ ] Register `sahiixx.io` + `sahiixx.co` domains
-- [ ] Set up:
-  - Stripe (payment collection)
-  - HubSpot (CRM + sales)
-  - Slack for customer communication
-  - Calendly for sales calls
-  - GitHub org for customer projects
-- [ ] Draft service agreements + SOW template
-- [ ] Create pricing pages for each stream
+**12-month target band:** $100–500K from RE **if** pilots convert — validate before scaling headcount.
 
-**Month 3-4: Consulting Launch**
-- [ ] Publish **"Agentic AI in Production: The SAHIIX Stack"** (long-form guide)
-- [ ] Create 2-3 **video walkthroughs** of agentic-harness + E2E testing
-- [ ] Launch **free architecture audit** offer (LinkedIn)
-- [ ] Target: 5-10 enterprise inbound consultations
+#### B. Security / autonomous assessment
 
-**Month 5-6: SaaS Platform Beta**
-- [ ] Dockerize OPA + multi-tenancy layer
-- [ ] Beta with 10 power users (early adopters)
-- [ ] Iterate on dashboard UX
-- [ ] Set up Stripe metering for agent usage
+**Status:** Experimental (e.g. clearwing / related agents).  
+**Offer only with:** hard sandbox, legal scope, no unauthorized testing, clear ToS.
 
-**Month 7-8: Vertical A (Real Estate) MVP**
-- [ ] Deploy Phase 25/26 scrapers to AWS Lambda
-- [ ] Build broker dashboard
-- [ ] Onboard 3-5 UAE pilot customers
-- [ ] Begin tracking KPIs (leads/day, conversion, commission)
+| Model | Sketch |
+|-------|--------|
+| Scoped scan SaaS | $99–500 / engagement |
 
-**Month 9-10: Vertical B (Security) MVP**
-- [ ] Harden airecon sandbox
-- [ ] Build report generator
-- [ ] Create landing page + pricing
-- [ ] Run Product Hunt launch
+**12-month target band:** $50–150K only after compliance and product-market signal.
 
-**Month 11-12: Scale & Optimize**
-- [ ] SaaS platform public launch
-- [ ] First enterprise consulting contract (target: $300K+)
-- [ ] Real estate vertical generating revenue
-- [ ] Security vertical getting traction
-- [ ] Hire 2-3 contractors for execution
+#### C. Custom agent build (agency)
+
+Fixed-fee delivery: audit → build → integrate → train.  
+**Indicative project:** $85–165K.  
+You sell architecture + QA; execution can be one part-time engineer.
 
 ---
 
-## 📊 Revenue Projections (12-Month Founder Model)
+## 3. Operating model (Year 1)
 
-### **Conservative Scenario**
-```
-Consulting:
-├─ 2 enterprise projects @ $150K avg    = $300K
-├─ 4 scale-up projects @ $100K avg      = $400K
-└─ Subtotal                              $700K
-
-SaaS Platform:
-├─ 10 professional plans @ $999/mo      = $120K (full year)
-├─ 2 enterprise plans @ $4,999/mo       = $120K (full year)
-└─ Subtotal                              $240K
-
-Real Estate Vertical:
-├─ 5 customers, $3K/month avg           = $180K (conservative)
-└─ Subtotal                              $180K
-
-Security Vertical:
-├─ 500 scans/month avg, $150            = $90K (half-year launch)
-└─ Subtotal                              $90K
-
-YEAR 1 TOTAL REVENUE: ~$1.21M
-Less: operating costs ($30-50K/mo × 12) = ~$450K
-YEAR 1 NET PROFIT: ~$760K
+```text
+SAHIIXX Ventures (founder)
+├── Consulting     — you (architect + sales) + 1 part-time senior eng
+├── SaaS           — you (~10h/wk ops) + freelance DevOps
+├── Verticals      — RE ops / security researcher / agency developer (as revenue appears)
+└── Shared         — CI, billing (Stripe), light finance/legal
 ```
 
-### **Aggressive Scenario**
-```
-Consulting:
-├─ 5 enterprise projects @ $200K avg    = $1M
-└─ Subtotal                              $1M
-
-SaaS Platform:
-├─ 50 professional plans @ $999/mo      = $600K (full year)
-├─ 5 enterprise plans @ $4,999/mo       = $300K (full year)
-└─ Subtotal                              $900K
-
-Real Estate Vertical:
-├─ 20 customers, $5K/month avg          = $1.2M
-└─ Subtotal                              $1.2M
-
-Security Vertical:
-├─ 2000 scans/month avg, $150           = $360K (full year)
-└─ Subtotal                              $360K
-
-YEAR 1 TOTAL REVENUE: ~$3.46M
-Less: operating costs ($50-80K/mo × 12) = ~$800K
-YEAR 1 NET PROFIT: ~$2.66M
-```
+**Ops budget (planning):** ~$30–50K/month when fully staffed with contractors.  
+**Hire order:** revenue first → part-time eng → sales/ops support — not the reverse.
 
 ---
 
-## 🎬 Founder Marketing Playbook
+## 4. Execution timeline (12 months)
 
-### **Content Strategy (Low Cost, High Leverage)**
-
-**1. Weekly Blog Posts (LinkedIn + Medium)**
-```
-Week 1: "Why Multi-Agent > Single LLM"
-Week 2: "How We Built a Real Estate Agent that Closes Leads in Hours"
-Week 3: "Azure Foundry vs OpenAI API: Enterprise AI Routing"
-Week 4: "E2E Testing for AI Agents: Playwright + LLM Assertions"
-Week 5: "One-Person Agency: How 1 Developer Orchestrates 170 Repos"
-...repeat every 5 weeks
-```
-→ Each post: 5-10K professional audience, 50-200 inbound leads/month
-
-**2. YouTube Series (10-15 min videos)**
-```
-1. "SAHIIX Stack in 15 Minutes" (tour of your architecture)
-2. "Building a Production AI Agent: Step-by-Step"
-3. "Agentic Design Patterns: From Theory to Code"
-4. "Dubai Real Estate Lead Machine: Case Study"
-5. "E2E Testing AI Agents with Playwright"
-```
-→ Each video: 2-5K views, 20-50 qualified leads, SEO boost
-
-**3. Twitter/X Strategy (Daily)**
-```
-Format: 1 thread/day sharing:
-- Agentic AI insights
-- Architecture decisions
-- Common agent failures + fixes
-- Tool recommendations
-- Customer wins (anonymized)
-
-Example thread:
-"I just built a real estate agent that qualifies leads in 2 seconds.
-Here's how:
-1/ Lead capture (WhatsApp) → PostgreSQL
-2/ Intent scoring (semantic routing)
-3/ GeoMatch (Neo4j trust graph)
-4/ Commission calc (EV=P*commission)
-5/ Revenue webhook
-
-Thread 🧵"
-```
-→ Build personal brand as "Agentic AI expert", 2-5K followers/month
-
-**4. Case Study & Webinars**
-```
-Webinar topics (60 min, $99 ticket or free + email capture):
-1. "Deploying AI Agents in Production" (free, get 500 emails)
-2. "Multi-Model Routing for Enterprise AI" (paid, $99, get 100 people)
-3. "Building Revenue-Generating AI Verticals" (paid, $199, get 50 people)
-
-Each webinar: 500-1000 leads, 10-20% convert to calls, 10-20% convert to projects
-```
-
-**5. Open Source Ecosystem**
-```
-Maintain + promote publicly:
-├─ agentic-harness (⭐ target: 2K stars by EOY)
-├─ sahiixx-e2e (⭐ target: 500 stars)
-├─ sahiixx-agency (⭐ target: 1K stars)
-└─ Friday OS (⭐ target: 3K stars)
-
-Each GitHub star = potential customer or hire
-```
-
-### **Sales Playbook**
-
-**Phase 1: Warm Outreach (Self-Sourced)**
-```
-Audience: CXOs at series A-B AI startups, mid-market tech cos
-Message: "I architected [case study], saved X on AI ops. 30-min call?"
-Tool: LinkedIn + direct email
-Target: 1-2 closed deals/month = $150-300K
-```
-
-**Phase 2: Inbound from Content**
-```
-Audience: Developers, architects reading your blog/watching YouTube
-Conversion: Content → landing page → email → consultation call
-Target: 2-4 consultation calls/week, 25-30% close rate = $150-300K/month
-```
-
-**Phase 3: Partner Channel**
-```
-Partners: Azure resellers, system integrators, consulting firms
-Model: You architect, they deliver (you take 20-30% rev share)
-Target: 2-3 partners, $200K+ annual revenue
-```
+| Window | Focus |
+|--------|--------|
+| M1–2 | Entity, domains, Stripe, CRM, SOW templates, pricing pages |
+| M3–4 | Consulting launch: case study, audit offer, 5–10 intros |
+| M5–6 | SaaS beta: dockerize OPA, tenancy, 10 design partners |
+| M7–8 | RE vertical MVP + UAE pilots |
+| M9–10 | Security product only if sandbox + legal ready |
+| M11–12 | Public SaaS push, first larger consulting deal, review what to kill |
 
 ---
 
-## 🛠️ Founder Tech Stack (to run the business)
+## 5. Revenue scenarios (targets only)
 
-```
-Product
-├─ OPA orchestrator → Docker (docker hub)
-├─ SaaS backend → Railway.app or Render ($2-5K/mo)
-├─ SaaS frontend → Vercel (free tier)
-├─ Database → Neon PostgreSQL ($100-500/mo)
-└─ Payments → Stripe ($500-2K/mo in Stripe fees)
+### Conservative
 
-Marketing
-├─ Website → Astro/Vite on Vercel
-├─ Email → Resend or SendGrid ($100-300/mo)
-├─ CRM → HubSpot free/pro ($50-300/mo)
-├─ Analytics → Vercel Analytics + Plausible ($50-200/mo)
-└─ Social scheduling → Buffer ($100-200/mo)
+| Stream | Target |
+|--------|--------|
+| Consulting | ~$700K |
+| SaaS | ~$240K |
+| RE vertical | ~$180K |
+| Security | ~$90K |
+| **Gross** | **~$1.2M** |
+| Ops | ~$450K |
+| **Net (illustrative)** | **~$0.7M** |
 
-Operations
-├─ Accounting → QuickBooks ($50-200/mo)
-├─ Legal → LawTom or Stripe Atlas (one-time $500)
-├─ Contractors → Guidepoint or Toptal
-└─ Infrastructure → GitHub org ($21/mo) + Azure ($500-2K/mo)
+### Aggressive
 
-Year 1 Tech Ops: ~$30-40K
-```
+| Stream | Target |
+|--------|--------|
+| Consulting | ~$1.0M |
+| SaaS | ~$0.9M |
+| RE | ~$1.2M |
+| Security | ~$0.4M |
+| **Gross** | **~$3.5M** |
 
----
-
-## 💡 The Founder Advantage (Why You Win)
-
-| Competitive Edge | Your Moat |
-|---|---|
-| **Proven patterns** | 31/31 agentic-harness verified live |
-| **Real revenue case** | Dubai RE lead machine generating revenue |
-| **Production-grade testing** | E2E framework tested on real data |
-| **Security built-in** | airecon + fides compliance layers |
-| **Multi-model routing** | Azure Foundry proven, cost-optimized |
-| **Community momentum** | 170+ repos, 216 public, high GitHub signal |
-| **Founder story** | "One-person agency that sells agencies" |
-| **Founder skin-in-game** | Using your own product daily (Friday OS, OPA) |
+Use **conservative** for personal runway; aggressive only for stretch planning.
 
 ---
 
-## 🎯 Year 1-3 Vision
+## 6. Marketing & sales (low CAC)
 
-### **Year 1: Validation & Traction**
-```
-Revenue: $300K-1.5M
-Team: You + 3-5 contractors
-Milestones:
-├─ 5-10 consulting clients signed
-├─ SaaS platform beta → 50-100 users
-├─ RE vertical generating $180K+
-├─ Security vertical generating $90K+
-├─ Brand: 5K followers, 100K+ blog views
-└─ Optionality: Turn-key enough to hire operator
-```
+**Content:** Weekly technical posts (agents, harness, E2E, RE case study).  
+**Video:** Short architecture tours of Stack v2.1 / OPA / Lead Machine.  
+**X:** Threads on failures, routing, production constraints.  
+**Open source signal:** Stars on `agentic-harness`, `sahiixx-agency`, `sahiixx-e2e`, `friday-os` as trust, not vanity KPI.
 
-### **Year 2: Scale & Professionalization**
-```
-Revenue: $2M-5M
-Team: You + 1 CTO + 1 VP Sales + 3-5 engineers
-Milestones:
-├─ 20-30 consulting clients (relationship-based)
-├─ SaaS platform: 500-1000 users, $500K+ ARR
-├─ RE vertical: 100+ brokers, $1M+ revenue
-├─ Security: 10K scans/month, $200K+ revenue
-├─ 3+ industry partnerships
-├─ Series Seed fundraising (optional)
-└─ Product-market fit confirmed
-```
-
-### **Year 3: Enterprise Play**
-```
-Revenue: $5M-20M (if scaled)
-Team: You as CEO + full ops team
-Options:
-├─ Organic growth path (lifestyle business, $3-5M net)
-├─ Raise Series A & scale 10x
-├─ Acquire smaller agencies (roll-up strategy)
-├─ Merge with larger consulting/SaaS firm
-└─ Maintain founder-friendly ramp (hire ops, you focus on R&D)
-```
+**Sales phases:**
+1. Warm outreach (founders / CTOs)  
+2. Inbound from content  
+3. Partners (integrators / cloud resellers) with clear rev-share
 
 ---
 
-## 📋 Immediate Action Items (Next 30 Days)
+## 7. Business tech stack (ops)
 
-### **Week 1: Governance**
-- [ ] Form SAHIIXX Ventures LLC/Corp
-- [ ] Get EIN + business bank account
-- [ ] Set up 1099 contractor agreements template
-
-### **Week 2: Infrastructure**
-- [ ] Set up Stripe (payments)
-- [ ] Set up HubSpot (CRM, free tier)
-- [ ] Create `sahiixx.io` landing page (Astro template)
-- [ ] Reserve `.ai` + `.co` domains
-
-### **Week 3: Offers**
-- [ ] Write 3 service offerings (consulting/SaaS/verticals)
-- [ ] Create pricing pages
-- [ ] Draft SOW template (5-page skeleton)
-
-### **Week 4: Go-to-Market**
-- [ ] Write first blog post: **"Why I Built SAHIIX Stack"**
-- [ ] Record first YouTube: **"Architecture Tour in 15 Minutes"**
-- [ ] Create 1-slide Pitch Deck
-- [ ] Schedule 5 coffee calls with founders/CTOs (fact-checking + feedback)
+| Area | Choice (example) |
+|------|------------------|
+| Product host | Docker + Railway/Render + Vercel |
+| Data | Neon / Postgres |
+| Pay | Stripe |
+| CRM | HubSpot (start free) |
+| Site | Astro/Vite on Vercel (`sahiixx.io` / `.co`) |
+| Email | Resend / SendGrid |
 
 ---
 
-## 💰 Financial Viability Check
+## 8. Why this can work (and what must stay true)
 
-**Conservative Year 1 Reality:**
-```
-Revenue:                $300-600K (consulting + small SaaS)
-Costs:
-  ├─ Contractor labor:  $200-300K
-  ├─ Infrastructure:    $30-50K
-  ├─ Marketing:         $10-20K
-  └─ Legal/admin:       $10-20K
-  = Total costs:        $250-390K
-Net profit:             $50-350K
-Runway (if self-fund):  Strong (bootstrap-friendly)
-```
-
-**Why this works:**
-1. **Low customer acquisition cost** (content + Twitter = free)
-2. **High margin services** (consulting 60-80% gross)
-3. **Recurring revenue mix** (SaaS + verticals smooth cash flow)
-4. **Founder efficiency** (you are the product initially)
-5. **Already have product** (SAHIIX Stack is production-grade)
+| Edge | Condition |
+|------|-----------|
+| Patterns in harness + OPA | Keep core green; don’t oversell unfinished agents |
+| Dubai RE path | Lead Machine + pilots with real brokers |
+| E2E contracts | `sahiixx-e2e` as sales proof for quality |
+| Edge governance | Proxy as enterprise talking point |
+| Founder uses own stack | Daily use of OPA / OS / agno |
 
 ---
 
-## 🚀 Summary: Founder Mode Activated
+## 9. Vision (directional)
 
-You're not building a library of tools anymore.  
-You're building a **business model** where:
-
-- Your **intellect** → consulting ($50-200K per engagement)
-- Your **code** → SaaS platform ($5-10K per customer/year)
-- Your **domain expertise** → revenue verticals ($100K-1M per vertical/year)
-- Your **reputation** → partnership channels (20-30% margin on partner deals)
-
-**Total addressable market (2026):** $5-10B in AI agent deployment + vertical SaaS.  
-**Your realistic capture (Year 1-3):** $1-20M depending on execution.
-
-**First hire recommendation:** Part-time sales/ops person ($2-3K/mo) to free you for:
-- Customer discovery + closing
-- New vertical validation
-- Technology advancement (staying ahead)
+| Year | Theme |
+|------|--------|
+| 1 | Validate consulting + one vertical + SaaS beta |
+| 2 | Professionalize (ops hire, ARR clarity) |
+| 3 | Choose: lifestyle ops, raise, or partner/roll-up |
 
 ---
 
-**Ready to move from Builder to Founder?**
+## 10. Next 30 days (actionable)
 
-```
-Your next moves:
-1. Register entity (1 day)
-2. Set up Stripe + landing page (1 day)
-3. Write + publish first thought leadership (1 day)
-4. Schedule 10 founder/CTO coffee calls (this week)
-5. Proposal for first consulting client (30 days)
+### Week 1 — Governance
+- [ ] Form entity (LLC / equivalent)
+- [ ] Bank + basic contractor agreement template
 
-Timeline: Revenue flowing in 60-90 days.
-```
+### Week 2 — Rails
+- [ ] Stripe test mode
+- [ ] HubSpot (or lightweight CRM)
+- [ ] Domain + one-page landing
 
-@sahiixx · Founder Mode Activated · 2026
+### Week 3 — Offers
+- [ ] One-pager each: Consulting · SaaS · RE vertical
+- [ ] SOW skeleton
+- [ ] Pricing page drafts (labeled “indicative”)
+
+### Week 4 — GTM
+- [ ] Post: “Why SAHIIX Stack” (honest architecture story)
+- [ ] 15-min architecture tour video
+- [ ] One-slide narrative deck
+- [ ] 5–10 founder/CTO conversations (discovery, not hard sell)
+
+---
+
+## 11. Viability (bootstrap lens)
+
+- High gross margin on consulting  
+- Content-led CAC  
+- Recurring mix only after product is boringly reliable  
+- **Already have** the technical core; missing piece is **offers + distribution**, not another 50 repos  
+
+---
+
+## 12. Summary
+
+| You sell | Lever |
+|----------|--------|
+| Judgment + architecture | Consulting |
+| Running OPA | SaaS |
+| Domain systems | Verticals (start with RE) |
+| Trust | Open docs, E2E, case studies |
+
+**First hire when revenue appears:** execution engineer or light ops — not a full team before closed deals.
+
+**Docs map:**
+- Tech → [Stack v2.1](https://github.com/sahiixx/sahiix-os-docs/blob/master/SAHIIX_STACK_v2.1.md)  
+- Repos → [REPO_MAP.md](./REPO_MAP.md)  
+- Commercial → **this file**  
+- Hygiene → [HYGIENE.md](./HYGIENE.md)
+
+---
+
+**@sahiixx · Founder layer on SAHIIX Stack v2.1 · 2026**

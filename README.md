@@ -4,7 +4,7 @@
 Building an autonomous **AI operating system** for agents, edge governance, and Dubai real-estate revenue ops.
 
 ```text
-Profile  →  Stack map  →  Core products  →  Inventory truth
+Profile  →  Stack map  →  Core products  →  Founder offers  →  Inventory
 ```
 
 ---
@@ -20,8 +20,12 @@ Profile  →  Stack map  →  Core products  →  Inventory truth
 | **App Builder** | Private TanStack/Vite sandbox | [`agno`](https://github.com/sahiixx/agno) *(private)* |
 | **Revenue vertical** | Sovereign / NEXUS revenue OS | `sovereign-revenue-os` *(private)* |
 
-Canonical architecture: **[SAHIIX Stack v2.1](https://github.com/sahiixx/sahiix-os-docs/blob/master/SAHIIX_STACK_v2.1.md)**  
-Living inventory: **[REPO_MAP.md](./REPO_MAP.md)**
+| Doc | Purpose |
+|-----|---------|
+| **[SAHIIX Stack v2.1](https://github.com/sahiixx/sahiix-os-docs/blob/master/SAHIIX_STACK_v2.1.md)** | Technical architecture |
+| **[REPO_MAP.md](./REPO_MAP.md)** | Repo inventory & taxonomy |
+| **[FOUNDER_SERVICE_ARCHITECTURE.md](./FOUNDER_SERVICE_ARCHITECTURE.md)** | Consulting · SaaS · verticals (commercial) |
+| **[HYGIENE.md](./HYGIENE.md)** | Archive/topics script |
 
 ---
 
@@ -54,6 +58,18 @@ L0  INFRA          Cloudflare · Azure · Docker/GHCR · Vercel · Termux
 | L6 | sovereign-revenue-os | Revenue OS *(private)* | Active |
 
 **Lead Machine:** Capture + Qualify + GeoMatch **live** (HTTP `/opa/lead/*` via `api.asgi`). Scheduling / Reporting next.
+
+---
+
+## Founder offers (summary)
+
+Full plan: **[FOUNDER_SERVICE_ARCHITECTURE.md](./FOUNDER_SERVICE_ARCHITECTURE.md)**
+
+| Stream | What you sell | Primary assets |
+|--------|---------------|----------------|
+| **Consulting** | Architecture, harness, E2E, routing | `agentic-harness`, OPA, e2e |
+| **SaaS** | Managed multi-tenant OPA | `saas-agent-platform`, agency |
+| **Verticals** | RE Lead Machine (+ later security/agency builds) | Lead Machine, NEXUS/Sovereign |
 
 ---
 
@@ -103,6 +119,7 @@ L0  INFRA          Cloudflare · Azure · Docker/GHCR · Vercel · Termux
 | Goal | Go to |
 |------|--------|
 | Architecture | [SAHIIX Stack v2.1](https://github.com/sahiixx/sahiix-os-docs/blob/master/SAHIIX_STACK_v2.1.md) |
+| Founder / services | [FOUNDER_SERVICE_ARCHITECTURE.md](./FOUNDER_SERVICE_ARCHITECTURE.md) |
 | Run agents | [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) (`api.asgi`) |
 | Edge | [sahiix-proxy](https://github.com/sahiixx/sahiix-proxy) |
 | E2E / contracts | [sahiixx-e2e](https://github.com/sahiixx/sahiixx-e2e) |
@@ -115,9 +132,9 @@ L0  INFRA          Cloudflare · Azure · Docker/GHCR · Vercel · Termux
 
 1. **Core** stays in the runtime table and gets CI + docs.  
 2. **Forks** stay forks — don’t market them as SAHIIX products.  
-3. **Noise** (single-letter names, empty experiments) → archive or private when convenient.  
+3. **Noise** → `bash scripts/profile-hygiene.sh` (see [HYGIENE.md](./HYGIENE.md)).  
 4. **Private** production systems stay private; profile only names them.
 
 ---
 
-**[@sahiixx](https://github.com/sahiixx)** · AI Systems Architect · SAHIIX Stack v2.1
+**[@sahiixx](https://github.com/sahiixx)** · AI Systems Architect · SAHIIX Stack v2.1 · Founder offers

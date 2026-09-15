@@ -128,7 +128,7 @@ Honest gaps, so nothing is quietly missing:
 
 ## By the numbers (scraped 2026-09-15)
 
-- **238 repos total** — 93 originals (72 public / 21 private) + 145 forks
+- **238 repos total** — 93 originals + 145 forks · **217 public / 21 private** · **30 stars**
 - **Top languages** — Python 72 · TypeScript 65 · JavaScript 14 · HTML 11 · Rust 8 · Go 8
 - **Cloudflare edge** — 9 Workers · 4 Pages · 3 R2 · 1 KV · 1 Queue · 0 DNS zones
 - **Open source footprint** — 332 merged PRs, mostly kept green by automation

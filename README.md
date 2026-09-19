@@ -25,7 +25,7 @@
 | 🩺 **Self-healing watchdog** | 6 services supervised · auto-remediation on |
 | 🏢 **FirstCall pipeline** | 4,565 leads · 1,907 deals · 4,911 outreach · 0 orphans |
 | ☁️ **Cloudflare edge** | 9 Workers · 4 Pages · 3 R2 · 1 KV · 1 Queue |
-| 📈 **GitHub pulse (30d)** | 53 pushes · 18 PRs · 17 repos created |
+| 📈 **GitHub pulse (30d)** | 54 pushes · 18 PRs · 17 repos created |
 
 ---
 

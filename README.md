@@ -1,17 +1,50 @@
+<div align="center">
+
 # SAHIIXX
 
-**AI Systems Architect — Dubai, UAE**
+### AI Systems Architect — Dubai, UAE
 
-I build autonomous agent systems: one operating system of agents, vertical AI products, and the edge infrastructure that runs them.
+*Building an operating system of autonomous agents — from edge runtime to revenue verticals.*
 
-![focus](https://img.shields.io/badge/focus-agentic%20AI-111111?style=flat-square)
-![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=flat-square)
-![repos](https://img.shields.io/badge/repos-240-3E6B4F?style=flat-square)
-![status](https://img.shields.io/badge/status-building-brightgreen?style=flat-square)
+![focus](https://img.shields.io/badge/focus-agentic%20AI%20%C2%B7%20AGI-111111?style=for-the-badge)
+![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)
+![repos](https://img.shields.io/badge/repos-240-3E6B4F?style=for-the-badge)
+![status](https://img.shields.io/badge/status-live%20%26%20building-brightgreen?style=for-the-badge)
+
+</div>
 
 ---
 
-## What I'm building
+## ⚡ Live now
+
+> Real-time pulse from the machine, refreshed on each read.
+
+| Signal | State |
+|---|---|
+| 🛰️ **Hermes gateway** | `running` · Telegram `connected` |
+| 🩺 **Self-healing watchdog** | 6 services supervised · auto-remediation on |
+| 🏢 **FirstCall pipeline** | 4,565 leads · 1,907 deals · 4,911 outreach · 0 orphans |
+| ☁️ **Cloudflare edge** | 9 Workers · 4 Pages · 3 R2 · 1 KV · 1 Queue |
+| 📈 **GitHub pulse (30d)** | 49 pushes · 18 PRs · 17 repos created |
+
+---
+
+## 🧠 AI / AGI stack — what I run against
+
+Live models, agents and infra I build with daily:
+
+| Layer | Providers / models |
+|---|---|
+| **Frontier APIs** | Claude · GPT · Gemini · Kimi (Moonshot) |
+| **Open / reasoning** | DeepSeek · Qwen · GLM · Nemotron |
+| **Local inference** | GGUF + `llama-server` (offline bundle, byte-verified) |
+| **Agent runtimes** | Cline · Hermes · IronClaw/Reborn · OpenClaw |
+| **Orchestration** | MCP servers · `sahiixx-bus` pub/sub mesh · n8n |
+| **Routing** | TokenRouter · Cline gateway · AgentRouter |
+
+---
+
+## 🏗️ What I'm building
 
 **An agent operating system.** The runtime layer is `sahiixx-agency` (orchestration) + `sahiixx-bus` (pub/sub mesh) + `agentic-harness` (workflow patterns) + `saas-agent-platform` (multi-tenant FastAPI). `agency-agents` and `sovereign-swarm-v2` are the swarm lab.
 
@@ -23,7 +56,7 @@ I build autonomous agent systems: one operating system of agents, vertical AI pr
 
 ---
 
-## How it connects
+## 🔗 How it connects
 
 ```mermaid
 flowchart TD
@@ -43,34 +76,32 @@ flowchart TD
 
 ---
 
-## Live surfaces
+## 🌐 Live surfaces
 
 | Surface | URL | Status |
 |---|---|---|
-| Portfolio | [sahiix-portfolio.pages.dev](https://sahiix-portfolio.pages.dev) | live |
-| SAHIIXX OS | [sahiixx-os.pages.dev](https://sahiixx-os.pages.dev) | live |
-| Systems panel | [sahiix-systems.pages.dev](https://sahiix-systems.pages.dev) | live |
-
-Edge: 9 Workers · 4 Pages · 3 R2 · 1 KV · 1 Queue.
+| Portfolio | [sahiix-portfolio.pages.dev](https://sahiix-portfolio.pages.dev) | 🟢 live |
+| SAHIIXX OS | [sahiixx-os.pages.dev](https://sahiixx-os.pages.dev) | 🟢 live |
+| Systems panel | [sahiix-systems.pages.dev](https://sahiix-systems.pages.dev) | 🟢 live |
 
 ---
 
-## By the numbers
+## 📊 By the numbers
 
 - **240 repos** — 94 originals + 146 forks · 218 public / 22 private · 31 stars
 - **Top languages** — Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin
 - **Open source** — 332 merged PRs, mostly kept green by automation
 
-<sub>Counts from a read-only scrape of this account, 2026-09-19.</sub>
+<sub>Live signals + counts scraped read-only from GitHub / Cloudflare / the machine, 2026-09-19.</sub>
 
 ---
 
-## Currently
+## 🎯 Currently
 
 - Hardening the **FirstCall** lead pipeline (capture → qualify → geo-match → revenue)
 - Unifying the agent mesh around `sahiixx-bus`
 - Consolidating the repo estate (archiving placeholders, merging duplicate sandboxes)
 
-## Reach me
+## 📬 Reach me
 
 [Portfolio](https://sahiix-portfolio.pages.dev) · or open an issue on any repo.

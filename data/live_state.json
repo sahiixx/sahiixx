@@ -3,7 +3,6 @@
   "gateway_state": "running",
   "telegram": "connected",
   "watchdog_services": 6,
-  "watchdog_heals": 0,
   "firstcall": {
     "leads": 4565,
     "deals": 1907,
@@ -18,7 +17,7 @@
     "queues": 1
   },
   "github_30d": {
-    "pushes": 49,
+    "pushes": 51,
     "prs": 18,
     "created": 17
   }

@@ -17,7 +17,7 @@
 
 ## ⚡ Live now
 
-> Real-time pulse from the machine, refreshed on each read.
+> Auto-refreshed every 6h by a local agent + GitHub Action. Last update: **2026-09-19**.
 
 | Signal | State |
 |---|---|
@@ -92,7 +92,7 @@ flowchart TD
 - **Top languages** — Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin
 - **Open source** — 332 merged PRs, mostly kept green by automation
 
-<sub>Live signals + counts scraped read-only from GitHub / Cloudflare / the machine, 2026-09-19.</sub>
+<sub>Auto-generated 2026-09-19 by a local agent + GitHub Action from live GitHub / Cloudflare / machine state.</sub>
 
 ---
 

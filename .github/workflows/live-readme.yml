@@ -1,0 +1,43 @@
+name: live-readme
+
+# Regenerates the profile README from live data:
+#   - GitHub API (repo counts, languages, stars) via the Action token
+#   - data/live_state.json (machine-local signals, published by a local task)
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/live_state.json"
+      - "scripts/update_readme.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-readme
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_readme.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "sahiixx-readme-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- README.md; then
+            echo "no change"
+            exit 0
+          fi
+          git add README.md
+          git commit -m "chore(readme): live refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

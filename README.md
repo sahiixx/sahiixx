@@ -33,7 +33,7 @@
 
 Models, runtimes, and routing I use daily — the substrate behind everything below:
 
-| Layer | Providers / models |
+| Layer | Toolkit |
 |---|---|
 | **Frontier APIs** | Claude · GPT · Gemini · Kimi (Moonshot) |
 | **Open / reasoning** | DeepSeek · Qwen · GLM · Nemotron |

@@ -185,7 +185,7 @@ def build_readme(repos, st, private_visible=True):
     sections.append(
         "## 🧠 Live AI/AGI stack I run against\n\n"
         "Models, runtimes, and routing I use daily — the substrate behind everything below:\n\n"
-        "| Layer | Providers / models |\n"
+        "| Layer | Toolkit |\n"
         "|---|---|\n"
         "| **Frontier APIs** | Claude · GPT · Gemini · Kimi (Moonshot) |\n"
         "| **Open / reasoning** | DeepSeek · Qwen · GLM · Nemotron |\n"

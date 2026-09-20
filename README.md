@@ -2,36 +2,36 @@
 
 # SAHIIXX
 
-### AI Systems Architect — Dubai, UAE
+### Agentic AGI, end to end — Dubai, UAE
 
-*Building an operating system of autonomous agents — from edge runtime to revenue verticals.*
+*I ship production agent systems, not demos: orchestration, memory, voice, verticals, edge.*
 
 ![focus](https://img.shields.io/badge/focus-agentic%20AI%20%C2%B7%20AGI-111111?style=for-the-badge)
 ![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)
-![repos](https://img.shields.io/badge/repos-219-3E6B4F?style=for-the-badge)
+![repos](https://img.shields.io/badge/repos-245-3E6B4F?style=for-the-badge)
 ![status](https://img.shields.io/badge/status-live%20%26%20building-brightgreen?style=for-the-badge)
 
 </div>
 
 ---
 
-## ⚡ Live now
+## ⚡ Live operating picture
 
-> Auto-refreshed every 6h by a local agent + GitHub Action. Last update: **2026-09-19**.
+> Refreshed every 6h by an on-machine agent + GitHub Action. Last update: **2026-09-19**.
 
-| Signal | State |
+| System | State |
 |---|---|
-| 🛰️ **Hermes gateway** | `running` · Telegram `connected` |
-| 🩺 **Self-healing watchdog** | 6 services supervised · auto-remediation on |
-| 🏢 **FirstCall pipeline** | 4,565 leads · 1,907 deals · 4,911 outreach · 0 orphans |
-| ☁️ **Cloudflare edge** | 9 Workers · 4 Pages · 3 R2 · 1 KV · 1 Queue |
-| 📈 **GitHub pulse (30d)** | 54 pushes · 18 PRs · 17 repos created |
+| 🛰️ Hermes gateway | `running` · Telegram `connected` |
+| 🩺 Self-healing watchdog | 6 services supervised · auto-remediation on |
+| 🏢 FirstCall revenue pipeline | 4,565 leads · 1,907 deals · 4,911 outreach · 0 open links |
+| ☁️ Cloudflare edge | 9 Workers · 4 Pages · 3 R2 · 1 KV · 1 Queue |
+| 📈 GitHub activity, trailing 30d | 54 pushes · 18 PRs · 17 repos created |
 
 ---
 
-## 🧠 AI / AGI stack — what I run against
+## 🧠 Live AI/AGI stack I run against
 
-Live models, agents and infra I build with daily:
+Models, runtimes, and routing I use daily — the substrate behind everything below:
 
 | Layer | Providers / models |
 |---|---|
@@ -44,59 +44,74 @@ Live models, agents and infra I build with daily:
 
 ---
 
-## 🏗️ What I'm building
+## 🏗️ End-to-end agentic systems, not demos
 
-**An agent operating system.** The runtime layer is `sahiixx-agency` (orchestration) + `sahiixx-bus` (pub/sub mesh) + `agentic-harness` (workflow patterns) + `saas-agent-platform` (multi-tenant FastAPI). `agency-agents` and `sovereign-swarm-v2` are the swarm lab.
+**Agent OS.** Runtime layer: `sahiixx-agency` (orchestration) + `sahiixx-bus` (pub/sub mesh) + `agentic-harness` (workflow patterns) + `saas-agent-platform` (multi-tenant FastAPI). `agency-agents` + `sovereign-swarm-v2` are the swarm lab.
 
-**A Dubai real-estate revenue vertical.** `FirstCall` (idempotent UAE-leads ingestion → FastAPI), `sovereign-revenue-os`, `nexus-buyer-recovery`, `sovereign-agents` and `lazy-ai-ops` run the pipeline: capture → qualify → geo-match → schedule → report. Mostly private — this is the commercial side.
+**Revenue vertical.** `FirstCall` (idempotent UAE-leads ingestion → FastAPI), `sovereign-revenue-os` (private), `nexus-buyer-recovery`, `sovereign-agents`, `lazy-ai-ops`: capture → qualify → geo-match → schedule → report.
 
-**A personal assistant with voice + memory.** `friday-os` (LiveKit voice + Tauri + MCP) backed by `sahiixx-titans-memory` and `sahiixx-graph-sight` for persistence and knowledge.
+**Assistant + memory.** `friday-os` (LiveKit voice + Tauri + MCP), persisted by `sahiixx-titans-memory` + `sahiixx-graph-sight`.
 
-**An edge runtime on Cloudflare.** 9 Workers (`moltbot-sandbox*`, `lead-hunter*`, `opencla`, `f`) and 4 Pages apps — cheap, always-on entry points for agents.
+**Edge runtime.** 9 Workers (`moltbot-sandbox*`, `lead-hunter*`, `opencla`, `f`) + 4 Pages apps — cheap, always-on entry points.
 
 ---
 
-## 🔗 How it connects
+## 🔗 Execution graph — idea to revenue
 
 ```mermaid
-flowchart TD
-    AG[Agent Frameworks<br/>agency-agents · sovereign-swarm-v2<br/>sahiixx-agency · sahiixx-bus · agentic-harness]
-    RE[Real-Estate Revenue<br/>FirstCall · sovereign-revenue-os<br/>nexus-buyer-recovery · lazy-ai-ops]
-    PA[Assistant / Voice<br/>friday-os · friday-tony-stark · SHADOW]
-    MEM[Memory / Knowledge<br/>titans-memory · graph-sight · Trust-graph-]
-    EDGE[Edge Runtime<br/>moltworker · moltbot-sandbox* · opencla · lead-hunter*]
-    INF[Infra<br/>sahiix-proxy · api-server · dev-helper]
-
-    AG --> RE
-    AG --> PA
-    AG --> MEM
-    EDGE --> RE
-    INF --> EDGE
+flowchart LR
+    BUS["sahiixx-bus<br/>pub/sub orchestration"] --> SWARM["agency-agents + swarm-v2<br/>multi-agent execution"]
+    SWARM --> MEM["titans-memory + graph-sight<br/>persistent state"]
+    SWARM --> FC["FirstCall<br/>capture/qualify/match"]
+    FC --> REV["sovereign-revenue-os<br/>schedule/report/revenue"]
+    MEM --> PA["friday-os<br/>voice + MCP"]
+    EDGE["Cloudflare edge<br/>9 Workers + 4 Pages"] --> FC
+    EDGE --> PA
 ```
+
+---
+
+## 🧪 Proof, not promises — flagship systems
+
+Stars, languages, and push dates below come straight from the GitHub API at render time.
+
+| System | What it proves | Lang | Stars | Pushed |
+|---|---|---|---|---|
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Flagship multi-agent swarm | Python | 2 | 2026-09-17 |
+| [friday-os](https://github.com/sahiixx/friday-os) | Voice-first personal AI OS, memory-persistent, MCP-powered | Python | 2 | 2026-08-10 |
+| [sovereign-revenue-os](https://github.com/sahiixx/sovereign-revenue-os) | E2E Dubai real-estate revenue OS (private) | Python | 1 | 2026-08-10 |
+| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Modular multi-agent OS | Python | 1 | 2026-08-10 |
+| [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Unified orchestration bus | Python | 0 | 2026-08-10 |
+| [moltworker](https://github.com/sahiixx/moltworker) | Cloudflare Workers edge runtime | JavaScript | 0 | 2026-08-10 |
+| [ocr-playbook-scanner](https://github.com/sahiixx/ocr-playbook-scanner) | OCR ingestion utility | Kotlin | 0 | 2026-09-14 |
+
+<sub>Private flagships (FirstCall ingestion pipeline, vertical revenue OS) are counted in the totals, never exposed.</sub>
 
 ---
 
 ## 🌐 Live surfaces
 
+Deployed Pages on this account — links resolve at render time:
+
 | Surface | URL | Status |
 |---|---|---|
-| Portfolio | [sahiix-portfolio.pages.dev](https://sahiix-portfolio.pages.dev) | 🟢 live |
-| SAHIIXX OS | [sahiixx-os.pages.dev](https://sahiixx-os.pages.dev) | 🟢 live |
-| Systems panel | [sahiix-systems.pages.dev](https://sahiix-systems.pages.dev) | 🟢 live |
+| Portfolio | [sahiix-portfolio.pages.dev](https://sahiix-portfolio.pages.dev) | live |
+| SAHIIXX OS | [sahiixx-os.pages.dev](https://sahiixx-os.pages.dev) | live |
+| Systems panel | [sahiix-systems.pages.dev](https://sahiix-systems.pages.dev) | live |
 
 ---
 
-## 📊 By the numbers
+## 📊 Live footprint
 
-- **219 public repos** — 72 originals + 147 forks · 30 stars
+- **245 repos** — 98 originals + 147 forks · 219 public / 26 private · 31 stars
 - **Top languages** — Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin
-- **Open source** — 332 merged PRs, mostly kept green by automation
+- **Open source** — automation-kept PRs across the fork study library
 
-<sub>Auto-generated 2026-09-20 by a local agent + GitHub Action from live GitHub / Cloudflare / machine state.</sub>
+<sub>Auto-generated 2026-09-20 by an on-machine agent + GitHub Action from the GitHub API and local machine state. Every number above is fetched at render time; static text never carries metrics.</sub>
 
 ---
 
-## 🎯 Currently
+## 🎯 Building next
 
 - Hardening the **FirstCall** lead pipeline (capture → qualify → geo-match → revenue)
 - Unifying the agent mesh around `sahiixx-bus`

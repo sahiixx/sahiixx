@@ -7,8 +7,8 @@
 <sub>Dubai, UAE — I build the parts other people demo.</sub>
 
 ![focus](https://img.shields.io/badge/focus-agentic%20AGI-111111?style=for-the-badge)
-![repos](https://img.shields.io/badge/active%20repos-213-3E6B4F?style=for-the-badge)
-![library](https://img.shields.io/badge/research%20library-307%20repos-444444?style=for-the-badge)
+![repos](https://img.shields.io/badge/active%20repos-195-3E6B4F?style=for-the-badge)
+![library](https://img.shields.io/badge/research%20library-306%20repos-444444?style=for-the-badge)
 ![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![status](https://img.shields.io/badge/status-executing-brightgreen?style=for-the-badge)
 
@@ -95,7 +95,7 @@ Stars, languages and push dates are read from the GitHub API on every render —
 
 ---
 
-## 📚 Research library — 307 repos tracked
+## 📚 Research library — 306 repos tracked
 
 I star what I intend to out-build. The library is the leading indicator; the repos above are the delivery.
 
@@ -122,9 +122,9 @@ I star what I intend to out-build. The library is the leading indicator; the rep
 
 ## 📊 Footprint
 
-- **213 active repos** — 66 originals + 147 forks · 195 public / 18 private · 31 stars
-- **Top languages** — Python · TypeScript · JavaScript · HTML · Rust · Go · Kotlin
-- **Research library** — 307 starred repos
+- **195 active public repos** — 48 originals + 147 forks · 30 stars
+- **Top languages** — Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin
+- **Research library** — 306 starred repos
 
 <sub>Rendered 2026-09-20 by an on-machine agent feeding GitHub Actions. Sensed values, not marketing values.</sub>
 

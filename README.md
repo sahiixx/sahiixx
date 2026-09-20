@@ -8,7 +8,7 @@
 
 ![focus](https://img.shields.io/badge/focus-agentic%20AGI-111111?style=for-the-badge)
 ![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)
-![repos](https://img.shields.io/badge/active%20repos-213-3E6B4F?style=for-the-badge)
+![repos](https://img.shields.io/badge/active%20repos-195-3E6B4F?style=for-the-badge)
 ![status](https://img.shields.io/badge/status-live%20%26%20executing-brightgreen?style=for-the-badge)
 
 </div>
@@ -96,8 +96,8 @@ Stars, languages, and push dates come straight from the GitHub API at render tim
 
 ## 📊 Live Footprint
 
-- **213 repos** — 66 originals + 147 forks · 195 public / 18 private · 31 stars
-- **Top languages** — Python · TypeScript · JavaScript · HTML · Rust · Go · Kotlin
+- **195 public repos** — 48 originals + 147 forks · 30 stars
+- **Top languages** — Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin
 
 <sub>Auto-generated 2026-09-20 by an on-machine agent + GitHub Action from the GitHub API and local machine state. Every number above is fetched at render time; static text never carries metrics.</sub>
 

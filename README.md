@@ -8,7 +8,7 @@
 
 ![focus](https://img.shields.io/badge/focus-agentic%20AI%20%C2%B7%20AGI-111111?style=for-the-badge)
 ![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)
-![repos](https://img.shields.io/badge/repos-219-3E6B4F?style=for-the-badge)
+![repos](https://img.shields.io/badge/repos-213-3E6B4F?style=for-the-badge)
 ![status](https://img.shields.io/badge/status-live%20%26%20building-brightgreen?style=for-the-badge)
 
 </div>
@@ -79,6 +79,7 @@ Stars, languages, and push dates below come straight from the GitHub API at rend
 |---|---|---|---|---|
 | [agency-agents](https://github.com/sahiixx/agency-agents) | Flagship multi-agent swarm | Python | 2 | 2026-09-17 |
 | [friday-os](https://github.com/sahiixx/friday-os) | Voice-first personal AI OS, memory-persistent, MCP-powered | Python | 2 | 2026-08-10 |
+| [sovereign-revenue-os](https://github.com/sahiixx/sovereign-revenue-os) | E2E Dubai real-estate revenue OS (private) | Python | 1 | 2026-08-10 |
 | [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Modular multi-agent OS | Python | 1 | 2026-08-10 |
 | [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Unified orchestration bus | Python | 0 | 2026-08-10 |
 | [moltworker](https://github.com/sahiixx/moltworker) | Cloudflare Workers edge runtime | JavaScript | 0 | 2026-08-10 |
@@ -102,8 +103,8 @@ Deployed Pages on this account — links resolve at render time:
 
 ## 📊 Live footprint
 
-- **219 public repos** — 72 originals + 147 forks · 30 stars
-- **Top languages** — Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin
+- **213 repos** — 66 originals + 147 forks · 195 public / 18 private · 31 stars
+- **Top languages** — Python · TypeScript · JavaScript · HTML · Rust · Go · Kotlin
 - **Open source** — automation-kept PRs across the fork study library
 
 <sub>Auto-generated 2026-09-20 by an on-machine agent + GitHub Action from the GitHub API and local machine state. Every number above is fetched at render time; static text never carries metrics.</sub>

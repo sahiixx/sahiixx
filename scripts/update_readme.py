@@ -104,6 +104,7 @@ def public_link(name):
 
 # === CHUNK2_BODY ===
 def build_readme(repos, st, private_visible=True):
+    repos = [r for r in repos if not r.get("archived")]
     forks = [r for r in repos if r.get("fork")]
     orig = [r for r in repos if not r.get("fork")]
     stars = sum(r.get("stargazers_count", 0) for r in repos)

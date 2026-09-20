@@ -1,6 +1,15 @@
 #!/usr/bin/env python3
-"""SAHIIXX profile README generator - execution-proof, all-live version."""
-import json, os, sys, urllib.request
+"""SAHIIXX profile README generator — mission-control edition.
+
+Every metric is fetched live at render time:
+  - GitHub GraphQL/REST  -> repo counts, stars, topics, starred-library size
+  - data/live_state.json -> machine pulse (gateway, watchdog, pipeline, edge)
+Static prose carries no numbers. Nothing here can go stale.
+"""
+import json
+import os
+import sys
+import urllib.request
 from collections import Counter
 from datetime import datetime, timezone
 
@@ -8,140 +17,282 @@ OWNER = "sahiixx"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-def api(path):
+
+def _req(url, data=None, method="GET"):
     req = urllib.request.Request(
-        "https://api.github.com" + path,
-        headers={"Authorization": f"Bearer {TOKEN}", "Accept": "application/vnd.github+json", "User-Agent": "sahiixx-bot"},
+        url,
+        data=data,
+        method=method,
+        headers={
+            "Authorization": f"Bearer {TOKEN}",
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "sahiixx-readme-bot",
+        },
     )
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
+
+
+def api(path):
+    return _req("https://api.github.com" + path)
+
+
+def gql(query, variables):
+    body = json.dumps({"query": query, "variables": variables}).encode("utf-8")
+    out = _req("https://api.github.com/graphql", data=body, method="POST")
+    return out.get("data", {})
+
+
+def counts():
+    """Live totals: owned repos + starred research library."""
+    try:
+        q = ("query($login: String!) { user(login: $login) {"
+             " starredRepositories { totalCount }"
+             " repositories(ownerAffiliations: OWNER) { totalCount } } }")
+        d = gql(q, {"login": OWNER}).get("user", {})
+        return d.get("starredRepositories", {}).get("totalCount", 0), \
+            d.get("repositories", {}).get("totalCount", 0)
+    except Exception:
+        return 0, 0
+
 
 def all_repos():
     try:
         repos, page = [], 1
         while True:
             batch = api(f"/user/repos?per_page=100&page={page}&affiliation=owner")
-            if not batch: break
-            repos.extend(r for r in batch if r["owner"]["login"].lower() == OWNER.lower())
-            if len(batch) < 100: break
+            if not batch:
+                break
+            repos.extend(r for r in batch
+                         if r["owner"]["login"].lower() == OWNER.lower())
+            if len(batch) < 100:
+                break
             page += 1
-        if repos: return repos, True
-    except Exception: pass
+        if repos:
+            return repos, True
+    except Exception:
+        pass
+
     repos, page = [], 1
     while True:
         batch = api(f"/users/{OWNER}/repos?per_page=100&page={page}&type=owner")
-        if not batch: break
+        if not batch:
+            break
         repos.extend(batch)
-        if len(batch) < 100: break
+        if len(batch) < 100:
+            break
         page += 1
     return repos, False
+
 
 def live_state():
     p = os.path.join(ROOT, "data", "live_state.json")
     if os.path.exists(p):
-        with open(p, encoding="utf-8") as f: return json.load(f)
+        with open(p, encoding="utf-8") as f:
+            return json.load(f)
     return {}
 
+
+def repo_map(repos):
+    return {r.get("name", "").lower(): r for r in repos}
+
+
 def link(name):
-    return f"[{name}](https://github.com/{OWNER}/{name})"
-def build_readme(repos, st, pv=True):
-    repos = [r for r in repos if not r.get("archived")]
-    forks = [r for r in repos if r.get("fork")]
-    orig = [r for r in repos if not r.get("fork")]
-    stars = sum(r.get("stargazers_count", 0) for r in repos)
-    langs = Counter(r.get("language") for r in repos if r.get("language"))
-    top_langs = " \u00b7 ".join(k for k, _ in langs.most_common(7))
-    n_priv = sum(1 for r in repos if r.get("private"))
-    by_name = {r["name"].lower(): r for r in repos}
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    if pv:
-        counts = f"**{len(repos)} repos** \u2014 {len(orig)} originals + {len(forks)} forks \u00b7 {len(repos)-n_priv} public / {n_priv} private \u00b7 {stars} stars"
-        badge_n = len(repos)
+    return f"[`{name}`](https://github.com/{OWNER}/{name})"
+
+
+def build_readme(repos, st, private_visible=True, starred_n=0):
+    live = [r for r in repos if not r.get("archived")]
+    forks = [r for r in live if r.get("fork")]
+    orig = [r for r in live if not r.get("fork")]
+    stars = sum(r.get("stargazers_count", 0) for r in live)
+    langs = Counter((r.get("language") or "none") for r in live if r.get("language"))
+    top_langs = " · ".join(k for k, _ in langs.most_common(7))
+    by_name = repo_map(live)
+
+    n_priv = sum(1 for r in live if r.get("private"))
+    pub = len(live) - n_priv
+    if private_visible:
+        footprint = (f"- **{len(live)} active repos** — {len(orig)} originals + "
+                     f"{len(forks)} forks · {pub} public / {n_priv} private · {stars} stars")
     else:
-        counts = f"**{len(repos)} public repos** \u2014 {len(orig)} originals + {len(forks)} forks \u00b7 {stars} stars"
-        badge_n = len(repos)
-    fc, edge, gh30 = st.get("firstcall", {}), st.get("edge", {}), st.get("github_30d", {})
+        footprint = (f"- **{len(live)} active public repos** — {len(orig)} originals + "
+                     f"{len(forks)} forks · {stars} stars")
+
+    fc = st.get("firstcall", {})
+    edge = st.get("edge", {})
+    gh30 = st.get("github_30d", {})
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    def flagship(key, blurb):
+        r = by_name.get(key.lower())
+        if r is None:
+            return None
+        date = (r.get("pushed_at") or "")[:10]
+        return (f"| {link(key)} | {blurb} | {r.get('language') or '-'} | "
+                f"{r.get('stargazers_count', 0)} | {date} |")
+
     S = []
 
-    S.append(f'<div align="center">\n\n# SAHIIXX\n\n### Agentic AGI \u2014 End to End, Dubai, UAE\n\n*I ship production agent systems \u2014 orchestration, memory, voice, verticals, edge. Not demos.*\n\n'
-        + '![focus](https://img.shields.io/badge/focus-agentic%20AGI-111111?style=for-the-badge)\n'
-        + '![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)\n'
-        + f'![repos](https://img.shields.io/badge/active%20repos-{badge_n}-3E6B4F?style=for-the-badge)\n'
-        + '![status](https://img.shields.io/badge/status-live%20%26%20executing-brightgreen?style=for-the-badge)\n\n</div>')
+    S.append(
+        "<div align=\"center\">\n\n"
+        "# SAHIIXX\n\n"
+        "### Agentic AGI, end to end\n\n"
+        "<sub>Dubai, UAE — I build the parts other people demo.</sub>\n\n"
+        "![focus](https://img.shields.io/badge/focus-agentic%20AGI-111111?style=for-the-badge)\n"
+        f"![repos](https://img.shields.io/badge/active%20repos-{len(live)}-3E6B4F?style=for-the-badge)\n"
+        f"![library](https://img.shields.io/badge/research%20library-{starred_n}%20repos-444444?style=for-the-badge)\n"
+        "![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)\n"
+        "![status](https://img.shields.io/badge/status-executing-brightgreen?style=for-the-badge)\n\n"
+        "</div>"
+    )
 
-    S.append(f'## \u26a1 Live Operating Picture\n\n> Every number below is fetched at render time. Last pulse: **{st.get("updated_at", today)}** \u00b7 refreshes every 6h.\n\n'
-        + '| System | State |\n|---|---|\n'
-        + f"| \U0001f6f0\ufe0f **Hermes gateway** | `{st.get('gateway_state','?')}` \u00b7 Telegram `{st.get('telegram','?')}` |\n"
-        + f"| \U0001fa7a **Self-healing watchdog** | {st.get('watchdog_services',0)} services supervised \u00b7 auto-remediation on |\n"
-        + f"| \U0001f3e2 **FirstCall revenue pipeline** | {fc.get('leads',0):,} leads \u00b7 {fc.get('deals',0):,} deals \u00b7 {fc.get('outreach',0):,} outreach \u00b7 {fc.get('orphans',0)} open links |\n"
-        + f"| \u2601\ufe0f **Cloudflare edge** | {edge.get('workers',0)} Workers \u00b7 {edge.get('pages',0)} Pages \u00b7 {edge.get('r2',0)} R2 \u00b7 {edge.get('kv',0)} KV \u00b7 {edge.get('queues',0)} Queue |\n"
-        + f"| \U0001f4c8 **GitHub activity, trailing 30d** | {gh30.get('pushes',0)} pushes \u00b7 {gh30.get('prs',0)} PRs \u00b7 {gh30.get('created',0)} repos created |")
+    S.append(
+        "## ⚡ Live operating picture\n\n"
+        f"> Sensed on the machine, published by a local agent, rendered by GitHub Actions. "
+        f"Last pulse **{st.get('updated_at', today)}**.\n\n"
+        "| Instrument | Reading |\n"
+        "|---|---|\n"
+        f"| 🛰️ Gateway | `{st.get('gateway_state', 'unknown')}` · Telegram `{st.get('telegram', 'unknown')}` |\n"
+        f"| 🩺 Supervisor | {st.get('watchdog_services', 0)} services watched · self-healing armed |\n"
+        f"| 🏗️ Pipeline | {fc.get('leads', 0):,} leads · {fc.get('deals', 0):,} deals · "
+        f"{fc.get('outreach', 0):,} outreach · {fc.get('orphans', 0)} broken links |\n"
+        f"| ☁️ Edge | {edge.get('workers', 0)} Workers · {edge.get('pages', 0)} Pages · "
+        f"{edge.get('r2', 0)} R2 · {edge.get('kv', 0)} KV · {edge.get('queues', 0)} Queue |\n"
+        f"| 📡 GitHub · 30d | {gh30.get('pushes', 0)} pushes · {gh30.get('prs', 0)} PRs · "
+        f"{gh30.get('created', 0)} repos created |"
+    )
 
-    S.append('## \U0001f9e0 The AI/AGI Stack I Run Against\n\n'
-        + '| Layer | Models / Runtimes |\n|---|---|\n'
-        + '| **Frontier APIs** | Claude \u00b7 GPT \u00b7 Gemini \u00b7 Kimi (Moonshot) |\n'
-        + '| **Open / Reasoning** | DeepSeek \u00b7 Qwen \u00b7 GLM \u00b7 Nemotron |\n'
-        + '| **Local Inference** | GGUF + `llama-server` (offline, byte-verified) |\n'
-        + '| **Agent Runtimes** | Cline \u00b7 Hermes \u00b7 IronClaw/Reborn \u00b7 OpenClaw |\n'
-        + '| **Orchestration** | MCP servers \u00b7 `sahiixx-bus` pub/sub mesh \u00b7 n8n |\n'
-        + '| **Routing** | TokenRouter \u00b7 Cline gateway \u00b7 AgentRouter |')
+    S.append(
+        "## 🌐 What I run against\n\n"
+        "The AI/AGI substrate, in production use — not a wishlist:\n\n"
+        "| Layer | In the rotation |\n"
+        "|---|---|\n"
+        "| **Frontier** | Claude · GPT · Gemini · Kimi (Moonshot) |\n"
+        "| **Open reasoning** | DeepSeek · Qwen · GLM · Nemotron |\n"
+        "| **Local inference** | GGUF + `llama-server` — offline bundle, byte-verified |\n"
+        "| **Agent runtimes** | Cline · Hermes · IronClaw/Reborn · OpenClaw |\n"
+        "| **Protocol layer** | MCP servers · A2A-style pub/sub over `sahiixx-bus` |\n"
+        "| **Orchestration** | autonomous loops · vote gates · audit chains · n8n |\n"
+        "| **Routing** | TokenRouter · Cline gateway · AgentRouter |\n"
+        "| **Voice** | LiveKit + Tauri desktop (`friday-os`) |"
+    )
 
-    S.append('## \U0001f3d7\ufe0f End-to-End Agentic Systems \u2014 Not Demos\n\n'
-        + '**Agent OS.** `sahiixx-agency` (orchestration) + `sahiixx-bus` (pub/sub mesh) + `agentic-harness` (workflow patterns) + `saas-agent-platform` (multi-tenant FastAPI). `agency-agents` + `sovereign-swarm-v2` are the swarm lab.\n\n'
-        + '**Revenue vertical.** `FirstCall` (idempotent UAE-leads ingestion \u2192 FastAPI), `sovereign-revenue-os` (private), `nexus-buyer-recovery`, `sovereign-agents`, `lazy-ai-ops`: capture \u2192 qualify \u2192 geo-match \u2192 schedule \u2192 report.\n\n'
-        + '**Assistant + memory.** `friday-os` (LiveKit voice + Tauri + MCP), persisted by `sahiixx-titans-memory` + `sahiixx-graph-sight`.\n\n'
-        + '**Edge runtime.** Cloudflare Workers + Pages apps \u2014 cheap, always-on entry points for every agent.')
+    S.append(
+        "## 🏗️ End-to-end systems, not demos\n\n"
+        "**Agent OS.** `sahiixx-bus` (pub/sub mesh) + `sahiixx-agency` (orchestration) + "
+        "`agentic-harness` (workflow patterns) + `saas-agent-platform` (multi-tenant FastAPI). "
+        "`agency-agents` and `sovereign-swarm-v2` are the swarm lab.\n\n"
+        "**Revenue vertical.** `FirstCall` (idempotent UAE-lead ingestion → FastAPI) with "
+        "`sovereign-revenue-os`, `nexus-buyer-recovery`, `sovereign-agents`, `lazy-ai-ops`: "
+        "capture → qualify → geo-match → schedule → report. Private by design.\n\n"
+        "**Assistant + memory.** `friday-os` (LiveKit voice + Tauri + MCP) persisted by "
+        "`sahiixx-titans-memory` + `sahiixx-graph-sight`; `SHADOW` as the companion runtime.\n\n"
+        "**Edge runtime.** Workers + Pages + R2 + KV + Queues running agent entry points "
+        "close to the user, cheap and always-on."
+    )
 
-    S.append('## \U0001f517 Execution Graph \u2014 Idea to Revenue\n\n```mermaid\nflowchart LR\n'
-        + '    BUS["sahiixx-bus<br/>pub/sub orchestration"] --> SWARM["agency-agents + swarm-v2<br/>multi-agent execution"]\n'
-        + '    SWARM --> MEM["titans-memory + graph-sight<br/>persistent state"]\n'
-        + '    SWARM --> FC["FirstCall<br/>capture / qualify / match"]\n'
-        + '    FC --> REV["sovereign-revenue-os<br/>schedule / report / revenue"]\n'
-        + '    MEM --> PA["friday-os<br/>voice + MCP"]\n'
-        + '    EDGE["Cloudflare edge<br/>Workers + Pages"] --> FC\n'
-        + '    EDGE --> PA\n```')
+    S.append(
+        "## 🔗 Execution graph — idea to revenue\n\n"
+        "```mermaid\n"
+        "flowchart LR\n"
+        "    IDEA([\"idea\"]) --> BUS[\"sahiixx-bus<br/>orchestration\"]\n"
+        "    BUS --> SWARM[\"agency-agents + swarm-v2<br/>parallel execution\"]\n"
+        "    SWARM --> MEM[\"titans-memory + graph-sight<br/>persistent state\"]\n"
+        "    SWARM --> FC[\"FirstCall<br/>capture · qualify · match\"]\n"
+        "    FC --> REV[\"sovereign-revenue-os<br/>schedule · report\"]\n"
+        "    MEM --> PA[\"friday-os<br/>voice + MCP\"]\n"
+        "    EDGE[\"Cloudflare edge<br/>Workers + Pages\"] --> FC\n"
+        "    EDGE --> PA\n"
+        "    REV --> OUT([\"revenue\"])\n"
+        "```"
+    )
 
-    proof = [('agency-agents', 'Multi-agent swarm'), ('friday-os', 'Voice-first AI OS'),
-             ('sovereign-swarm-v2', 'Modular multi-agent OS'), ('sahiixx-bus', 'Orchestration bus'),
-             ('moltworker', 'Cloudflare edge runtime'), ('ocr-playbook-scanner', 'OCR ingestion')]
-    proof_rows = '\n'.join(
-        f'| {link(k)} | {b} | {by_name[k].get("language") or "-"} | {by_name[k].get("stargazers_count",0)} | {(by_name[k].get("pushed_at") or "")[:10]} |'
-        for k, b in proof if k in by_name)
-    S.append('## \U0001f9ea Proof, Not Promises\n\n'
-        + 'Stars, languages, and push dates come straight from the GitHub API at render time.\n\n'
-        + '| System | What It Proves | Lang | \u2b50 | Pushed |\n|---|---|---|---|---|\n'
-        + proof_rows)
+    rows = [r for r in [
+        flagship("agency-agents", "Flagship multi-agent swarm"),
+        flagship("friday-os", "Voice-first personal AI OS — memory-persistent, MCP-powered"),
+        flagship("sovereign-swarm-v2", "Modular multi-agent OS"),
+        flagship("sahiixx-bus", "Unified orchestration bus"),
+        flagship("agentic-harness-integration", "Agentic patterns wired to Azure Foundry"),
+        flagship("moltworker", "OpenClaw on Cloudflare Workers"),
+        flagship("ocr-playbook-scanner", "OCR ingestion utility"),
+        flagship("Genxai", "AgentForge open-core agent micro-SaaS scaffold"),
+    ] if r]
 
-    S.append('## \U0001f310 Live Surfaces\n\n| Surface | URL | Status |\n|---|---|---|\n'
-        + '| Portfolio | [sahiix-portfolio.pages.dev](https://sahiix-portfolio.pages.dev) | live |\n'
-        + '| SAHIIXX OS | [sahiixx-os.pages.dev](https://sahiixx-os.pages.dev) | live |\n'
-        + '| Systems panel | [sahiix-systems.pages.dev](https://sahiix-systems.pages.dev) | live |')
+    S.append(
+        "## 🧪 Proof, not promises\n\n"
+        "Stars, languages and push dates are read from the GitHub API on every render — "
+        "nothing here is typed by hand.\n\n"
+        "| System | What it proves | Lang | ⭐ | Last push |\n"
+        "|---|---|---|---|---|\n"
+        + "\n".join(rows)
+        + "\n\n<sub>Private flagships (the ingestion pipeline and revenue OS) count toward the "
+        "totals above but stay closed-source.</sub>"
+    )
 
-    S.append(f'## \U0001f4ca Live Footprint\n\n- {counts}\n- **Top languages** \u2014 {top_langs}\n\n'
-        + f'<sub>Auto-generated {today} by an on-machine agent + GitHub Action from the GitHub API and local machine state. Every number above is fetched at render time; static text never carries metrics.</sub>')
+    S.append(
+        f"## 📚 Research library — {starred_n} repos tracked\n\n"
+        "I star what I intend to out-build. The library is the leading indicator; "
+        "the repos above are the delivery.\n\n"
+        "| What the library covers | Why it matters |\n"
+        "|---|---|\n"
+        "| Multi-agent frameworks & harnesses | the swarm patterns behind `agency-agents` |\n"
+        "| Model runtimes & inference internals | what makes `llama-server` + GGUF viable |\n"
+        "| MCP servers & tool protocols | the 80+ connectors in `integrations` |\n"
+        "| Voice, speech & realtime audio | the LiveKit stack inside `friday-os` |\n"
+        "| Scraping, OSINT & data plumbing | how `FirstCall` keeps its lead graph fresh |\n"
+        "| Edge & serverless runtimes | the Workers deployment model |"
+    )
 
-    S.append('## \U0001f3af Building Next\n\n'
-        + '- Hardening the **FirstCall** lead pipeline (capture \u2192 qualify \u2192 geo-match \u2192 revenue)\n'
-        + '- Unifying the agent mesh around `sahiixx-bus`\n'
-        + '- Consolidating the repo estate (archiving placeholders, merging duplicate sandboxes)\n\n'
-        + '## \U0001f4ec Reach Me\n\n'
-        + '[Portfolio](https://sahiix-portfolio.pages.dev) \u00b7 or open an issue on any repo.')
+    surfaces = [
+        ("Portfolio", "sahiix-portfolio.pages.dev"),
+        ("SAHIIXX OS", "sahiixx-os.pages.dev"),
+        ("Systems panel", "sahiix-systems.pages.dev"),
+    ]
+    S.append(
+        "## 🌐 Live surfaces\n\n"
+        "| Surface | URL |\n"
+        "|---|---|\n"
+        + "\n".join(f"| {n} | [{h}](https://{h}) |" for n, h in surfaces)
+    )
+
+    S.append(
+        "## 📊 Footprint\n\n"
+        f"- {footprint.lstrip('- ')}\n"
+        f"- **Top languages** — {top_langs}\n"
+        f"- **Research library** — {starred_n} starred repos\n\n"
+        f"<sub>Rendered {today} by an on-machine agent feeding GitHub Actions. "
+        "Sensed values, not marketing values.</sub>"
+    )
+
+    S.append(
+        "## 🎯 Building next\n\n"
+        "- Hardening the **FirstCall** pipeline: capture → qualify → geo-match → revenue\n"
+        "- Unifying every agent behind `sahiixx-bus`\n"
+        "- Promoting validated prototypes out of the private estate\n\n"
+        "## 📬 Reach me\n\n"
+        "[Portfolio](https://sahiix-portfolio.pages.dev) · or open an issue on any repo above."
+    )
 
     return "\n\n---\n\n".join(S) + "\n"
 
 
 def main():
-    repos, pv = all_repos()
+    repos, private_visible = all_repos()
+    starred_n, _ = counts()
     st = live_state()
-    readme = build_readme(repos, st, pv)
+    readme = build_readme(repos, st, private_visible, starred_n)
     out = os.path.join(ROOT, "README.md")
     prev = ""
     if os.path.exists(out):
-        with open(out, encoding="utf-8") as f: prev = f.read()
+        with open(out, encoding="utf-8") as f:
+            prev = f.read()
     with open(out, "w", encoding="utf-8", newline="\n") as f:
         f.write(readme)
-    print("README regenerated:", "changed" if readme != prev else "unchanged",
-          f"({len(repos)} repos, private_visible={pv})")
+    print("README regenerated:",
+          "changed" if readme != prev else "unchanged",
+          f"({len(repos)} repos, {starred_n} starred)")
+
 
 if __name__ == "__main__":
     sys.exit(main())

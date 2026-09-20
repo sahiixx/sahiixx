@@ -8,7 +8,7 @@
 
 ![focus](https://img.shields.io/badge/focus-agentic%20AI%20%C2%B7%20AGI-111111?style=for-the-badge)
 ![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)
-![repos](https://img.shields.io/badge/repos-218-3E6B4F?style=for-the-badge)
+![repos](https://img.shields.io/badge/repos-219-3E6B4F?style=for-the-badge)
 ![status](https://img.shields.io/badge/status-live%20%26%20building-brightgreen?style=for-the-badge)
 
 </div>
@@ -88,11 +88,11 @@ flowchart TD
 
 ## 📊 By the numbers
 
-- **218 public repos** — 72 originals + 146 forks · 30 stars
+- **219 public repos** — 72 originals + 147 forks · 30 stars
 - **Top languages** — Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin
 - **Open source** — 332 merged PRs, mostly kept green by automation
 
-<sub>Auto-generated 2026-09-19 by a local agent + GitHub Action from live GitHub / Cloudflare / machine state.</sub>
+<sub>Auto-generated 2026-09-20 by a local agent + GitHub Action from live GitHub / Cloudflare / machine state.</sub>
 
 ---
 

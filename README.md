@@ -85,7 +85,7 @@ Stars, language and last push come straight from the GitHub API at render time.
 | [agentic-harness](https://github.com/sahiixx/agentic-harness) | Agentic workflow patterns (Azure Foundry) | Python | 0 | 2026-08-10 |
 | [moltworker](https://github.com/sahiixx/moltworker) | OpenClaw on Cloudflare Workers | JavaScript | 0 | 2026-08-10 |
 | [ocr-playbook-scanner](https://github.com/sahiixx/ocr-playbook-scanner) | OCR ingestion utility | Kotlin | 0 | 2026-09-14 |
-| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | Full-stack command center (React + tRPC) | TypeScript | 0 | 2026-08-23 |
+| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | Full-stack command center (React + tRPC) | TypeScript | 0 | 2026-09-21 |
 
 <sub>Private flagships (FirstCall pipeline, revenue OS) are counted in totals, never exposed.</sub>
 

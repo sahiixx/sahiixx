@@ -18,7 +18,7 @@
 
 ## ⚡ Live operating picture
 
-> Sensed on the machine, published by a local agent, rendered by GitHub Actions. Last pulse **2026-09-20**.
+> Sensed on the machine, published by a local agent, rendered by GitHub Actions. Last pulse **2026-09-21**.
 
 | Instrument | Reading |
 |---|---|
@@ -26,7 +26,7 @@
 | 🩺 Supervisor | 6 services watched · self-healing armed |
 | 🏗️ Pipeline | 4,565 leads · 1,907 deals · 4,911 outreach · 0 broken links |
 | ☁️ Edge | 9 Workers · 4 Pages · 3 R2 · 1 KV · 1 Queue |
-| 📡 GitHub · 30d | 61 pushes · 18 PRs · 14 repos created |
+| 📡 GitHub · 30d | 62 pushes · 18 PRs · 14 repos created |
 
 ---
 

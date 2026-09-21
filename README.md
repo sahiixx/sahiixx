@@ -8,7 +8,7 @@
 
 ![focus](https://img.shields.io/badge/focus-agentic%20AGI-111111?style=for-the-badge)
 ![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)
-![repos](https://img.shields.io/badge/active%20repos-213-3E6B4F?style=for-the-badge)
+![repos](https://img.shields.io/badge/active%20repos-195-3E6B4F?style=for-the-badge)
 ![status](https://img.shields.io/badge/status-live%20%26%20executing-brightgreen?style=for-the-badge)
 
 </div>
@@ -25,8 +25,8 @@
 | 🩺 Self-healing watchdog | 6 services supervised · auto-remediation on |
 | 🏢 FirstCall revenue pipeline | 4,565 leads · 1,907 deals · 4,911 outreach · 0 open links |
 | ☁️ Cloudflare edge | 9 Workers · 4 Pages · 3 R2 · 1 KV · 1 Queue |
-| 📈 GitHub activity (30d) | 62 pushes · 18 PRs · 14 repos created |
-| ⭐ Research library | 307 starred repos — the state of the art, mapped |
+| 📈 GitHub activity (30d) | 63 pushes · 18 PRs · 14 repos created |
+| ⭐ Research library | 306 starred repos — the state of the art, mapped |
 
 ---
 
@@ -103,10 +103,10 @@ Stars, language and last push come straight from the GitHub API at render time.
 
 ## 📊 Live footprint
 
-- **213 active repos** — 66 originals + 147 forks · 195 public / 18 private · 31 stars
-- **Top languages** — Python · TypeScript · JavaScript · HTML · Rust · Go · Kotlin
-- **Community** — 14 followers · 56 following · 307 starred
-- **Archive** — 32 placeholder/scaffold repos retired (not counted above)
+- **195 active public repos** — 48 originals + 147 forks · 30 stars
+- **Top languages** — Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin
+- **Community** — 14 followers · 56 following · 306 starred
+- **Archive** — 24 placeholder/scaffold repos retired (not counted above)
 
 <sub>Auto-generated 2026-09-21 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>
 

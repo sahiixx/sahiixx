@@ -17,12 +17,12 @@
 
 ## ⚡ Live operating picture
 
-> Auto-refreshed every 6h by an on-machine agent + GitHub Action. Machine state as of **2026-09-25**; repo stats pulled at render time.
+> Auto-refreshed every 6h by an on-machine agent + GitHub Action. Machine state as of **2026-09-26**; repo stats pulled at render time.
 
 | Signal | State |
 |---|---|
-| 🛰️ Hermes gateway | `starting` · Telegram `connecting` |
-| 🩺 Self-healing watchdog | 6 services supervised · auto-remediation on |
+| 🛰️ Hermes gateway | `running` · Telegram `connected` |
+| 🩺 Self-healing watchdog | 7 services supervised · auto-remediation on |
 | 🏢 FirstCall revenue pipeline | 4,565 leads · 1,907 deals · 4,911 outreach · 0 open links |
 | ☁️ Cloudflare edge | 9 Workers · 4 Pages · 3 R2 · 1 KV · 1 Queue |
 | 📈 GitHub activity (30d) | 70 pushes · 18 PRs · 12 repos created |
@@ -108,7 +108,7 @@ Stars, language and last push come straight from the GitHub API at render time.
 - **Community** — 14 followers · 56 following · 306 starred
 - **Archive** — 24 placeholder/scaffold repos retired (not counted above)
 
-<sub>Auto-generated 2026-09-25 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>
+<sub>Auto-generated 2026-09-26 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>
 
 ---
 

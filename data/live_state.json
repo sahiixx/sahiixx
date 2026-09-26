@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-25",
-  "gateway_state": "starting",
-  "telegram": "connecting",
-  "watchdog_services": 6,
+  "updated_at": "2026-09-26",
+  "gateway_state": "running",
+  "telegram": "connected",
+  "watchdog_services": 7,
   "firstcall": {
     "leads": 4565,
     "deals": 1907,

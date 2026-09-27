@@ -1,40 +1,43 @@
 # @sahiixx Portfolio
 
-Generated: 2026-09-20 08:14 UTC
+Generated: 2026-09-27 08:54 UTC
 Total Public Repos: 219
 
 ## Core Projects (Agents & Systems)
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Python | - | 0⭐ | 2026-09-07 |
-| [agentic-harness-integration](https://github.com/sahiixx/agentic-harness-integration) | Python | - | 1⭐ | 2026-08-16 |
-| [agentic-harness](https://github.com/sahiixx/agentic-harness) | Python | Agentic workflow patterns wired to Azure Foundry, shared across all sahiixx repos | 0⭐ | 2026-08-10 |
-| [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | - | 0⭐ | 2026-08-10 |
-| [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | - | 0⭐ | 2026-08-10 |
+| [agentic-harness](https://github.com/sahiixx/agentic-harness) | Python | Agentic workflow patterns wired to Azure Foundry, shared across all sahiixx repos | 1⭐ | 2026-09-26 |
+| [Coral-BlackboxAI-Agent](https://github.com/sahiixx/Coral-BlackboxAI-Agent) | Python | Coral-BlackboxAI-Agent | 1⭐ | 2026-09-21 |
+| [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | agents-for-multi-agent-systems | 0⭐ | 2026-09-21 |
+| [goose-aios](https://github.com/sahiixx/goose-aios) | Python | **Manus AI** is $200/month and sends your code to the cloud. | 0⭐ | 2026-09-21 |
+| [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | saas-agent-platform | 0⭐ | 2026-09-21 |
+| [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | sahiixx-geoflow-agent | 0⭐ | 2026-09-21 |
+| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Python | **Unified AI orchestration for all 170+ repos.** | 0⭐ | 2026-09-21 |
+| [agentic-harness-integration](https://github.com/sahiixx/agentic-harness-integration) | Python | Agentic Harness Integration Layer v6 | 1⭐ | 2026-09-21 |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | Multi-agent orchestration system (Python + Node) — real-estate swarm, evaluator-optimizer pipelines on the sahiixx agentic harness | 2⭐ | 2026-09-21 |
 | [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-08-10 |
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | - | 2⭐ | 2026-08-10 |
-| [Coral-BlackboxAI-Agent](https://github.com/sahiixx/Coral-BlackboxAI-Agent) | Python | - | 1⭐ | 2026-08-10 |
-| [goose-aios](https://github.com/sahiixx/goose-aios) | Python | - | 0⭐ | 2026-08-10 |
-| [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | - | 0⭐ | 2026-08-10 |
-| [v0-nowire-os-blueprint](https://github.com/sahiixx/v0-nowire-os-blueprint) | TypeScript | - | 0⭐ | 2026-09-20 |
+| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | TypeScript | SAHIIXX Operating System — Full stack cyberpunk command center with React + tRPC + Drizzle + Neon Postgres + Cloudflare | 0⭐ | 2026-09-21 |
+| [v0-nowire-os-blueprint](https://github.com/sahiixx/v0-nowire-os-blueprint) | TypeScript | Archived experiment/sandbox repo | 0⭐ | 2026-09-21 |
+| [sahiix-os](https://github.com/sahiixx/sahiix-os) | HTML | Dubai Real Estate Lead Management System | 0⭐ | 2026-09-21 |
 | [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first, memory-persistent, MCP-powered personal AI OS. CLI + LiveKit voice + Tauri desktop + Claude Code plugin. Runs offline on Ollama or cloud via Anthropic. | 2⭐ | 2026-09-14 |
 | [sahiix-os-docs](https://github.com/sahiixx/sahiix-os-docs) | JavaScript | SAHIIXX OS - AI-powered real estate automation workspace | 1⭐ | 2026-09-07 |
 | [systems-panel](https://github.com/sahiixx/systems-panel) | Astro | SAHIIXX live systems panel — static Astro dashboard showing status of all SAHIIXX modules (kernel, verticals, experiments) with Prometheus-style metrics. | 0⭐ | 2026-08-10 |
-| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | TypeScript | SAHIIXX Operating System — Full stack cyberpunk command center with React + tRPC + Drizzle + Neon Postgres + Cloudflare | 0⭐ | 2026-08-10 |
-| [sahiix-os](https://github.com/sahiixx/sahiix-os) | HTML | - | 0⭐ | 2026-08-10 |
 
 ## Security Tools
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [Fixfiz](https://github.com/sahiixx/Fixfiz) | Python | - | 0⭐ | 2026-09-20 |
-| [Fixfizx](https://github.com/sahiixx/Fixfizx) | Python | - | 0⭐ | 2026-09-20 |
+| [Fixfiz](https://github.com/sahiixx/Fixfiz) | Python | Archived experiment/sandbox repo | 0⭐ | 2026-09-21 |
+| [Fixfizx](https://github.com/sahiixx/Fixfizx) | Python | Archived experiment/sandbox repo | 0⭐ | 2026-09-21 |
 
 ## AI/Agent Forks (Active Ecosystem)
 
 | Repo | Language | Origin | Stars | Updated |
 |------|----------|--------|-------|---------|
+| [Multi-Agent-Demo](https://github.com/sahiixx/Multi-Agent-Demo) | Python | forked | 0⭐ | 2026-09-21 |
+| [claude-agent-sdk-python](https://github.com/sahiixx/claude-agent-sdk-python) | Python | forked | 0⭐ | 2026-09-21 |
+| [openai-realtime-twilio-demo](https://github.com/sahiixx/openai-realtime-twilio-demo) | TypeScript | forked | 0⭐ | 2026-09-21 |
 | [Agent-Reach](https://github.com/sahiixx/Agent-Reach) | - | forked | 0⭐ | 2026-09-20 |
 | [fable-orchestrator](https://github.com/sahiixx/fable-orchestrator) | - | forked | 0⭐ | 2026-09-03 |
 | [ruflo](https://github.com/sahiixx/ruflo) | - | forked | 0⭐ | 2026-08-19 |
@@ -77,7 +80,6 @@ Total Public Repos: 219
 | [ms-swift](https://github.com/sahiixx/ms-swift) | Python | forked | 0⭐ | 2026-08-10 |
 | [rasa](https://github.com/sahiixx/rasa) | Python | forked | 0⭐ | 2026-08-10 |
 | [autogen](https://github.com/sahiixx/autogen) | Python | forked | 1⭐ | 2026-08-10 |
-| [openai-realtime-twilio-demo](https://github.com/sahiixx/openai-realtime-twilio-demo) | TypeScript | forked | 0⭐ | 2026-08-10 |
 | [openai-fm](https://github.com/sahiixx/openai-fm) | TypeScript | forked | 0⭐ | 2026-08-10 |
 | [openai-testing-agent-demo](https://github.com/sahiixx/openai-testing-agent-demo) | TypeScript | forked | 0⭐ | 2026-08-10 |
 | [openai-responses-starter-app](https://github.com/sahiixx/openai-responses-starter-app) | TypeScript | forked | 0⭐ | 2026-08-10 |
@@ -93,11 +95,9 @@ Total Public Repos: 219
 | [Open-AutoGLM](https://github.com/sahiixx/Open-AutoGLM) | Python | forked | 0⭐ | 2026-08-10 |
 | [bytebot](https://github.com/sahiixx/bytebot) | TypeScript | forked | 0⭐ | 2026-08-10 |
 | [llm-council](https://github.com/sahiixx/llm-council) | Python | forked | 0⭐ | 2026-08-10 |
-| [Multi-Agent-Demo](https://github.com/sahiixx/Multi-Agent-Demo) | Python | forked | 0⭐ | 2026-08-10 |
 | [Kimi-K2](https://github.com/sahiixx/Kimi-K2) | - | forked | 0⭐ | 2026-08-10 |
 | [deer-flow](https://github.com/sahiixx/deer-flow) | Python | forked | 0⭐ | 2026-08-10 |
 | [copilot-sdk](https://github.com/sahiixx/copilot-sdk) | TypeScript | forked | 0⭐ | 2026-08-10 |
-| [claude-agent-sdk-python](https://github.com/sahiixx/claude-agent-sdk-python) | Python | forked | 0⭐ | 2026-08-10 |
 | [Qwen3-Omni](https://github.com/sahiixx/Qwen3-Omni) | Jupyter Notebook | forked | 0⭐ | 2026-08-10 |
 | [awesome-agentic-patterns](https://github.com/sahiixx/awesome-agentic-patterns) | HTML | forked | 1⭐ | 2026-08-10 |
 | [ai-chatbot](https://github.com/sahiixx/ai-chatbot) | TypeScript | forked | 0⭐ | 2026-08-10 |
@@ -112,7 +112,13 @@ Total Public Repos: 219
 
 | Repo | Language | Stars | Updated |
 |------|----------|-------|---------|
-| [llama-cookbook](https://github.com/sahiixx/llama-cookbook) | Jupyter Notebook | 0⭐ | 2026-09-09 |
+| [llama-cookbook](https://github.com/sahiixx/llama-cookbook) | Jupyter Notebook | 0⭐ | 2026-09-22 |
+| [OpenManus](https://github.com/sahiixx/OpenManus) | HTML | 0⭐ | 2026-09-21 |
+| [coral-studio](https://github.com/sahiixx/coral-studio) | Svelte | 0⭐ | 2026-09-21 |
+| [haikus-for-codespaces](https://github.com/sahiixx/haikus-for-codespaces) | EJS | 0⭐ | 2026-09-21 |
+| [privacy-sandbox-samples](https://github.com/sahiixx/privacy-sandbox-samples) | Kotlin | 0⭐ | 2026-09-21 |
+| [zsh-kimi-cli](https://github.com/sahiixx/zsh-kimi-cli) | Shell | 0⭐ | 2026-09-21 |
+| [privacy-sandbox-demos](https://github.com/sahiixx/privacy-sandbox-demos) | TypeScript | 0⭐ | 2026-09-21 |
 | [Hoku](https://github.com/sahiixx/Hoku) | - | 0⭐ | 2026-09-08 |
 | [worldmonitor](https://github.com/sahiixx/worldmonitor) | TypeScript | 1⭐ | 2026-09-05 |
 | [GodsView](https://github.com/sahiixx/GodsView) | - | 0⭐ | 2026-09-03 |
@@ -126,12 +132,6 @@ Total Public Repos: 219
 | [awesome](https://github.com/sahiixx/awesome) | - | 0⭐ | 2026-08-10 |
 | [public-apis](https://github.com/sahiixx/public-apis) | Python | 0⭐ | 2026-08-10 |
 | [langchain](https://github.com/sahiixx/langchain) | Python | 0⭐ | 2026-08-10 |
-| [fuck-u-code](https://github.com/sahiixx/fuck-u-code) | Go | 0⭐ | 2026-08-10 |
-| [content](https://github.com/sahiixx/content) | Markdown | 0⭐ | 2026-08-10 |
-| [node](https://github.com/sahiixx/node) | JavaScript | 0⭐ | 2026-08-10 |
-| [privacy-sandbox-demos](https://github.com/sahiixx/privacy-sandbox-demos) | TypeScript | 0⭐ | 2026-08-10 |
-| [cookbook](https://github.com/sahiixx/cookbook) | Jupyter Notebook | 1⭐ | 2026-08-10 |
-| [RuView](https://github.com/sahiixx/RuView) | Rust | 1⭐ | 2026-08-10 |
 | *...and 55 more forks* | | | |
 
 ## Language Distribution

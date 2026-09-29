@@ -8,7 +8,7 @@
 
 ![focus](https://img.shields.io/badge/focus-agentic%20AGI-111111?style=for-the-badge)
 ![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)
-![repos](https://img.shields.io/badge/active%20repos-196-3E6B4F?style=for-the-badge)
+![repos](https://img.shields.io/badge/active%20repos-197-3E6B4F?style=for-the-badge)
 ![status](https://img.shields.io/badge/status-live%20%26%20executing-brightgreen?style=for-the-badge)
 
 </div>
@@ -103,12 +103,12 @@ Stars, language and last push come straight from the GitHub API at render time.
 
 ## 📊 Live footprint
 
-- **196 active public repos** — 49 originals + 147 forks · 35 stars
+- **197 active public repos** — 50 originals + 147 forks · 35 stars
 - **Top languages** — Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin
 - **Community** — 14 followers · 56 following · 306 starred
 - **Archive** — 24 placeholder/scaffold repos retired (not counted above)
 
-<sub>Auto-generated 2026-09-28 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>
+<sub>Auto-generated 2026-09-29 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>
 
 ---
 

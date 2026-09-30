@@ -82,10 +82,10 @@ Stars, language and last push come straight from the GitHub API at render time.
 | [friday-os](https://github.com/sahiixx/friday-os) | Voice-first personal AI OS — LiveKit + Tauri + MCP | Python | 2 | 2026-08-10 |
 | [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Modular multi-agent OS | Python | 2 | 2026-08-10 |
 | [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Unified orchestration bus (pub/sub mesh) | Python | 1 | 2026-09-28 |
-| [agentic-harness](https://github.com/sahiixx/agentic-harness) | Agentic workflow patterns (Azure Foundry) | Python | 1 | 2026-09-28 |
+| [agentic-harness](https://github.com/sahiixx/agentic-harness) | Agentic workflow patterns (Azure Foundry) | Python | 2 | 2026-09-28 |
 | [moltworker](https://github.com/sahiixx/moltworker) | OpenClaw on Cloudflare Workers | JavaScript | 0 | 2026-09-28 |
 | [ocr-playbook-scanner](https://github.com/sahiixx/ocr-playbook-scanner) | OCR ingestion utility | Kotlin | 1 | 2026-09-28 |
-| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | Full-stack command center (React + tRPC) | TypeScript | 0 | 2026-09-29 |
+| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | Full-stack command center (React + tRPC) | TypeScript | 1 | 2026-09-29 |
 
 <sub>Private flagships (FirstCall pipeline, revenue OS) are counted in totals, never exposed.</sub>
 
@@ -103,12 +103,12 @@ Stars, language and last push come straight from the GitHub API at render time.
 
 ## 📊 Live footprint
 
-- **197 active public repos** — 50 originals + 147 forks · 35 stars
+- **197 active public repos** — 50 originals + 147 forks · 42 stars
 - **Top languages** — Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin
 - **Community** — 14 followers · 56 following · 306 starred
 - **Archive** — 24 placeholder/scaffold repos retired (not counted above)
 
-<sub>Auto-generated 2026-09-29 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>
+<sub>Auto-generated 2026-09-30 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>
 
 ---
 

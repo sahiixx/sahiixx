@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-26",
+  "updated_at": "2026-10-01",
   "gateway_state": "running",
   "telegram": "connected",
-  "watchdog_services": 8,
+  "watchdog_services": 9,
   "firstcall": {
-    "leads": 4565,
-    "deals": 1907,
-    "outreach": 4911,
+    "leads": 4025,
+    "deals": 1111,
+    "outreach": 2786,
     "orphans": 0
   },
   "edge": {
@@ -17,8 +17,8 @@
     "queues": 1
   },
   "github_30d": {
-    "pushes": 73,
-    "prs": 18,
-    "created": 12
+    "pushes": 143,
+    "prs": 28,
+    "created": 19
   }
 }

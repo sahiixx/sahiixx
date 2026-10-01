@@ -25,8 +25,8 @@
 | 🩺 Self-healing watchdog | 9 services supervised · auto-remediation on |
 | 🏢 FirstCall revenue pipeline | 4,025 leads · 1,111 deals · 2,786 outreach · 0 open links |
 | ☁️ Cloudflare edge | 9 Workers · 4 Pages · 3 R2 · 1 KV · 1 Queue |
-| 📈 GitHub activity (30d) | 143 pushes · 28 PRs · 19 repos created |
-| ⭐ Research library | 306 starred repos — the state of the art, mapped |
+| 📈 GitHub activity (30d) | 147 pushes · 28 PRs · 21 repos created |
+| ⭐ Research library | 307 starred repos — the state of the art, mapped |
 
 ---
 
@@ -105,7 +105,7 @@ Stars, language and last push come straight from the GitHub API at render time.
 
 - **198 active public repos** — 51 originals + 147 forks · 42 stars
 - **Top languages** — Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin
-- **Community** — 14 followers · 56 following · 306 starred
+- **Community** — 15 followers · 56 following · 307 starred
 - **Archive** — 24 placeholder/scaffold repos retired (not counted above)
 
 <sub>Auto-generated 2026-10-01 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>

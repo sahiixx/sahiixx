@@ -17,15 +17,15 @@
 
 ## ⚡ Live operating picture
 
-> Auto-refreshed every 6h by an on-machine agent + GitHub Action. Machine state as of **2026-09-26**; repo stats pulled at render time.
+> Auto-refreshed every 6h by an on-machine agent + GitHub Action. Machine state as of **2026-10-01**; repo stats pulled at render time.
 
 | Signal | State |
 |---|---|
 | 🛰️ Hermes gateway | `running` · Telegram `connected` |
-| 🩺 Self-healing watchdog | 8 services supervised · auto-remediation on |
-| 🏢 FirstCall revenue pipeline | 4,565 leads · 1,907 deals · 4,911 outreach · 0 open links |
+| 🩺 Self-healing watchdog | 9 services supervised · auto-remediation on |
+| 🏢 FirstCall revenue pipeline | 4,025 leads · 1,111 deals · 2,786 outreach · 0 open links |
 | ☁️ Cloudflare edge | 9 Workers · 4 Pages · 3 R2 · 1 KV · 1 Queue |
-| 📈 GitHub activity (30d) | 73 pushes · 18 PRs · 12 repos created |
+| 📈 GitHub activity (30d) | 143 pushes · 28 PRs · 19 repos created |
 | ⭐ Research library | 306 starred repos — the state of the art, mapped |
 
 ---
@@ -78,7 +78,7 @@ Stars, language and last push come straight from the GitHub API at render time.
 
 | System | What it proves | Lang | Stars | Pushed |
 |---|---|---|---|---|
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Flagship multi-agent swarm lab | Python | 3 | 2026-09-28 |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Flagship multi-agent swarm lab | Python | 3 | 2026-10-01 |
 | [friday-os](https://github.com/sahiixx/friday-os) | Voice-first personal AI OS — LiveKit + Tauri + MCP | Python | 2 | 2026-08-10 |
 | [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Modular multi-agent OS | Python | 2 | 2026-08-10 |
 | [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Unified orchestration bus (pub/sub mesh) | Python | 1 | 2026-09-28 |
@@ -108,7 +108,7 @@ Stars, language and last push come straight from the GitHub API at render time.
 - **Community** — 14 followers · 56 following · 306 starred
 - **Archive** — 24 placeholder/scaffold repos retired (not counted above)
 
-<sub>Auto-generated 2026-09-30 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>
+<sub>Auto-generated 2026-10-01 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>
 
 ---
 

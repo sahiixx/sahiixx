@@ -1,23 +1,23 @@
 # @sahiixx Portfolio
 
-Generated: 2026-09-27 08:54 UTC
-Total Public Repos: 219
+Generated: 2026-10-04 09:17 UTC
+Total Public Repos: 223
 
 ## Core Projects (Agents & Systems)
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
-| [agentic-harness](https://github.com/sahiixx/agentic-harness) | Python | Agentic workflow patterns wired to Azure Foundry, shared across all sahiixx repos | 1⭐ | 2026-09-26 |
+| [agentic-harness](https://github.com/sahiixx/agentic-harness) | Python | Agentic workflow patterns wired to Azure Foundry, shared across all sahiixx repos | 2⭐ | 2026-09-30 |
+| [agentic-harness-integration](https://github.com/sahiixx/agentic-harness-integration) | Python | Agentic Harness Integration Layer v6 | 2⭐ | 2026-09-29 |
+| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Python | **Unified AI orchestration for all 170+ repos.** | 0⭐ | 2026-09-28 |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | Multi-agent orchestration system (Python + Node) — real-estate swarm, evaluator-optimizer pipelines on the sahiixx agentic harness | 3⭐ | 2026-09-28 |
+| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 2⭐ | 2026-09-27 |
 | [Coral-BlackboxAI-Agent](https://github.com/sahiixx/Coral-BlackboxAI-Agent) | Python | Coral-BlackboxAI-Agent | 1⭐ | 2026-09-21 |
 | [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | agents-for-multi-agent-systems | 0⭐ | 2026-09-21 |
 | [goose-aios](https://github.com/sahiixx/goose-aios) | Python | **Manus AI** is $200/month and sends your code to the cloud. | 0⭐ | 2026-09-21 |
 | [saas-agent-platform](https://github.com/sahiixx/saas-agent-platform) | Python | saas-agent-platform | 0⭐ | 2026-09-21 |
 | [sahiixx-geoflow-agent](https://github.com/sahiixx/sahiixx-geoflow-agent) | Python | sahiixx-geoflow-agent | 0⭐ | 2026-09-21 |
-| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Python | **Unified AI orchestration for all 170+ repos.** | 0⭐ | 2026-09-21 |
-| [agentic-harness-integration](https://github.com/sahiixx/agentic-harness-integration) | Python | Agentic Harness Integration Layer v6 | 1⭐ | 2026-09-21 |
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | Multi-agent orchestration system (Python + Node) — real-estate swarm, evaluator-optimizer pipelines on the sahiixx agentic harness | 2⭐ | 2026-09-21 |
-| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 1⭐ | 2026-08-10 |
-| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | TypeScript | SAHIIXX Operating System — Full stack cyberpunk command center with React + tRPC + Drizzle + Neon Postgres + Cloudflare | 0⭐ | 2026-09-21 |
+| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | TypeScript | SAHIIXX Operating System — Full stack cyberpunk command center with React + tRPC + Drizzle + Neon Postgres + Cloudflare | 1⭐ | 2026-10-01 |
 | [v0-nowire-os-blueprint](https://github.com/sahiixx/v0-nowire-os-blueprint) | TypeScript | Archived experiment/sandbox repo | 0⭐ | 2026-09-21 |
 | [sahiix-os](https://github.com/sahiixx/sahiix-os) | HTML | Dubai Real Estate Lead Management System | 0⭐ | 2026-09-21 |
 | [friday-os](https://github.com/sahiixx/friday-os) | Python | Voice-first, memory-persistent, MCP-powered personal AI OS. CLI + LiveKit voice + Tauri desktop + Claude Code plugin. Runs offline on Ollama or cloud via Anthropic. | 2⭐ | 2026-09-14 |
@@ -112,6 +112,7 @@ Total Public Repos: 219
 
 | Repo | Language | Stars | Updated |
 |------|----------|-------|---------|
+| [laya](https://github.com/sahiixx/laya) | - | 0⭐ | 2026-10-02 |
 | [llama-cookbook](https://github.com/sahiixx/llama-cookbook) | Jupyter Notebook | 0⭐ | 2026-09-22 |
 | [OpenManus](https://github.com/sahiixx/OpenManus) | HTML | 0⭐ | 2026-09-21 |
 | [coral-studio](https://github.com/sahiixx/coral-studio) | Svelte | 0⭐ | 2026-09-21 |
@@ -131,14 +132,13 @@ Total Public Repos: 219
 | [docsb](https://github.com/sahiixx/docsb) | TypeScript | 0⭐ | 2026-08-10 |
 | [awesome](https://github.com/sahiixx/awesome) | - | 0⭐ | 2026-08-10 |
 | [public-apis](https://github.com/sahiixx/public-apis) | Python | 0⭐ | 2026-08-10 |
-| [langchain](https://github.com/sahiixx/langchain) | Python | 0⭐ | 2026-08-10 |
-| *...and 55 more forks* | | | |
+| *...and 56 more forks* | | | |
 
 ## Language Distribution
 
-- **Python**: 67 repos
+- **Python**: 68 repos
 - **TypeScript**: 57 repos
-- **JavaScript**: 13 repos
+- **JavaScript**: 14 repos
 - **HTML**: 9 repos
 - **Go**: 8 repos
 - **Rust**: 7 repos

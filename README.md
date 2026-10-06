@@ -78,12 +78,12 @@ Stars, language and last push come straight from the GitHub API at render time.
 
 | System | What it proves | Lang | Stars | Pushed |
 |---|---|---|---|---|
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Flagship multi-agent swarm lab | Python | 3 | 2026-10-02 |
-| [friday-os](https://github.com/sahiixx/friday-os) | Voice-first personal AI OS — LiveKit + Tauri + MCP | Python | 2 | 2026-08-10 |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Flagship multi-agent swarm lab | Python | 3 | 2026-10-05 |
+| [friday-os](https://github.com/sahiixx/friday-os) | Voice-first personal AI OS — LiveKit + Tauri + MCP | Python | 2 | 2026-10-05 |
 | [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Modular multi-agent OS | Python | 2 | 2026-08-10 |
 | [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Unified orchestration bus (pub/sub mesh) | Python | 1 | 2026-09-28 |
 | [agentic-harness](https://github.com/sahiixx/agentic-harness) | Agentic workflow patterns (Azure Foundry) | Python | 2 | 2026-09-28 |
-| [moltworker](https://github.com/sahiixx/moltworker) | OpenClaw on Cloudflare Workers | JavaScript | 0 | 2026-09-28 |
+| [moltworker](https://github.com/sahiixx/moltworker) | OpenClaw on Cloudflare Workers | JavaScript | 0 | 2026-10-05 |
 | [ocr-playbook-scanner](https://github.com/sahiixx/ocr-playbook-scanner) | OCR ingestion utility | Kotlin | 1 | 2026-09-28 |
 | [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | Full-stack command center (React + tRPC) | TypeScript | 1 | 2026-10-01 |
 
@@ -108,7 +108,7 @@ Stars, language and last push come straight from the GitHub API at render time.
 - **Community** — 17 followers · 56 following · 309 starred
 - **Archive** — 24 placeholder/scaffold repos retired (not counted above)
 
-<sub>Auto-generated 2026-10-05 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>
+<sub>Auto-generated 2026-10-06 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>
 
 ---
 

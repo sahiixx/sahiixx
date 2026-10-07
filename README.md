@@ -116,6 +116,7 @@ The harness uses runtime contracts, bounded timeouts, replayable fixtures, redac
 | See the public product surface | [SAHIIX OS](https://sahiixx-os.pages.dev) · [portfolio](https://sahiix-portfolio.pages.dev) |
 | Understand the architecture | [`CONNECTED_ECOSYSTEM.md`](https://github.com/sahiixx/sahiixx/blob/main/CONNECTED_ECOSYSTEM.md) · [`FOUNDER_SERVICE_ARCHITECTURE.md`](https://github.com/sahiixx/sahiixx/blob/main/FOUNDER_SERVICE_ARCHITECTURE.md) |
 | Inspect the full repository map | [`FULL_PORTFOLIO.md`](https://github.com/sahiixx/sahiixx/blob/main/FULL_PORTFOLIO.md) · [`REPO_MAP.md`](https://github.com/sahiixx/sahiixx/blob/main/REPO_MAP.md) |
+| Read the evidence-backed case studies | [`CASE_STUDIES.md`](https://github.com/sahiixx/sahiixx/blob/main/CASE_STUDIES.md) |
 | See verification in code | [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e) · [`agentic-harness`](https://github.com/sahiixx/agentic-harness) |
 | Collaborate or propose an integration | Open an issue in the relevant repository or reach out through the portfolio |
 
@@ -165,14 +166,22 @@ flowchart LR
 
 ---
 
-## 🎯 Building next
+## 🎯 Delivery status
 
-- Make the NEXUS → OPA boundary real before calling specialist lead agents production.
-- Keep the agent mesh centered on routing, memory, observability and approval gates.
-- Keep traditional, generative and foundation-model capabilities independently measurable in the E2E matrix.
-- Track model/provider changes through primary sources instead of embedding stale model names in product claims.
-- Turn the strongest internal patterns into clear public case studies, runbooks and reusable reference implementations.
-- Consolidate the repository estate while preserving forks as an explicit research library.
+### Completed
+
+- [x] Contract-first E2E release gate with traditional, generative and foundation-model lanes.
+- [x] Provider/model configuration kept environment-controlled and source-linked.
+- [x] Public architecture map, engineering principles and case studies.
+- [x] Core repository taxonomy that separates products, experiments and fork study libraries.
+
+### Remaining release gates
+
+- [ ] Configure reachable OPA and bus environments and pass `REQUIRE_LIVE=1` capture → qualify → match checks.
+- [ ] Make lead events durable with an outbox, idempotency, retry/DLQ and trace propagation.
+- [ ] Add tenant-isolation, consent, tool-scope and approval-state checks before production scheduling or offers.
+- [ ] Run the repository hygiene script with administrative scope, then keep the fork library and archive candidates current.
+- [ ] Publish live model canary artifacts once capability-specific provider variables are available.
 
 <sub>Top active languages: Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin · Generated 2026-10-07 by the profile workflow.</sub>
 

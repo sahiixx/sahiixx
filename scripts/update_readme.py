@@ -86,6 +86,7 @@ def build_readme(repos):
     rows = "\n".join(filter(None, [
         proof("sahiixx-os", "Full-stack command center with React, Hono, tRPC, Drizzle and Neon", "Public surface"),
         proof("agentic-harness", "Reusable agent workflow patterns, verification and Azure Foundry routing", "Shipped"),
+        proof("sahiixx-e2e", "Contract-first Playwright release gate with traditional, generative and foundation-model lanes", "Shipped"),
         proof("sahiixx-agency", "CLI/API/MCP-oriented repository and task dispatch", "Shipped/local"),
         proof("friday-os", "Voice-first, memory-persistent personal AI OS with LiveKit, Tauri and MCP", "Shipped"),
         proof("agency-agents", "Multi-agent orchestration and swarm experiments", "Active experiment"),
@@ -98,9 +99,9 @@ def build_readme(repos):
 
 # SAHIIXX
 
-### AI systems architect · agent runtimes, memory, voice and edge · Dubai, UAE
+### AI systems architect · model-agnostic agent runtimes · Dubai, UAE
 
-*I build the layer where models meet real software: bounded tools, persistent state, human gates, live interfaces and domain workflows.*
+*I build the layer where models meet real software: routing, bounded tools, persistent state, human gates, live interfaces and domain workflows.*
 
 ![focus](https://img.shields.io/badge/focus-AI%20systems-111111?style=for-the-badge)
 ![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)
@@ -119,6 +120,7 @@ def build_readme(repos):
 | 🖥️ Public OS surface | [SAHIIX OS](https://sahiixx-os.pages.dev) · React/Hono/tRPC/Drizzle/Neon/Cloudflare |
 | 🎙️ Voice + tools | [Jarvis](https://sahiixx-os.pages.dev/jarvis) route plus [`friday-os`](https://github.com/sahiixx/friday-os) |
 | 🏢 Domain workflow | NEXUS real-estate lead flow · local/pilot boundary documented in the portfolio repo |
+| 🧪 Model verification | [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e) covers traditional, generative and foundation-model capability lanes |
 | 🧪 Verification rule | `live` means a reachable or documented running surface; `shipped` means code exists; `in-dev` and `concept` stay labeled |''',
         '''## 🧠 AI frontier map — grounded, not hype
 
@@ -141,6 +143,17 @@ The current AI stack is moving from single-turn generation toward reasoning mode
 **Operator shell.** [`sahiixx-os`](https://github.com/sahiixx/sahiixx-os) is the public command center; Jarvis adds streaming voice with read, mutate and confirmation-gated tool tiers.
 
 **Domain vertical.** NEXUS connects Dubai real-estate intake, ranking, WhatsApp and OS import paths. The portfolio marks local workstation services and pilot boundaries explicitly; planned specialist lead agents are not described as live until they exist.''',
+        '''## 🧪 Model-agnostic verification
+
+[`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e) is the release-verification boundary for the model layer:
+
+| Lane | What is verified | Default mode |
+|---|---|---|
+| Traditional | deterministic classification and lead scoring | network-free |
+| Generative | chat, SSE streaming and tool calls | mocked, with opt-in live canaries |
+| Foundation | structured output, embeddings and vision | mocked, with capability-specific live canaries |
+
+The harness uses runtime contracts, bounded timeouts, replayable fixtures, redacted diagnostics and environment-controlled provider/model IDs. A missing live profile skips only that capability; a configured endpoint fails on transport, HTTP or schema errors.''',
         '''## 🔗 Execution graph
 
 ```mermaid
@@ -170,6 +183,7 @@ flowchart LR
 
 - Make the NEXUS → OPA boundary real before calling specialist lead agents production.
 - Keep the agent mesh centered on routing, memory, observability and approval gates.
+- Keep traditional, generative and foundation-model capabilities independently measurable in the E2E matrix.
 - Track model/provider changes through primary sources instead of embedding stale model names in product claims.
 - Consolidate the repository estate while preserving forks as an explicit research library.
 

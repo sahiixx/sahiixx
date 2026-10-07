@@ -40,7 +40,7 @@
 | Gateway | `running` · Telegram `connected` · `9` watchdog services |
 | Firstcall pipeline | `4025` leads · `1111` deals · `2786` outreach events · `0` orphans |
 | Edge estate | `9` Workers · `4` Pages · `3` R2 · `1` KV · `1` queues |
-| GitHub activity, 30 days | `153` pushes · `57` PRs · `49` repositories created |
+| GitHub activity, 30 days | `154` pushes · `68` PRs · `49` repositories created |
 
 ---
 

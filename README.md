@@ -2,122 +2,110 @@
 
 # SAHIIXX
 
-### Agentic AGI — end to end · Dubai, UAE
+### AI systems architect · agent runtimes, memory, voice and edge · Dubai, UAE
 
-*I build production agent systems, not demos. One operating system of agents, memory, voice, verticals and edge — running, healing and earning in real time.*
+*I build the layer where models meet real software: bounded tools, persistent state, human gates, live interfaces and domain workflows.*
 
-![focus](https://img.shields.io/badge/focus-agentic%20AGI-111111?style=for-the-badge)
+![focus](https://img.shields.io/badge/focus-AI%20systems-111111?style=for-the-badge)
 ![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)
-![repos](https://img.shields.io/badge/active%20repos-199-3E6B4F?style=for-the-badge)
-![status](https://img.shields.io/badge/status-live%20%26%20executing-brightgreen?style=for-the-badge)
+![repos](https://img.shields.io/badge/public%20repos-223-3E6B4F?style=for-the-badge)
+![status](https://img.shields.io/badge/status-building%20%26%20shipping-brightgreen?style=for-the-badge)
 
 </div>
 
 ---
 
-## ⚡ Live operating picture
+## ⚡ Current operating picture
 
-> Auto-refreshed every 6h by an on-machine agent + GitHub Action. Machine state as of **2026-10-07**; repo stats pulled at render time.
+> Snapshot: **2026-10-07**. Repository counts are GitHub inventory data; product states are labeled from project evidence and public surfaces, not inferred from model capability.
 
-| Signal | State |
+| Signal | Evidence-backed state |
 |---|---|
-| 🛰️ Hermes gateway | `running` · Telegram `connected` |
-| 🩺 Self-healing watchdog | 9 services supervised · auto-remediation on |
-| 🏢 FirstCall revenue pipeline | 4,025 leads · 1,111 deals · 2,786 outreach · 0 open links |
-| ☁️ Cloudflare edge | 9 Workers · 4 Pages · 3 R2 · 1 KV · 1 Queue |
-| 📈 GitHub activity (30d) | 153 pushes · 57 PRs · 49 repos created |
-| ⭐ Research library | 309 starred repos — the state of the art, mapped |
+| 🧭 Repository estate | 223 public repositories · 51 unarchived originals · 148 unarchived forks · 24 archived |
+| 🧠 Orchestration | `sahiixx-agency`, `agentic-harness`, `sahiixx-bus` and the swarm experiments |
+| 🖥️ Public OS surface | [SAHIIX OS](https://sahiixx-os.pages.dev) · React/Hono/tRPC/Drizzle/Neon/Cloudflare |
+| 🎙️ Voice + tools | [Jarvis](https://sahiixx-os.pages.dev/jarvis) route plus [`friday-os`](https://github.com/sahiixx/friday-os) |
+| 🏢 Domain workflow | NEXUS real-estate lead flow · local/pilot boundary documented in the portfolio repo |
+| 🧪 Verification rule | `live` means a reachable or documented running surface; `shipped` means code exists; `in-dev` and `concept` stay labeled |
 
 ---
 
-## 🧠 Live AI/AGI stack
+## 🧠 AI frontier map — grounded, not hype
 
-The substrate I run against daily — frontier APIs, open reasoning models, local inference, agent runtimes, orchestration and routing:
+The current AI stack is moving from single-turn generation toward reasoning modes, tool use, memory, multimodality, agents and embodied interfaces. My work is the systems layer around those capabilities.
 
-| Layer | Toolkit |
-|---|---|
-| **Frontier APIs** | Claude · GPT · Gemini · Kimi (Moonshot) |
-| **Open / reasoning** | DeepSeek · Qwen · GLM · Nemotron |
-| **Local inference** | GGUF + `llama-server` (offline, byte-verified) |
-| **Agent runtimes** | Cline · Hermes · IronClaw/Reborn · OpenClaw |
-| **Orchestration** | MCP servers · `sahiixx-bus` mesh · n8n |
-| **Routing** | TokenRouter · Cline gateway · AgentRouter |
+| Area | Current evidence | How I frame it |
+|---|---|---|
+| Frontier models | [OpenAI research](https://openai.com/research/), [Anthropic Claude 4](https://www.anthropic.com/news/claude-4), [Google DeepMind models](https://deepmind.google/models/) | Providers publish increasingly capable reasoning, coding, tool and multimodal systems; the application still needs routing, permissions and verification. |
+| Open and local models | [Qwen3](https://qwenlm.github.io/blog/qwen3/) and local GGUF/Ollama workflows | Open weights, controllable thinking budgets and local inference are useful for cost, privacy and fallback paths. |
+| AGI | [OpenAI Charter](https://openai.com/charter/) defines AGI as highly autonomous systems that outperform humans at most economically valuable work | AGI is a research target and contested definition, not a capability claim made by this profile or these repositories. |
+| ASI | [Frontier safety research](https://deepmind.google/frontier-safety/) | ASI is a future-risk and governance horizon; no deployed SAHIIX system is represented as superintelligent. |
 
----
-
-## 🏗️ End-to-end agentic systems
-
-**Agent OS.** `sahiixx-agency` (orchestration) + `sahiixx-bus` (pub/sub mesh) + `agentic-harness` (workflow patterns) + `saas-agent-platform` (multi-tenant FastAPI). Swarm lab: `agency-agents` + `sovereign-swarm-v2`.
-
-**Revenue vertical (Dubai real estate).** `FirstCall` (idempotent ingestion → FastAPI), `sovereign-revenue-os`, `nexus-buyer-recovery`, `sovereign-agents`, `lazy-ai-ops`: capture → qualify → geo-match → schedule → report.
-
-**Assistant + memory.** `friday-os` (LiveKit voice + Tauri + MCP) persisted by `sahiixx-titans-memory` + `sahiixx-graph-sight`.
-
-**Edge runtime.** 9 Cloudflare Workers + 4 Pages apps — cheap, always-on agent entry points.
+**Position:** build useful, auditable agent systems now; keep AGI and ASI claims falsifiable, sourced and separate from shipped product status.
 
 ---
 
-## 🔗 Execution graph — idea to revenue
+## 🏗️ End-to-end systems
+
+**Orchestration.** [`sahiixx-agency`](https://github.com/sahiixx/sahiixx-agency) provides a dispatcher surface, [`agentic-harness`](https://github.com/sahiixx/agentic-harness) documents bounded agent patterns and Azure Foundry routing, and [`sahiixx-bus`](https://github.com/sahiixx/sahiixx-bus) supplies the pub/sub seam.
+
+**Assistant + memory.** [`friday-os`](https://github.com/sahiixx/friday-os) combines voice, desktop and MCP; [`sahiixx-titans-memory`](https://github.com/sahiixx/sahiixx-titans-memory) and [`sahiixx-graph-sight`](https://github.com/sahiixx/sahiixx-graph-sight) explore persistent and graph-backed state.
+
+**Operator shell.** [`sahiixx-os`](https://github.com/sahiixx/sahiixx-os) is the public command center; Jarvis adds streaming voice with read, mutate and confirmation-gated tool tiers.
+
+**Domain vertical.** NEXUS connects Dubai real-estate intake, ranking, WhatsApp and OS import paths. The portfolio marks local workstation services and pilot boundaries explicitly; planned specialist lead agents are not described as live until they exist.
+
+---
+
+## 🔗 Execution graph
 
 ```mermaid
 flowchart LR
-  BUS["sahiixx-bus<br/>pub/sub"] --> SWARM["agency-agents + swarm-v2<br/>multi-agent"]
-  SWARM --> MEM["titans-memory + graph-sight<br/>persistent state"]
-  SWARM --> FC["FirstCall<br/>capture / qualify / match"]
-  FC --> REV["sovereign-revenue-os<br/>schedule / report / revenue"]
-  MEM --> PA["friday-os<br/>voice + MCP"]
-  EDGE["Cloudflare edge<br/>9 Workers + 4 Pages"] --> FC
-  EDGE --> PA
+  MODEL["Frontier / open models"] --> ROUTE["Routing + bounded tools"]
+  ROUTE --> BUS["sahiixx-bus<br/>pub/sub"]
+  BUS --> OS["SAHIIX OS<br/>command center"]
+  BUS --> SWARM["agency-agents<br/>experiments"]
+  OS --> VOICE["Jarvis + friday-os<br/>voice / MCP"]
+  OS --> NEXUS["NEXUS<br/>domain workflow"]
+  MEMORY["Titans memory + graph-sight<br/>persistent state"] --> OS
+  HUMAN["Human approval"] --> OS
 ```
 
 ---
 
-## 🧪 Proof, not promises — flagship systems
+## 🧪 Proof, not promises
 
-Stars, language and last push come straight from the GitHub API at render time.
-
-| System | What it proves | Lang | Stars | Pushed |
-|---|---|---|---|---|
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Flagship multi-agent swarm lab | Python | 3 | 2026-10-06 |
-| [friday-os](https://github.com/sahiixx/friday-os) | Voice-first personal AI OS — LiveKit + Tauri + MCP | Python | 2 | 2026-10-05 |
-| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Modular multi-agent OS | Python | 2 | 2026-08-10 |
-| [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Unified orchestration bus (pub/sub mesh) | Python | 1 | 2026-10-06 |
-| [agentic-harness](https://github.com/sahiixx/agentic-harness) | Agentic workflow patterns (Azure Foundry) | Python | 2 | 2026-10-06 |
-| [moltworker](https://github.com/sahiixx/moltworker) | OpenClaw on Cloudflare Workers | JavaScript | 0 | 2026-10-06 |
-| [ocr-playbook-scanner](https://github.com/sahiixx/ocr-playbook-scanner) | OCR ingestion utility | Kotlin | 1 | 2026-09-28 |
-| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | Full-stack command center (React + tRPC) | TypeScript | 1 | 2026-10-01 |
-
-<sub>Private flagships (FirstCall pipeline, revenue OS) are counted in totals, never exposed.</sub>
+| System | What the repository or public surface demonstrates | State | Current GitHub signal |
+|---|---|---|---|
+| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | Full-stack command center with React, Hono, tRPC, Drizzle and Neon | Public surface | TypeScript · 1 stars · 2026-10-01 |
+| [agentic-harness](https://github.com/sahiixx/agentic-harness) | Reusable agent workflow patterns, verification and Azure Foundry routing | Shipped | Python · 2 stars · 2026-10-06 |
+| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | CLI/API/MCP-oriented repository and task dispatch | Shipped/local | Python · 0 stars · 2026-10-06 |
+| [friday-os](https://github.com/sahiixx/friday-os) | Voice-first, memory-persistent personal AI OS with LiveKit, Tauri and MCP | Shipped | Python · 2 stars · 2026-10-05 |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Multi-agent orchestration and swarm experiments | Active experiment | Python · 3 stars · 2026-10-06 |
+| [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Modular multi-agent runtime and governance direction | In development | Python · 2 stars · 2026-08-10 |
+| [moltworker](https://github.com/sahiixx/moltworker) | OpenClaw gateway patterns on Cloudflare Workers | Shipped experiment | JavaScript · 0 stars · 2026-10-06 |
 
 ---
 
-## 🌐 Live surfaces
+## 🌐 Public surfaces
 
-| Surface | URL | Status |
+| Surface | URL | State |
 |---|---|---|
 | Portfolio | [sahiix-portfolio.pages.dev](https://sahiix-portfolio.pages.dev) | live |
-| SAHIIXX OS | [sahiixx-os.pages.dev](https://sahiixx-os.pages.dev) | live |
-| Systems panel | [sahiix-systems.pages.dev](https://sahiix-systems.pages.dev) | live |
-
----
-
-## 📊 Live footprint
-
-- **199 active public repos** — 51 originals + 148 forks · 42 stars
-- **Top languages** — Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin
-- **Community** — 17 followers · 56 following · 309 starred
-- **Archive** — 24 placeholder/scaffold repos retired (not counted above)
-
-<sub>Auto-generated 2026-10-07 by an on-machine agent + GitHub Action. Every metric is fetched at render time; static text never carries a number.</sub>
+| SAHIIX OS | [sahiixx-os.pages.dev](https://sahiixx-os.pages.dev) | live public surface |
+| Systems panel | [sahiix-systems.pages.dev](https://sahiix-systems.pages.dev) | public dashboard |
 
 ---
 
 ## 🎯 Building next
 
-- Hardening the **FirstCall** lead pipeline (capture → qualify → geo-match → revenue)
-- Unifying the agent mesh around `sahiixx-bus`
-- Consolidating the estate (archived placeholders already removed)
+- Make the NEXUS → OPA boundary real before calling specialist lead agents production.
+- Keep the agent mesh centered on routing, memory, observability and approval gates.
+- Track model/provider changes through primary sources instead of embedding stale model names in product claims.
+- Consolidate the repository estate while preserving forks as an explicit research library.
+
+<sub>Top active languages: Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin · Generated 2026-10-07 by the profile workflow.</sub>
 
 ## 📬 Reach me
 
-[Portfolio](https://sahiix-portfolio.pages.dev) · or open an issue on any repo.
+[Portfolio](https://sahiix-portfolio.pages.dev) · [GitHub](https://github.com/sahiixx) · or open an issue on any repo.

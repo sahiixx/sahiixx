@@ -166,23 +166,6 @@ flowchart LR
 
 ---
 
-## 🎯 Delivery status
-
-### Completed
-
-- [x] Contract-first E2E release gate with traditional, generative and foundation-model lanes.
-- [x] Provider/model configuration kept environment-controlled and source-linked.
-- [x] Public architecture map, engineering principles and case studies.
-- [x] Core repository taxonomy that separates products, experiments and fork study libraries.
-
-### Remaining release gates
-
-- [ ] Configure reachable OPA and bus environments and pass `REQUIRE_LIVE=1` capture → qualify → match checks.
-- [ ] Make lead events durable with an outbox, idempotency, retry/DLQ and trace propagation.
-- [ ] Add tenant-isolation, consent, tool-scope and approval-state checks before production scheduling or offers.
-- [ ] Run the repository hygiene script with administrative scope, then keep the fork library and archive candidates current.
-- [ ] Publish live model canary artifacts once capability-specific provider variables are available.
-
 <sub>Top active languages: Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin · Generated 2026-10-07 by the profile workflow.</sub>
 
 ## 📬 Reach me

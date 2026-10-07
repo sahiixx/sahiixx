@@ -57,11 +57,22 @@ def profile():
         return {}
 
 
+def live_state():
+    """Read the explicitly published machine snapshot when available."""
+    path = os.path.join(ROOT, "data", "live_state.json")
+    try:
+        with open(path, encoding="utf-8") as file:
+            value = json.load(file)
+        return value if isinstance(value, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
+
 def link(name):
     return f"[{name}](https://github.com/{OWNER}/{name})"
 
 
-def build_readme(repos):
+def build_readme(repos, state=None):
     public = [r for r in repos if not r.get("private")]
     active = [r for r in public if not r.get("archived")]
     archived = [r for r in public if r.get("archived")]
@@ -72,6 +83,10 @@ def build_readme(repos):
     top_langs = " · ".join(name for name, _ in langs.most_common(7))
     public_total = profile().get("public_repos", len(public))
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    state = state or {}
+    firstcall = state.get("firstcall", {})
+    edge = state.get("edge", {})
+    github_30d = state.get("github_30d", {})
 
     def proof(name, evidence, state):
         repo = by_name.get(name.lower())
@@ -88,7 +103,10 @@ def build_readme(repos):
         proof("agentic-harness", "Reusable agent workflow patterns, verification and Azure Foundry routing", "Shipped"),
         proof("sahiixx-e2e", "Contract-first Playwright release gate with traditional, generative and foundation-model lanes", "Shipped"),
         proof("sahiixx-agency", "CLI/API/MCP-oriented repository and task dispatch", "Shipped/local"),
+        proof("sahiixx-bus", "Unified orchestration bus for cross-service events and agent boundaries", "Shipped/local"),
         proof("friday-os", "Voice-first, memory-persistent personal AI OS with LiveKit, Tauri and MCP", "Shipped"),
+        proof("sahiixx-production-hardening", "Canonical event, model-routing, bus, revenue and action-gate contracts", "Shipped"),
+        proof("sahiixx-clearwing", "Security verification focused on evidence rather than report volume", "Active"),
         proof("agency-agents", "Multi-agent orchestration and swarm experiments", "Active experiment"),
         proof("sovereign-swarm-v2", "Modular multi-agent runtime and governance direction", "In development"),
         proof("moltworker", "OpenClaw gateway patterns on Cloudflare Workers", "Shipped experiment"),
@@ -122,6 +140,16 @@ def build_readme(repos):
 | 🏢 Domain workflow | NEXUS real-estate lead flow · local/pilot boundary documented in the portfolio repo |
 | 🧪 Model verification | [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e) covers traditional, generative and foundation-model capability lanes |
 | 🧪 Verification rule | `live` means a reachable or documented running surface; `shipped` means code exists; `in-dev` and `concept` stay labeled |''',
+        f'''## 📡 Operational pulse
+
+> Machine-reported snapshot: **{state.get("updated_at", today)}**. These figures are telemetry from the published local state file, not product-performance guarantees.
+
+| Signal | Snapshot |
+|---|---|
+| Gateway | `{state.get("gateway_state", "not reported")}` · Telegram `{state.get("telegram", "not reported")}` · `{state.get("watchdog_services", "-")}` watchdog services |
+| Firstcall pipeline | `{firstcall.get("leads", "-")}` leads · `{firstcall.get("deals", "-")}` deals · `{firstcall.get("outreach", "-")}` outreach events · `{firstcall.get("orphans", "-")}` orphans |
+| Edge estate | `{edge.get("workers", "-")}` Workers · `{edge.get("pages", "-")}` Pages · `{edge.get("r2", "-")}` R2 · `{edge.get("kv", "-")}` KV · `{edge.get("queues", "-")}` queues |
+| GitHub activity, 30 days | `{github_30d.get("pushes", "-")}` pushes · `{github_30d.get("prs", "-")}` PRs · `{github_30d.get("created", "-")}` repositories created |''',
         '''## 🧠 AI frontier map — grounded, not hype
 
 The current AI stack is moving from single-turn generation toward reasoning modes, tool use, memory, multimodality, agents and embodied interfaces. My work is the systems layer around those capabilities.
@@ -143,6 +171,16 @@ The current AI stack is moving from single-turn generation toward reasoning mode
 **Operator shell.** [`sahiixx-os`](https://github.com/sahiixx/sahiixx-os) is the public command center; Jarvis adds streaming voice with read, mutate and confirmation-gated tool tiers.
 
 **Domain vertical.** NEXUS connects Dubai real-estate intake, ranking, WhatsApp and OS import paths. The portfolio marks local workstation services and pilot boundaries explicitly; planned specialist lead agents are not described as live until they exist.''',
+        '''## 🧭 Capability map
+
+| Layer | Capability | Representative projects |
+|---|---|---|
+| Model layer | Traditional rules, generative models, embeddings, structured output and vision | [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e), [`agentic-harness`](https://github.com/sahiixx/agentic-harness) |
+| Runtime layer | Routing, bounded workflows, retries, evaluation, memory and human approval | [`sahiixx-agency`](https://github.com/sahiixx/sahiixx-agency), [`sovereign-swarm-v2`](https://github.com/sahiixx/sovereign-swarm-v2) |
+| Protocol layer | Event envelopes, pub/sub, MCP, A2A and gateway bridges | [`sahiixx-bus`](https://github.com/sahiixx/sahiixx-bus), [`moltworker`](https://github.com/sahiixx/moltworker) |
+| Intelligence layer | Persistent memory, graph context, retrieval and semantic routing | [`sahiixx-titans-memory`](https://github.com/sahiixx/sahiixx-titans-memory), [`sahiixx-graph-sight`](https://github.com/sahiixx/sahiixx-graph-sight) |
+| Product layer | Voice, desktop, web command center and domain workflows | [`friday-os`](https://github.com/sahiixx/friday-os), [`sahiixx-os`](https://github.com/sahiixx/sahiix-os), NEXUS |
+| Delivery layer | Contract-first E2E, CI gates, edge deployment and evidence-based security | [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e), [`sahiixx-production-hardening`](https://github.com/sahiixx/sahiixx-production-hardening), [`sahiixx-clearwing`](https://github.com/sahiixx/sahiixx-clearwing) |''',
         '''## 🧪 Model-agnostic verification
 
 [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e) is the release-verification boundary for the model layer:
@@ -154,6 +192,23 @@ The current AI stack is moving from single-turn generation toward reasoning mode
 | Foundation | structured output, embeddings and vision | mocked, with capability-specific live canaries |
 
 The harness uses runtime contracts, bounded timeouts, replayable fixtures, redacted diagnostics and environment-controlled provider/model IDs. A missing live profile skips only that capability; a configured endpoint fails on transport, HTTP or schema errors.''',
+        '''## 🧱 Engineering principles
+
+- **Contract-first:** validate events, identities, schemas and service boundaries at runtime.
+- **Model-agnostic:** route by capability and constraints; keep provider names in configuration.
+- **Deterministic before autonomous:** use rules and fixed fixtures when they solve the task; add agent loops only when measured value justifies them.
+- **Bounded by default:** enforce deadlines, retries, tool allowlists, token/cost budgets and replayable idempotency keys.
+- **Human-gated actions:** writes, financial actions and production changes require explicit approval paths.
+- **Evidence over hype:** distinguish live, shipped, local, in-development and concept work in public documentation.''',
+        '''## 🗺️ Start here
+
+| If you want to… | Start with |
+|---|---|
+| See the public product surface | [SAHIIX OS](https://sahiixx-os.pages.dev) · [portfolio](https://sahiix-portfolio.pages.dev) |
+| Understand the architecture | [`CONNECTED_ECOSYSTEM.md`](https://github.com/sahiixx/sahiixx/blob/main/CONNECTED_ECOSYSTEM.md) · [`FOUNDER_SERVICE_ARCHITECTURE.md`](https://github.com/sahiixx/sahiixx/blob/main/FOUNDER_SERVICE_ARCHITECTURE.md) |
+| Inspect the full repository map | [`FULL_PORTFOLIO.md`](https://github.com/sahiixx/sahiixx/blob/main/FULL_PORTFOLIO.md) · [`REPO_MAP.md`](https://github.com/sahiixx/sahiixx/blob/main/REPO_MAP.md) |
+| See verification in code | [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e) · [`agentic-harness`](https://github.com/sahiixx/agentic-harness) |
+| Collaborate or propose an integration | Open an issue in the relevant repository or reach out through the portfolio |''',
         '''## 🔗 Execution graph
 
 ```mermaid
@@ -185,6 +240,7 @@ flowchart LR
 - Keep the agent mesh centered on routing, memory, observability and approval gates.
 - Keep traditional, generative and foundation-model capabilities independently measurable in the E2E matrix.
 - Track model/provider changes through primary sources instead of embedding stale model names in product claims.
+- Turn the strongest internal patterns into clear public case studies, runbooks and reusable reference implementations.
 - Consolidate the repository estate while preserving forks as an explicit research library.
 
 <sub>Top active languages: {top_langs or 'not available'} · Generated {today} by the profile workflow.</sub>
@@ -198,7 +254,7 @@ flowchart LR
 
 def main():
     repos, private_visible = all_repos()
-    rendered = build_readme(repos)
+    rendered = build_readme(repos, live_state())
     output = os.path.join(ROOT, "README.md")
     previous = open(output, encoding="utf-8").read() if os.path.exists(output) else ""
     with open(output, "w", encoding="utf-8", newline="\n") as file:

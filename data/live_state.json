@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-06",
+  "updated_at": "2026-10-07",
   "gateway_state": "running",
-  "telegram": "retrying",
+  "telegram": "connected",
   "watchdog_services": 9,
   "firstcall": {
     "leads": 4025,
@@ -17,8 +17,8 @@
     "queues": 1
   },
   "github_30d": {
-    "pushes": 147,
-    "prs": 54,
-    "created": 35
+    "pushes": 153,
+    "prs": 57,
+    "created": 49
   }
 }

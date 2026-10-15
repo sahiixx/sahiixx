@@ -8,7 +8,7 @@
 
 ![focus](https://img.shields.io/badge/focus-AI%20systems-111111?style=for-the-badge)
 ![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)
-![repos](https://img.shields.io/badge/public%20repos-223-3E6B4F?style=for-the-badge)
+![repos](https://img.shields.io/badge/public%20repos-224-3E6B4F?style=for-the-badge)
 ![status](https://img.shields.io/badge/status-building%20%26%20shipping-brightgreen?style=for-the-badge)
 
 </div>
@@ -21,7 +21,7 @@
 
 | Signal | Evidence-backed state |
 |---|---|
-| 🧭 Repository estate | 223 public repositories · 51 unarchived originals · 148 unarchived forks · 24 archived |
+| 🧭 Repository estate | 224 public repositories · 52 unarchived originals · 148 unarchived forks · 24 archived |
 | 🧠 Orchestration | `sahiixx-agency`, `agentic-harness`, `sahiixx-bus` and the swarm experiments |
 | 🖥️ Public OS surface | [SAHIIX OS](https://sahiixx-os.pages.dev) · React/Hono/tRPC/Drizzle/Neon/Cloudflare |
 | 🎙️ Voice + tools | [Jarvis](https://sahiixx-os.pages.dev/jarvis) route plus [`friday-os`](https://github.com/sahiixx/friday-os) |
@@ -146,11 +146,11 @@ flowchart LR
 | [agentic-harness](https://github.com/sahiixx/agentic-harness) | Reusable agent workflow patterns, verification and Azure Foundry routing | Shipped | Python · 2 stars · 2026-10-06 |
 | [sahiixx-e2e](https://github.com/sahiixx/sahiixx-e2e) | Contract-first Playwright release gate with traditional, generative and foundation-model lanes | Shipped | TypeScript · 0 stars · 2026-10-07 |
 | [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | CLI/API/MCP-oriented repository and task dispatch | Shipped/local | Python · 0 stars · 2026-10-06 |
-| [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Unified orchestration bus for cross-service events and agent boundaries | Shipped/local | Python · 1 stars · 2026-10-06 |
+| [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Unified orchestration bus for cross-service events and agent boundaries | Shipped/local | Python · 1 stars · 2026-10-15 |
 | [friday-os](https://github.com/sahiixx/friday-os) | Voice-first, memory-persistent personal AI OS with LiveKit, Tauri and MCP | Shipped | Python · 2 stars · 2026-10-05 |
 | [sahiixx-production-hardening](https://github.com/sahiixx/sahiixx-production-hardening) | Canonical event, model-routing, bus, revenue and action-gate contracts | Shipped | Python · 0 stars · 2026-10-05 |
 | [sahiixx-clearwing](https://github.com/sahiixx/sahiixx-clearwing) | Security verification focused on evidence rather than report volume | Active | Python · 0 stars · 2026-10-05 |
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Multi-agent orchestration and swarm experiments | Active experiment | Python · 3 stars · 2026-10-06 |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Multi-agent orchestration and swarm experiments | Active experiment | Python · 3 stars · 2026-10-15 |
 | [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Modular multi-agent runtime and governance direction | In development | Python · 2 stars · 2026-08-10 |
 | [moltworker](https://github.com/sahiixx/moltworker) | OpenClaw gateway patterns on Cloudflare Workers | Shipped experiment | JavaScript · 0 stars · 2026-10-06 |
 

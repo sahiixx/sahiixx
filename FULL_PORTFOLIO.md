@@ -1,16 +1,16 @@
 # @sahiixx Portfolio
 
-Generated: 2026-10-11 09:38 UTC
-Total Public Repos: 223
+Generated: 2026-10-18 07:44 UTC
+Total Public Repos: 224
 
 ## Core Projects (Agents & Systems)
 
 | Repo | Language | Description | Stars | Updated |
 |------|----------|-------------|-------|---------|
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | Multi-agent orchestration system (Python + Node) — real-estate swarm, evaluator-optimizer pipelines on the sahiixx agentic harness | 3⭐ | 2026-10-16 |
 | [agentic-harness](https://github.com/sahiixx/agentic-harness) | Python | Agentic workflow patterns wired to Azure Foundry, shared across all sahiixx repos | 2⭐ | 2026-09-30 |
 | [agentic-harness-integration](https://github.com/sahiixx/agentic-harness-integration) | Python | Agentic Harness Integration Layer v6 | 2⭐ | 2026-09-29 |
 | [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Python | **Unified AI orchestration for all 170+ repos.** | 0⭐ | 2026-09-28 |
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Python | Multi-agent orchestration system (Python + Node) — real-estate swarm, evaluator-optimizer pipelines on the sahiixx agentic harness | 3⭐ | 2026-09-28 |
 | [sovereign-swarm-v2](https://github.com/sahiixx/sovereign-swarm-v2) | Python | Sovereign Swarm — Modular Multi-Agent OS | 2⭐ | 2026-09-27 |
 | [Coral-BlackboxAI-Agent](https://github.com/sahiixx/Coral-BlackboxAI-Agent) | Python | Coral-BlackboxAI-Agent | 1⭐ | 2026-09-21 |
 | [agents-for-multi-agent-systems](https://github.com/sahiixx/agents-for-multi-agent-systems) | Python | agents-for-multi-agent-systems | 0⭐ | 2026-09-21 |
@@ -112,6 +112,7 @@ Total Public Repos: 223
 
 | Repo | Language | Stars | Updated |
 |------|----------|-------|---------|
+| [autogenous](https://github.com/sahiixx/autogenous) | - | 1⭐ | 2026-10-15 |
 | [laya](https://github.com/sahiixx/laya) | - | 0⭐ | 2026-10-02 |
 | [llama-cookbook](https://github.com/sahiixx/llama-cookbook) | Jupyter Notebook | 0⭐ | 2026-09-22 |
 | [OpenManus](https://github.com/sahiixx/OpenManus) | HTML | 0⭐ | 2026-09-21 |
@@ -123,7 +124,6 @@ Total Public Repos: 223
 | [Hoku](https://github.com/sahiixx/Hoku) | - | 0⭐ | 2026-09-08 |
 | [worldmonitor](https://github.com/sahiixx/worldmonitor) | TypeScript | 1⭐ | 2026-09-05 |
 | [GodsView](https://github.com/sahiixx/GodsView) | - | 0⭐ | 2026-09-03 |
-| [autogenous](https://github.com/sahiixx/autogenous) | - | 0⭐ | 2026-08-16 |
 | [Valdi](https://github.com/sahiixx/Valdi) | C++ | 0⭐ | 2026-08-10 |
 | [workers-sdk](https://github.com/sahiixx/workers-sdk) | TypeScript | 0⭐ | 2026-08-10 |
 | [nix-openclaw](https://github.com/sahiixx/nix-openclaw) | Nix | 0⭐ | 2026-08-10 |
@@ -138,7 +138,7 @@ Total Public Repos: 223
 
 - **Python**: 68 repos
 - **TypeScript**: 57 repos
-- **JavaScript**: 14 repos
+- **JavaScript**: 15 repos
 - **HTML**: 9 repos
 - **Go**: 8 repos
 - **Rust**: 7 repos

@@ -2,9 +2,9 @@
 
 # SAHIIXX
 
-### AI researcher · systems architect · founder-builder
+### AI systems architect · founder-builder · model-native infrastructure
 
-I design the systems layer behind AI-native products: agent runtimes, orchestration, tool execution, memory, trust boundaries, verification, and human-in-the-loop workflows.
+I build the systems layer behind practical AI: routing, tool execution, memory, approval gates, live interfaces, and production verification.
 
 ![focus](https://img.shields.io/badge/focus-AI%20systems-111111?style=for-the-badge)
 ![stack](https://img.shields.io/badge/stack-Azure%20%7C%20Cloudflare%20%7C%20OpenAI-5A67D8?style=for-the-badge)
@@ -17,67 +17,80 @@ I design the systems layer behind AI-native products: agent runtimes, orchestrat
 
 ## Operating thesis
 
-I build AI systems that are operationally useful, inspectable, and safe to deploy.
+The real opportunity in AI is not prompt design. It is building systems that turn models into dependable software components.
 
-My work focuses on the layer between model capability and business execution:
+I work at the boundary between model capability and operational reality:
 
-- model routing and provider abstraction
-- agent orchestration and bounded action loops
-- tool-use systems with guardrails and approvals
-- memory and retrieval for durable context
-- verification systems that test capability and behavior
-- product interfaces that turn AI into workflows, not demos
+- model routing and orchestration
+- tool-use systems with guardrails
+- memory and retrieval for persistent context
+- human approval and trust boundaries
+- agent runtimes for real tasks
+- production verification and evidence-based deployment
 
-This is not “chat with a model.” It is the infrastructure for reliable AI execution.
+The goal is not AI theater. The goal is reliable execution under uncertainty.
 
 ---
 
-## Technical stack
+## What I build
 
-| Layer | Stack | Purpose |
+- AI operating systems for real workflows
+- multi-agent and workflow orchestration systems
+- tools, APIs, and connectors with safe execution boundaries
+- memory layers for retrieval and long-lived task continuity
+- voice, desktop, and web interfaces for operator-facing AI
+- verification systems that prove behavior rather than assume it
+
+I build where software engineering meets frontier AI.
+
+---
+
+## Current stack
+
+| Layer | Stack | Notes |
 |---|---|---|
-| Models | Azure AI Foundry, OpenAI, Anthropic, Google models, local open-weight inference | Capability routing and model flexibility |
-| Runtime | Agent loops, tool calls, retries, state management, memory systems | Bounded execution and task continuity |
-| Interfaces | Voice, browser, desktop, dashboards | Human-centered access to AI workflows |
-| Protocols | MCP, A2A, event buses, pub/sub, service bridges | Interoperability across tools and services |
-| Infra | Cloudflare Workers, Pages, R2, KV, Queues, Neon | Fast, deployable, edge-first product surfaces |
-| Product stack | React, Hono, tRPC, Drizzle, LiveKit, Tauri | Modern full-stack AI product delivery |
+| Models | Azure AI Foundry, OpenAI, Anthropic, Google models, local open-weight inference | Model-agnostic routing with capability-based execution |
+| Runtime | Agents, tools, retries, state systems, memory, orchestration loops | Bounded execution for real tasks |
+| Interfaces | Voice, browser, desktop, operator dashboards | Human-centered product surfaces |
+| Protocols | MCP, A2A, pub/sub, event streams, service bridges | Interoperability across AI and software systems |
+| Infra | Cloudflare Workers, Pages, R2, KV, Queues, Neon | Edge-first deployment and product surfaces |
+| Product | React, Hono, tRPC, Drizzle, LiveKit, Tauri | Full-stack delivery for AI-native products |
 
 ---
 
 ## Research and systems focus
 
-### 1. Agentic systems
+### Agentic systems
 - routing by capability rather than vendor preference
-- bounded tool execution and permission layers
-- task decomposition, retries, and state continuity
-- workflow orchestration for real operational tasks
-- memory systems for long-lived context and retrieval
+- bounded tool execution and security-aware permissions
+- workflow decomposition and retry-aware execution
+- long-running task continuity with durable state
+- memory systems for retrieval and context persistence
 
-### 2. Trust and production readiness
+### Trust and production readiness
 - contract-first interfaces and schema validation
 - evaluation across traditional, generative, and foundation-model lanes
-- verification before deployment, not after the fact
-- human approval for writes, finances, and operational changes
-- evidence-backed system claims rather than hype-driven narratives
+- verification before deployment, not as an afterthought
+- human approval for writes, finance, and operational changes
+- evidence-backed claims over hype-driven positioning
 
-### 3. Founder-builder lens
-The highest-leverage AI systems are not the biggest models. They are the ones that convert model intelligence into measurable operational leverage:
+### Founder-builder lens
+The most important AI systems are not the biggest models. They are the systems that convert model intelligence into measurable leverage:
 
-- lower manual overhead
-- lower decision latency
-- safer automation with review paths
-- workflows that can scale beyond prototypes
-- product experiences users can trust and actually run
+- less manual overhead
+- faster decisions
+- safer automation
+- clearer operator control
+- product value users can trust
 
 ---
 
-## Ecosystem and active projects
+## Core ecosystem
 
 ### Agent orchestration
-- [`sahiixx-agency`](https://github.com/sahiixx/sahiixx-agency) — dispatch, routing, and execution orchestration
+- [`sahiixx-agency`](https://github.com/sahiixx/sahiixx-agency) — dispatch, routing, and operating workflows
 - [`agentic-harness`](https://github.com/sahiixx/agentic-harness) — reusable agent patterns and verification gates
-- [`sahiixx-bus`](https://github.com/sahiixx/sahiixx-bus) — event-driven orchestration backbone
+- [`sahiixx-bus`](https://github.com/sahiixx/sahiixx-bus) — orchestration backbone and event-driven execution
 - [`agency-agents`](https://github.com/sahiixx/agency-agents) — multi-agent experiments and swarm patterns
 - [`sovereign-swarm-v2`](https://github.com/sahiixx/sovereign-swarm-v2) — governance-oriented swarm runtime
 
@@ -85,19 +98,19 @@ The highest-leverage AI systems are not the biggest models. They are the ones th
 - [`sahiixx-titans-memory`](https://github.com/sahiixx/sahiixx-titans-memory) — persistent memory and context systems
 - [`sahiixx-graph-sight`](https://github.com/sahiixx/sahiixx-graph-sight) — graph and semantic context exploration
 
-### Product surfaces and interfaces
-- [`sahiixx-os`](https://github.com/sahiixx/sahiixx-os) — operator command center and AI interface layer
-- [`friday-os`](https://github.com/sahiixx/friday-os) — voice-first assistant and personal AI OS
+### Product surfaces
+- [`sahiixx-os`](https://github.com/sahiixx/sahiixx-os) — command center and AI operator layer
+- [`friday-os`](https://github.com/sahiixx/friday-os) — voice-first assistant and AI desktop experience
 - [SAHIIX OS](https://sahiixx-os.pages.dev) — live public product surface
-- [Portfolio](https://sahiix-portfolio.pages.dev) — systems and product narrative
+- [Portfolio](https://sahiix-portfolio.pages.dev) — portfolio and systems overview
 
 ### Verification and hardening
-- [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e) — contract-based release verification across model and workflow lanes
-- [`sahiixx-production-hardening`](https://github.com/sahiixx/sahiixx-production-hardening) — event, routing, and execution contract hardening
-- [`sahiixx-clearwing`](https://github.com/sahiixx/sahiixx-clearwing) — evidence-first validation and security-minded verification
+- [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e) — contract-based release verification for model and workflow behavior
+- [`sahiixx-production-hardening`](https://github.com/sahiixx/sahiixx-production-hardening) — canonical routing, event, and action contracts
+- [`sahiixx-clearwing`](https://github.com/sahiixx/sahiixx-clearwing) — security and validation work grounded in evidence
 
 ### Domain workflow
-- NEXUS — AI-powered real-estate operations layer spanning intake, ranking, outreach, and approval flows
+- NEXUS — AI operational workflow for real-estate intake, ranking, outreach, and approval chains
 
 ---
 
@@ -105,38 +118,23 @@ The highest-leverage AI systems are not the biggest models. They are the ones th
 
 | Layer | Capability | Representative projects |
 |---|---|---|
-| Model layer | Rules, generative models, embeddings, structured output, vision | [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e), [`agentic-harness`](https://github.com/sahiixx/agentic-harness) |
-| Runtime layer | Routing, bounded workflows, retries, evaluation, memory, approvals | [`sahiixx-agency`](https://github.com/sahiixx/sahiixx-agency), [`sahiixx-bus`](https://github.com/sahiixx/sahiixx-bus) |
-| Protocol layer | Event envelopes, pub/sub, MCP, A2A, bridges | [`sahiixx-bus`](https://github.com/sahiixx/sahiixx-bus), [`moltworker`](https://github.com/sahiixx/moltworker) |
-| Intelligence layer | Retrieval, semantic context, persistent memory, graphs | [`sahiixx-titans-memory`](https://github.com/sahiixx/sahiixx-titans-memory), [`sahiixx-graph-sight`](https://github.com/sahiixx/sahiixx-graph-sight) |
-| Product layer | Voice, desktop, command center, workflow products | [`friday-os`](https://github.com/sahiixx/friday-os), [`sahiixx-os`](https://github.com/sahiixx/sahiixx-os), NEXUS |
-| Delivery layer | Contract-driven verification, CI, edge deploys, evidence-based security | [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e), [`sahiixx-production-hardening`](https://github.com/sahiixx/sahiixx-production-hardening) |
+| Model layer | Deterministic logic, generative models, embeddings, structured output, vision | [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e), [`agentic-harness`](https://github.com/sahiixx/agentic-harness) |
+| Runtime layer | Routing, workflows, retries, state, memory, approval gates | [`sahiixx-agency`](https://github.com/sahiixx/sahiixx-agency), [`sahiixx-bus`](https://github.com/sahiixx/sahiixx-bus) |
+| Protocol layer | Event envelopes, pub/sub, MCP, A2A, gateway bridges | [`sahiixx-bus`](https://github.com/sahiixx/sahiixx-bus), [`moltworker`](https://github.com/sahiixx/moltworker) |
+| Intelligence layer | Persistent memory, retrieval, graph context, semantic routing | [`sahiixx-titans-memory`](https://github.com/sahiixx/sahiixx-titans-memory), [`sahiixx-graph-sight`](https://github.com/sahiixx/sahiixx-graph-sight) |
+| Product layer | Voice, desktop, operator interfaces, domain workflows | [`friday-os`](https://github.com/sahiixx/friday-os), [`sahiixx-os`](https://github.com/sahiixx/sahiixx-os), NEXUS |
+| Delivery layer | Contract-first validation, CI, edge deploys, evidence-based security | [`sahiixx-e2e`](https://github.com/sahiixx/sahiixx-e2e), [`sahiixx-production-hardening`](https://github.com/sahiixx/sahiixx-production-hardening) |
 
 ---
 
 ## Engineering principles
 
-- Contract-first design: validate interfaces before trusting execution
-- Model-agnostic routing: match the model to the task and constraints
-- Deterministic before autonomous: prefer structure and control before complexity
-- Bounded by default: enforce timeouts, retries, permissions, and approvals
+- Contract-first design: validate interfaces before trusting runtime behavior
+- Model-agnostic routing: match provider and model to task and constraints
+- Deterministic before autonomous: prefer structure, evaluation, and control before complexity
+- Bounded by default: enforce timeouts, retry budgets, approvals, and scoped tools
 - Human-centered execution: keep actions reviewable and accountable
-- Evidence over hype: distinguish live, shipped, local, in-dev, and concept work clearly
-
----
-
-## Proof, not promises
-
-| System | What it demonstrates | State |
-|---|---|---|
-| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | Full-stack AI command center built with React, Hono, tRPC, Drizzle, Neon | Public surface |
-| [agentic-harness](https://github.com/sahiixx/agentic-harness) | Agent workflows, verification patterns, and capability routing | Shipped |
-| [sahiixx-e2e](https://github.com/sahiixx/sahiixx-e2e) | Contract-based verification across model and product behavior lanes | Shipped |
-| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Task orchestration and operator tooling | Shipped/local |
-| [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Unified event backbone across services and agents | Shipped/local |
-| [friday-os](https://github.com/sahiixx/friday-os) | Voice-first personal AI OS with memory and interactive tooling | Shipped |
-| [agency-agents](https://github.com/sahiixx/agency-agents) | Multi-agent orchestration and swarm experiments | Active experiment |
-| [moltworker](https://github.com/sahiixx/moltworker) | Gateway and workflow patterns in Cloudflare runtime | Shipped experiment |
+- Evidence over hype: separate live, shipped, local, in-dev, and conceptual work clearly
 
 ---
 
@@ -150,9 +148,24 @@ The highest-leverage AI systems are not the biggest models. They are the ones th
 
 ---
 
+## Proof, not promises
+
+| System | What it demonstrates | State |
+|---|---|---|
+| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | Full-stack AI command center with React, Hono, tRPC, Drizzle, Neon | Public surface |
+| [agentic-harness](https://github.com/sahiixx/agentic-harness) | Agent workflow design and verification-first routing | Shipped |
+| [sahiixx-e2e](https://github.com/sahiixx/sahiixx-e2e) | Contract-based release verification across model capability lanes | Shipped |
+| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | Task orchestration and operator tooling | Shipped/local |
+| [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Unified event backbone across services and agents | Shipped/local |
+| [friday-os](https://github.com/sahiixx/friday-os) | Voice-first personal AI OS with memory-backed interaction | Shipped |
+| [agency-agents](https://github.com/sahiixx/agency-agents) | Multi-agent orchestration and swarm experiments | Active experiment |
+| [moltworker](https://github.com/sahiixx/moltworker) | Gateway and workflow patterns in Cloudflare runtime | Shipped experiment |
+
+---
+
 ## Bottom line
 
-I work at the intersection of AI research and product engineering: building systems that make machine intelligence operationally reliable, observable, and economically useful.
+I build the infrastructure behind AI-native execution: routing, memory, workflows, agent systems, and reliable interfaces that turn model capability into usable product value.
 
 ---
 

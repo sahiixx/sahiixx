@@ -17,7 +17,7 @@
 
 ## ⚡ Current operating picture
 
-> Snapshot: **2026-11-04**. Repository counts are GitHub inventory data; product states are labeled from project evidence and public surfaces, not inferred from model capability.
+> Snapshot: **2026-11-05**. Repository counts are GitHub inventory data; product states are labeled from project evidence and public surfaces, not inferred from model capability.
 
 | Signal | Evidence-backed state |
 |---|---|
@@ -166,7 +166,7 @@ flowchart LR
 
 ---
 
-<sub>Top active languages: Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin · Generated 2026-11-04 by the profile workflow.</sub>
+<sub>Top active languages: Python · TypeScript · JavaScript · HTML · Go · Rust · Kotlin · Generated 2026-11-05 by the profile workflow.</sub>
 
 ## 📬 Reach me
 

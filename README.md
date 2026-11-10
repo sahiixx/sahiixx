@@ -8,7 +8,7 @@
 
 ![focus](https://img.shields.io/badge/focus-AI%20systems-111111?style=for-the-badge)
 ![edge](https://img.shields.io/badge/edge-Cloudflare-A2663A?style=for-the-badge&logo=cloudflare&logoColor=white)
-![repos](https://img.shields.io/badge/public%20repos-225-3E6B4F?style=for-the-badge)
+![repos](https://img.shields.io/badge/public%20repos-226-3E6B4F?style=for-the-badge)
 ![status](https://img.shields.io/badge/status-building%20%26%20shipping-brightgreen?style=for-the-badge)
 
 </div>
@@ -21,7 +21,7 @@
 
 | Signal | Evidence-backed state |
 |---|---|
-| 🧭 Repository estate | 225 public repositories · 53 unarchived originals · 148 unarchived forks · 24 archived |
+| 🧭 Repository estate | 226 public repositories · 53 unarchived originals · 149 unarchived forks · 24 archived |
 | 🧠 Orchestration | `sahiixx-agency`, `agentic-harness`, `sahiixx-bus` and the swarm experiments |
 | 🖥️ Public OS surface | [SAHIIX OS](https://sahiixx-os.pages.dev) · React/Hono/tRPC/Drizzle/Neon/Cloudflare |
 | 🎙️ Voice + tools | [Jarvis](https://sahiixx-os.pages.dev/jarvis) route plus [`friday-os`](https://github.com/sahiixx/friday-os) |

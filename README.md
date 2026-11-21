@@ -142,10 +142,10 @@ flowchart LR
 
 | System | What the repository or public surface demonstrates | State | Current GitHub signal |
 |---|---|---|---|
-| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | Full-stack command center with React, Hono, tRPC, Drizzle and Neon | Public surface | TypeScript · 1 stars · 2026-10-01 |
+| [sahiixx-os](https://github.com/sahiixx/sahiixx-os) | Full-stack command center with React, Hono, tRPC, Drizzle and Neon | Public surface | TypeScript · 1 stars · 2026-11-21 |
 | [agentic-harness](https://github.com/sahiixx/agentic-harness) | Reusable agent workflow patterns, verification and Azure Foundry routing | Shipped | Python · 2 stars · 2026-10-06 |
 | [sahiixx-e2e](https://github.com/sahiixx/sahiixx-e2e) | Contract-first Playwright release gate with traditional, generative and foundation-model lanes | Shipped | TypeScript · 0 stars · 2026-10-07 |
-| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | CLI/API/MCP-oriented repository and task dispatch | Shipped/local | Python · 0 stars · 2026-10-06 |
+| [sahiixx-agency](https://github.com/sahiixx/sahiixx-agency) | CLI/API/MCP-oriented repository and task dispatch | Shipped/local | Python · 0 stars · 2026-11-21 |
 | [sahiixx-bus](https://github.com/sahiixx/sahiixx-bus) | Unified orchestration bus for cross-service events and agent boundaries | Shipped/local | Python · 1 stars · 2026-10-16 |
 | [friday-os](https://github.com/sahiixx/friday-os) | Voice-first, memory-persistent personal AI OS with LiveKit, Tauri and MCP | Shipped | Python · 2 stars · 2026-10-05 |
 | [sahiixx-production-hardening](https://github.com/sahiixx/sahiixx-production-hardening) | Canonical event, model-routing, bus, revenue and action-gate contracts | Shipped | Python · 0 stars · 2026-10-05 |

@@ -1,6 +1,6 @@
 # @sahiixx Portfolio
 
-Generated: 2026-11-15 10:20 UTC
+Generated: 2026-11-22 10:40 UTC
 Total Public Repos: 226
 
 ## Core Projects (Agents & Systems)
@@ -35,6 +35,7 @@ Total Public Repos: 226
 
 | Repo | Language | Origin | Stars | Updated |
 |------|----------|--------|-------|---------|
+| [copilot-sdk](https://github.com/sahiixx/copilot-sdk) | TypeScript | forked | 0⭐ | 2026-11-16 |
 | [omnirush-gui](https://github.com/sahiixx/omnirush-gui) | - | forked | 0⭐ | 2026-11-10 |
 | [Multi-Agent-Demo](https://github.com/sahiixx/Multi-Agent-Demo) | Python | forked | 0⭐ | 2026-09-21 |
 | [claude-agent-sdk-python](https://github.com/sahiixx/claude-agent-sdk-python) | Python | forked | 0⭐ | 2026-09-21 |
@@ -98,7 +99,6 @@ Total Public Repos: 226
 | [llm-council](https://github.com/sahiixx/llm-council) | Python | forked | 0⭐ | 2026-08-10 |
 | [Kimi-K2](https://github.com/sahiixx/Kimi-K2) | - | forked | 0⭐ | 2026-08-10 |
 | [deer-flow](https://github.com/sahiixx/deer-flow) | Python | forked | 0⭐ | 2026-08-10 |
-| [copilot-sdk](https://github.com/sahiixx/copilot-sdk) | TypeScript | forked | 0⭐ | 2026-08-10 |
 | [Qwen3-Omni](https://github.com/sahiixx/Qwen3-Omni) | Jupyter Notebook | forked | 0⭐ | 2026-08-10 |
 | [awesome-agentic-patterns](https://github.com/sahiixx/awesome-agentic-patterns) | HTML | forked | 1⭐ | 2026-08-10 |
 | [ai-chatbot](https://github.com/sahiixx/ai-chatbot) | TypeScript | forked | 0⭐ | 2026-08-10 |
